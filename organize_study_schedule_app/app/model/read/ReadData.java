@@ -25,7 +25,7 @@ public class ReadData {
         MyArrayList<CourseNode<String, MyArrayList<MyClass>>> courseList = courseManager.getCourseList();
         try {
             String line;
-            dataReader = new BufferedReader(new FileReader("TKB-gui-SV.csv", StandardCharsets.UTF_8));
+            dataReader = new BufferedReader(new FileReader("TKB-gui-SV.csv"));
             // Read file line by line?
             while ((line = dataReader.readLine()) != null) {
                 List<String> dataList = parseDataLineToList(line);
