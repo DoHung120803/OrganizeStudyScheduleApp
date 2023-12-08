@@ -32,7 +32,7 @@ public class ScheduleOrganization {
 
         for (int i = 0; i < n; i++) {
             //Kiểm tra các học phần vừa nhập có trong danh sách mã học phần hay không
-            //Nếu không có ---> báo lỗi
+            //Nếu không có ---> báo lỗi và yêu cầu nhập lại
             //Nếu có --> thêm vào MyArrayList<danh sách mã lớp>
             boolean found = false;
             for (int j = 0; j < courseList.size(); j++) {
@@ -50,14 +50,11 @@ public class ScheduleOrganization {
             }
         }
 
-
         //Sắp xếp danh sách học phần
         MyArrayList<String[][]> boardList = new MyArrayList<>();
-        for (int i = 0; i < allClassOfCourseList.get(0).size(); i++) {
-            String[][] board = new String[5][10];
+        String[][] board = new String[5][10];
 
-            organize(boardList, board, 0, i, allClassOfCourseList);
-        }
+        organize(boardList, board, 0, 0, allClassOfCourseList);
 
         //In tkb
         for (int k = 0; k < boardList.size(); k++) {
@@ -78,8 +75,8 @@ public class ScheduleOrganization {
     }
 
     public static void organize(MyArrayList<String[][]> boardList, String[][] board, int indexOfCourse, int indexOfClass, MyArrayList<MyArrayList<MyClass>> allClassOfCourseList) {
-        //Nếu đã duyệt hết các môn thì return
-        if (indexOfCourse >= allClassOfCourseList.size()) {
+        //Nếu đã duyệt hết các môn hoặc các lớp thì return
+        if (indexOfCourse >= allClassOfCourseList.size() || indexOfClass >= allClassOfCourseList.get(indexOfCourse).size()) {
             return;
         }
 
@@ -108,18 +105,16 @@ public class ScheduleOrganization {
                 board[dayOfWeek - 2][i] = myClass.getClassId();
             }
 
-            //Nếu chưa phải môn cuối cùng thì duyệt môn tiếp theo
-            //Ngược lại thì thêm board vào boardList và return
-            if (indexOfCourse < allClassOfCourseList.size() - 1) {
-                organize(boardList, board, indexOfCourse + 1, 0, allClassOfCourseList);
-            } else {
+            //Nếu là môn cuối cùng thì thêm board vào boardList
+            //Ngược lại thì duyệt môn tiếp theo
+            if (indexOfCourse >= allClassOfCourseList.size() - 1) {
                 boardList.add(board);
+            } else {
+                organize(boardList, board, indexOfCourse + 1, 0, allClassOfCourseList);
             }
         }
 
-        //Nếu chưa phải lớp cuối cùng thì duyệt lớp tiếp theo (Lúc này sử dụng cloneBoard thay cho board hiện tại)
-        if (indexOfClass < allClassOfCourseList.get(indexOfCourse).size() - 1 && indexOfCourse != 0) {
-            organize(boardList, cloneBoard, indexOfCourse, indexOfClass + 1, allClassOfCourseList);
-        }
+        //Duyệt lớp tiếp theo (Lúc này sử dụng cloneBoard thay cho board hiện tại)
+        organize(boardList, cloneBoard, indexOfCourse, indexOfClass + 1, allClassOfCourseList);
     }
 }
