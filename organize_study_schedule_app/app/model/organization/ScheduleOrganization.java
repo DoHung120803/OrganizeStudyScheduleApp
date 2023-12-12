@@ -61,7 +61,7 @@ public class ScheduleOrganization {
             System.out.println("\n\n\n");
             System.out.printf("%-8s", "");
             for (int i = 0; i < 5; i++) {
-                System.out.printf("%s%-15s", "|", "Thứ " + (i + 2));
+                System.out.printf("%s%-15s", "|", "Thứ " + (i + 1));
             }
             System.out.println();
             for (int j = 0; j < boardList.get(k)[0].length; j++) {
