@@ -30,7 +30,7 @@ public class ReadData {
 
         try {
             String line;
-            dataReader = new BufferedReader(new FileReader("TKB-gui-SV.csv"));
+            dataReader = new BufferedReader(new FileReader("C:\\PhamQuangTien\\Java\\DSAGr12\\OrganizeStudyScheduleApp\\TKB-gui-SV.csv"));
             // Read file line by line?
             while ((line = dataReader.readLine()) != null) {
                 List<String> dataList = parseDataLineToList(line);
@@ -51,7 +51,7 @@ public class ReadData {
 
                 // class infor
                 String classId = dataList.get(3).trim();
-                MyClass myClass = new MyClass(classId, course, classTime);
+                MyClass myClass = new MyClass(classId, null, course, classTime, classTime);
 
                 if (!courseId.equals(prevCourseId)) {
                     CourseNode<String, MyArrayList<MyClass>> exerciseCourseNode = new CourseNode<>(courseId,
@@ -125,17 +125,12 @@ public class ReadData {
     // xử lý logic việc hợp nhất thời gian
     // thời gian của các tiết bài tập và lý thuyết được tách bởi dấu |
     private void mergeTimeHandler(MyClass exercise, MyClass theory) {
-        String exerciseTime = exercise.getTime().getTime();
-        String exerciseDOW = exercise.getTime().getDayOfWeek();
-        String exerciseRoom = exercise.getTime().getRoom();
+        String theoryTime = theory.getClassTime().getTime();
+        String theoryDOW = theory.getClassTime().getDayOfWeek();
+        String theoryRoom = theory.getClassTime().getRoom();
 
-        String theoryTime = theory.getTime().getTime();
-        String theoryDOW = theory.getTime().getDayOfWeek();
-        String theoryRoom = theory.getTime().getRoom();
-
-        exercise.getTime().setTime(exerciseTime + "|" + theoryTime);
-        exercise.getTime().setDayOfWeek(exerciseDOW + "|" + theoryDOW);
-        exercise.getTime().setRoom(exerciseRoom + "|" + theoryRoom);
+        exercise.setTheoryId(theory.getClassId());
+        exercise.setTheoryTime(new Time(theoryDOW, theoryTime, theoryRoom));
     }
 
     // PHY3626 1_2_3 -> lấy ra 3
