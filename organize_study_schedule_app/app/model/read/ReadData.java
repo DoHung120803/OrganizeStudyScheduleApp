@@ -3,8 +3,8 @@ package app.model.read;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import app.model.course.Course;
@@ -17,12 +17,17 @@ import resource.node.CourseNode;
 public class ReadData {
 
     private CourseManager courseManager = CourseManager.getInstance();
+    private MyArrayList<CourseNode<String, MyArrayList<MyClass>>> exerciseClassesList = courseManager
+            .getExerciseClassesList();
+    private MyArrayList<CourseNode<String, MyArrayList<MyClass>>> theoryClassesList = courseManager
+            .getTheoryClassesList();
 
     public void readData() {
 
         BufferedReader dataReader = null;
         String prevCourseId = null;
-        MyArrayList<CourseNode<String, MyArrayList<MyClass>>> courseList = courseManager.getCourseList();
+        MyClass prevClass = new MyClass();
+
         try {
             String line;
             dataReader = new BufferedReader(new FileReader("TKB-gui-SV.csv"));
@@ -48,21 +53,37 @@ public class ReadData {
                 String classId = dataList.get(3).trim();
                 MyClass myClass = new MyClass(classId, course, classTime);
 
-                String currentCourseId = dataList.get(0);
-
-                if (!currentCourseId.equals(prevCourseId)) {
-                    CourseNode<String, MyArrayList<MyClass>> courseNode = new CourseNode<>(courseId,
+                if (!courseId.equals(prevCourseId)) {
+                    CourseNode<String, MyArrayList<MyClass>> exerciseCourseNode = new CourseNode<>(courseId,
                             new MyArrayList<MyClass>());
 
-                    courseList.add(courseNode);
-                    courseList.get(courseList.size() - 1).getValue().add(myClass);
+                    CourseNode<String, MyArrayList<MyClass>> theoryCourseNode = new CourseNode<>(courseId,
+                            new MyArrayList<MyClass>());
 
-                    prevCourseId = currentCourseId;
-                } else {
-                    courseList.get(courseList.size() - 1).getValue().add(myClass);
+                    exerciseClassesList.add(exerciseCourseNode);
+                    exerciseClassesList.get(exerciseClassesList.size() - 1).getValue().add(myClass);
+
+                    // mỗi 1 course đều được add vào theoryClassesList
+                    theoryClassesList.add(theoryCourseNode);
+
+                    prevCourseId = courseId;
+                    prevClass = myClass;
+                } else { // xử lý dữ liệu về tiết lý thuyết ở đây
+                    /*
+                     * nếu classId có dạng number_number thì đó là tiết lý thuyết -> add vào trong
+                     * list các lớp lt
+                     */
+                    if (classId.matches(".*\\d+_\\d+.*")) {
+                        theoryClassesList.get(theoryClassesList.size() - 1).getValue().add(myClass);
+                    } else if (classId.equals(prevClass.getClassId())) {
+                        mergeTimeHandler(prevClass, myClass);
+                    } else { // nếu không phải là tiết lý thuyết thì add vào trong list các lớp bài tập
+                        exerciseClassesList.get(exerciseClassesList.size() - 1).getValue().add(myClass);
+                        prevClass = myClass;
+                    }
                 }
-
             }
+            mergeClassTime();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
@@ -74,6 +95,58 @@ public class ReadData {
             }
         }
 
+    }
+
+    // hợp nhất thời gian tiết bài tập với tiết lý thuyết tương ứng
+    private void mergeClassTime() {
+        for (int i = 0; i < theoryClassesList.size(); i++) {
+            int index = 0;
+            CourseNode<String, MyArrayList<MyClass>> theoryCourseNode = theoryClassesList.get(i);
+            MyArrayList<MyClass> theoryClassesList = theoryCourseNode.getValue();
+
+            CourseNode<String, MyArrayList<MyClass>> exerciseCourseNode = exerciseClassesList.get(i);
+            MyArrayList<MyClass> exerciseClassesList = exerciseCourseNode.getValue();
+
+            if (theoryClassesList.size() == 0) {
+                continue;
+            }
+
+            for (int j = 0; j < theoryClassesList.size(); j++) {
+                int maxNumOfTheoryClass = getMaxNumOfTheoryClass(theoryClassesList.get(j));
+
+                for (int k = index; k < maxNumOfTheoryClass; k++) {
+                    mergeTimeHandler(exerciseClassesList.get(k), theoryClassesList.get(j));
+                    index++;
+                }
+            }
+        }
+    }
+
+    // xử lý logic việc hợp nhất thời gian
+    // thời gian của các tiết bài tập và lý thuyết được tách bởi dấu |
+    private void mergeTimeHandler(MyClass exercise, MyClass theory) {
+        String exerciseTime = exercise.getTime().getTime();
+        String exerciseDOW = exercise.getTime().getDayOfWeek();
+        String exerciseRoom = exercise.getTime().getRoom();
+
+        String theoryTime = theory.getTime().getTime();
+        String theoryDOW = theory.getTime().getDayOfWeek();
+        String theoryRoom = theory.getTime().getRoom();
+
+        exercise.getTime().setTime(exerciseTime + "|" + theoryTime);
+        exercise.getTime().setDayOfWeek(exerciseDOW + "|" + theoryDOW);
+        exercise.getTime().setRoom(exerciseRoom + "|" + theoryRoom);
+    }
+
+    // PHY3626 1_2_3 -> lấy ra 3
+    // PHY3626 1_2_3_4_5_6 KHMTVTT -> lấy ra 6
+    // ...
+    private int getMaxNumOfTheoryClass(MyClass theoryClass) {
+        String theoryClassId = theoryClass.getClassId();
+        String[] splitArray = theoryClassId.split("\\s+");
+        char result = splitArray[1].charAt(splitArray[1].length() - 1);
+
+        return Integer.parseInt(result + "");
     }
 
     public List<String> parseDataLineToList(String dataLine) {

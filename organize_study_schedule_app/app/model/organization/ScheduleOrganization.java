@@ -15,7 +15,7 @@ public class ScheduleOrganization {
         CourseManager courseManager = CourseManager.getInstance();
         ReadData readData = new ReadData();
         readData.readData();
-        MyArrayList<CourseNode<String, MyArrayList<MyClass>>> courseList = courseManager.getCourseList();
+        MyArrayList<CourseNode<String, MyArrayList<MyClass>>> courseList = courseManager.getExerciseClassesList();
 
         // Nhập mã học phần muốn đăng kí vào MyArrayList<danh sách mã lớp>
         // MyArrayList này lưu trữ các classList của mỗi học phần
@@ -86,6 +86,7 @@ public class ScheduleOrganization {
         // không bị trùng ---> true)
         boolean insertToBoard = true;
         MyClass myClass = allClassOfCourseList.get(indexOfCourse).get(indexOfClass);
+        System.out.println(myClass);
         int dayOfWeek = Integer.valueOf(myClass.getTime().getDayOfWeek());
         int timeStart = Integer.valueOf(myClass.getTime().getTime().substring(0, 1));
         int timeEnd = Integer.valueOf(myClass.getTime().getTime().substring(2));
