@@ -9,7 +9,6 @@ BIO2058,Sinh học tế bào ,3,BIO2058 3 KTKTSH,5,1_2,432T1
 BIO2058,Sinh học tế bào ,3,BIO2058 4 KTKTSH,5,4_5,432T1
 BIO2058,Sinh học tế bào ,3,BIO2058 4_5_6 KTKTSH,4,4_5,102_T5
 BIO2058,Sinh học tế bào ,3,BIO2058 5 KTKTSH,5,6_7,432T1
-BIO2058,Sinh học tế bào,3,BIO2058 4_5_6 KTKTSH,4,4_5,102_T5
 BIO2058,Sinh học tế bào,3,BIO2058 6 KTKTSH,5,11_12,432T1
 BIO2090,Nhập môn công nghệ sinh học,3,BIO2090,5,6_8,206_T5
 BIO2092,Nguyên tắc phân loại sinh vật ,3,BIO2092,6,3_5,206_T5
@@ -254,7 +253,6 @@ BIO3402E,Di truyền học đại cương,3,BIO3402E 1_2 QTSH,3,9_10,306_T5
 BIO3402E,Di truyền học đại cương,3,BIO3402E 2 QTSH,2,4_5,236T1
 BIO3407E,Di truyền học người,3,BIO3407E QTSH,6,3_5,237T1
 BIO3408E,Hóa sinh học và trao đổi chất tế bào,3,BIO3408E QTSH,6,3_5,137T1
-BIO3408E,Hóa sinh học và trao đổi chất tế bào,3,BIO3408E QTSH,6,3_5,137T1
 BIO3411E,Mô học,3,BIO3411E QTSH,6,3_5,338T1
 BIO3412E,Thực hành Di truyền học,3,BIO3412E QTSH,6,9_11,237T1
 BIO3413E,Thực hành Sinh học phân tử,3,BIO3413E QTSH,6,6_8,338T1
@@ -316,31 +314,31 @@ BIO3808,Công nghệ sinh học động vật,3,BIO3808 CLCCNSH,7,3_5,337T1
 BIO3810,Động vật không xương sống y học  ,3,BIO3810,7,3_5,323T1
 BIO3811,Địa lý sinh vật ,3,BIO3811,7,3_5,332T1
 BIO4076,Tiểu luận khoa học,2,BIO4076 THCHD,7,4_5,428T1
+CHE1048,Hóa keo,2,CHE1048 1,5,4_5,501_T3
 CHE1048,Hóa keo,2,CHE1048 2 CLCHD,6,9_10,2_LTT
 CHE1048,Hóa keo,2,CHE1048 3 CLCHD,2,9_10,1_LTT
-CHE1048,Hóa keo,2,CHE1048 1,5,4_5,501_T3
 CHE1051,Hóa học đại cương 1,3,CHE1051 1 KTKTCNKTHH,4,6_8,304_T5
 CHE1051,Hóa học đại cương 1,3,CHE1051 2 KTKTCNKTHH,5,6_8,306_T5
-CHE1051,Hóa học đại cương 1,3,CHE1051 5 KTKTHD,6,1_3,304_T5
-CHE1051,Hóa học đại cương 1,3,CHE1051 6 KTKTHD,6,3_5,306_T5
 CHE1051,Hóa học đại cương 1,3,CHE1051 3 KTKTHH,3,8_10,301_T5
 CHE1051,Hóa học đại cương 1,3,CHE1051 4 KTKTHH,6,8_10,304_T5
+CHE1051,Hóa học đại cương 1,3,CHE1051 5 KTKTHD,6,1_3,304_T5
+CHE1051,Hóa học đại cương 1,3,CHE1051 6 KTKTHD,6,3_5,306_T5
 CHE1051,Hóa học đại cương 1,3,CHE1051 7 TNHH,5,1_3,303_T5
 CHE1052,Hóa học đại cương 2,3,CHE1052 1 TNHH,5,8_10,304_T5
 CHE1052,Hóa học đại cương 2,3,CHE1052 2,5,3_5,503_T3
+CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 1,4,1_4,PTNVC
+CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 10 CLCHD,3,1_4,PTNVC
 CHE1054,Thực tập Hóa học Vô cơ 1,2,CHE1054 11 CLCCNKTHH,5,1_4,PTNVC
-CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 4 CLCCNKTHH,2,6_9,PTNVC
-CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 6 CLCCNKTHH,2,6_9,PTNVC
 CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 12,5,6_9,PTNVC
 CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 13,5,6_9,PTNVC
-CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 10 CLCHD,3,1_4,PTNVC
-CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 5 CLCHD,3,1_4,PTNVC
-CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 8 CLCHD,3,6_9,PTNVC
-CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 9 CLCHD,3,6_9,PTNVC
-CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 1,4,1_4,PTNVC
 CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 2,4,6_9,PTNVC
 CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 3,4,6_9,PTNVC
+CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 4 CLCCNKTHH,2,6_9,PTNVC
+CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 5 CLCHD,3,1_4,PTNVC
+CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 6 CLCCNKTHH,2,6_9,PTNVC
 CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 7,4,1_4,PTNVC
+CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 8 CLCHD,3,6_9,PTNVC
+CHE1054,Thực tập hóa học vô cơ 1,2,CHE1054 9 CLCHD,3,6_9,PTNVC
 CHE1057,Hóa học phân tích ,3,CHE1057 1,2,1_3,204_T5
 CHE1057,Hóa học phân tích ,3,CHE1057 2,2,6_8,201_T4
 CHE1057,Hóa học phân tích ,3,CHE1057 3,3,a,204_T4
@@ -367,56 +365,51 @@ CHE1069,Thực tập Hóa học đại cương,2,CHE1069 6,5,6_9,PTN
 CHE1069,Thực tập Hóa học đại cương,2,CHE1069 7,6,2_5,PTN
 CHE1075E,Cơ sở hóa sinh,3,CHE1075E 1 CLCCNKTHH,6,1_3,6_LTT
 CHE1075E,Cơ sở hóa sinh,3,CHE1075E 2 CLCCNKTHH,4,8_10,1_LTT
+CHE1077,Hóa học vô cơ 1,3,CHE1077 1,6,1_3,104_T5
 CHE1077,Hóa học vô cơ 1,3,CHE1077 2 CLCCNKTHH,6,1_3,501_T3
 CHE1077,Hóa học vô cơ 1,3,CHE1077 3 CLCHD,5,6_8,501_T3
 CHE1077,Hóa học vô cơ 1,3,CHE1077 4 CLCHD,4,8_10,501_T3
-CHE1077,Hóa học vô cơ 1,3,CHE1077 1,6,1_3,104_T5
 CHE1079,Hóa học môi trường,3,CHE1079 1,5,6_8,102_T4
 CHE1079,Hoá học môi trường,3,CHE1079 2,6,3_5,102_T4
-CHE1080,Hóa học đại cương,3,CHE1080 3,2,3_5,203_T4
 CHE1080,Hóa học đại cương,3,CHE1080 1,4,1_3,103_T4
 CHE1080,Hóa học đại cương,3,CHE1080 2,4,1_3,101_T5
 CHE1080,Hóa học đại cương,3,CHE1080 3,2,3_5,203_T4
-CHE1080,Hóa học đại cương ,3,CHE1080 3,2,3_5,203_T4
 CHE1080,Hóa học đại cương,3,CHE1080 4,6,1_3,102_T5
-CHE1080,Hóa học đại cương,3,CHE1080 3,2,3_5,203_T4
-CHE1080,Hóa học đại cương,3,CHE1080 3,2,3_5,203_T4
 CHE1080,Hóa học đại cương,3,CHE1080 5,5,1_3,104_T4
 CHE1080,Hóa học đại cương,3,CHE1080 6,6,3_5,402_T4
 CHE1080,Hóa học đại cương,3,CHE1080 7,6,6_8,402_T4
 CHE1080,Hóa học đại cương ,3,CHE1080 8,3,8_10,203_T4
-CHE1080,Hóa học đại cương,3,CHE1080 8,3,8_10,203_T4
 CHE1080E,Hóa học đại cương,3,CHE1080E 1 KTKTCNKTMT,6,1_3,204_T5
 CHE1080E,Hóa học đại cương,3,CHE1080E 2 KTKTKHMT,4,1_3,402_T5
 CHE1081,Hoá học hữu cơ,3,CHE1081 1,2,3_5,205_T5
 CHE1081,Hoá học hữu cơ,3,CHE1081 2,3,3_5,304_T4
 CHE1081,Hoá học hữu cơ,3,CHE1081 3,3,8_10,202_T4
+CHE1082,Cơ sở hóa học phân tích,3,CHE1082 1,3,3_5,102_T4
 CHE1082,Cơ sở hóa học phân tích,3,CHE1082 2 CLCCNKTHH,3,8_10,303_T5
 CHE1082,Cơ sở hóa học phân tích,3,CHE1082 3 CLCHD,4,1_3,501_T3
 CHE1082,Cơ sở hóa học phân tích,3,CHE1082 4 CLCHD,6, 8_10,306_T5
-CHE1082,Cơ sở hóa học phân tích,3,CHE1082 1,3,3_5,102_T4
 CHE1084,Hoá lí 2,5,CHE1084,3,9_10,102_T4
 CHE1084,Hoá lí 2,5,CHE1084,5,1_3,102_T4
 CHE1084E,Hóa lý 2,5,CHE1084E TTHH,4,6_8,2_LTT
 CHE1084E,Hóa lý 2,5,CHE1084E TTHH,5,4_5,1_LTT
-CHE1085,Thực tập hóa lí 1,2,CHE1085 4,3,6_9,PTNHL
 CHE1085,Thực tập hóa lí 1,2,CHE1085 1,2,1_4,PTNHL
 CHE1085,Thực tập hóa lí 1,2,CHE1085 2,2,6_9,PTNHL
 CHE1085,Thực tập hóa lí 1,2,CHE1085 3,3,1_4,PTNHL
+CHE1085,Thực tập hóa lí 1,2,CHE1085 4,3,6_9,PTNHL
 CHE1090,Hóa học vô cơ 2,3,CHE1090,3,1_3,103_T4
+CHE1091,Hóa kĩ thuật,3,CHE1091 1,4,6_8,102_T4
 CHE1091,Hoá kĩ thuật,3,CHE1091 2 CLCHD,2,1_3,2_LTT
 CHE1091,Hoá kĩ thuật,3,CHE1091 3 CLCHD,2,6_8,6_LTT
-CHE1091,Hóa kĩ thuật,3,CHE1091 1,4,6_8,102_T4
 CHE1094E,Hóa học đại cương 1,3,CHE1094E CLCHH,4,1_3,306_T5
 CHE1098E,Anh văn chuyên ngành Lý,2,CHE1098E 1 TNHH,3,9_10,311_T5
 CHE1098E,Anh văn chuyên ngành Lý,2,CHE1098E 2 CLCHH,2,4_5,306_T5
 CHE1099E,Anh văn chuyên ngành Hóa,2,CHE1099E 1,5,4_5,102_T4
 CHE1099E,Anh văn chuyên ngành Hóa,2,CHE1099E 3 KTKTCNKTHH,4,4_5,306_T5
-CHE1099E,Anh văn chuyên ngành Hóa,2,CHE1099E 7 KTKTHD,2,9_10,311_T5
-CHE1099E,Anh văn chuyên ngành Hóa,2,CHE1099E 6 KTKTHD,4,6_7,311_T5
-CHE1099E,Anh văn chuyên ngành Hoá,2,CHE1099E 8 CLCHH,3,1_2,309_T5
 CHE1099E,Anh văn chuyên ngành Hóa,2,CHE1099E 4 KTKTHH,2,6_7,306_T5
 CHE1099E,Anh văn chuyên ngành Hóa,2,CHE1099E 5 KTKTHH,2,9_10,309_T5
+CHE1099E,Anh văn chuyên ngành Hóa,2,CHE1099E 6 KTKTHD,4,6_7,311_T5
+CHE1099E,Anh văn chuyên ngành Hóa,2,CHE1099E 7 KTKTHD,2,9_10,311_T5
+CHE1099E,Anh văn chuyên ngành Hoá,2,CHE1099E 8 CLCHH,3,1_2,309_T5
 CHE1100E,Tiếng Anh thuyết trình 1,2,CHE1100E 1 TNHH,5,1_2,304_T5
 CHE1100E,Tiếng Anh thuyết trình 1,2,CHE1100E 2 TTHH,6,1_2,306_T5
 CHE1131,Hóa học hữu cơ 1,4,CHE1131 1 CLCHD,4,4_5,309_T5
@@ -449,12 +442,12 @@ CHE2058,Hóa dược đại cương,3,CHE2058 1 CLCHD,3,3_5,1_LTT
 CHE2058,Hóa dược đại cương,3,CHE2058 2 CLCHD,3,6_8,1_LTT
 CHE2110E,Cơ sở hóa học hữu cơ 1,4,CHE2110E TTHH,5,4_5,311_T5
 CHE2110E,Cơ sở hóa học hữu cơ 1,4,CHE2110E TTHH,3,6_7,404_T5
+CHE2111,Thực tập Hóa học hữu cơ 1,2,CHE2111 1 TNHH,6,1_4,PTNHC
 CHE2111,Thực tập Hóa học hữu cơ 1,2,CHE2111 2 TTHH,6,6_9,PTNHC
 CHE2111,Thực tập Hóa học hữu cơ 1,2,CHE2111 3 TTHH,6,6_9,PTNHC
-CHE2111,Thực tập Hóa học hữu cơ 1,2,CHE2111 1 TNHH,6,1_4,PTNHC
 CHE2112E,Hóa học vô cơ,3,CHE2112E TTHH,4,8_10,311_T5
-CHE2113,Thực tập Hóa học vô cơ,2,CHE2113 2 TNHH,6,1_4,PTNVC
 CHE2113,Thực tập hóa học vô cơ,2,CHE2113 1 TTHH,6,6_9,PTNVC
+CHE2113,Thực tập Hóa học vô cơ,2,CHE2113 2 TNHH,6,1_4,PTNVC
 CHE2113,Thực tập hóa học vô cơ,2,CHE2113 3 TTHH,6,6_9,PTNVC
 CHE2114,Hoá học hữu cơ 2,3,CHE2114 1 TNHH,4,1_3,6_LTT
 CHE2114,Hóa học hữu cơ 2,3,CHE2114 2 TNHH,4,3_5,311_T5
@@ -465,8 +458,8 @@ CHE2117,Thực tập hóa học phân tích,2,CHE2117 2 TTHH,6,1_4,PTNPT
 CHE2117,Thực tập hóa học phân tích,2,CHE2117 3 TTHH,6,6_9,PTNPT
 CHE2118,Hóa lý 1,3,CHE2118 TNHH,6,6_8,311_T5
 CHE2120,Hoá kĩ thuật,3,CHE2120 TNHH,4,3_5,2_LTT
-CHE2123,Thực tập hoá lí 2,2,CHE2123 2 TTHH,7,6_9,PTNHL
 CHE2123,Thực tập Hóa lý 2,2,CHE2123 1 TNHH,7,1_4,PTNHL
+CHE2123,Thực tập hoá lí 2,2,CHE2123 2 TTHH,7,6_9,PTNHL
 CHE2129,Hoá học phân tích nâng cao,3,CHE2129 TNHH,2,3_5,3_LTT
 CHE2132,Phân tích công cụ,3,CHE2132 TNHH,3,6_8,5_LTT
 CHE2132E,Phân tích công cụ,3,CHE2132E TTHH,5,1_3,2_LTT
@@ -477,24 +470,23 @@ CHE2145,Hóa học môi trường,3,CHE2145 TNHH,6,3_5,2_LTT
 CHE2147E,Hóa học xanh,3,CHE2147E 1 CLCCNKTHH,6,6_8,3_LTT
 CHE2147E,Hóa học xanh,3,CHE2147E 2 CLCCNKTHH,4,8_10,1_LTT
 CHE2241,Hóa học bề mặt và Hóa keo,3,CHE2241 CTDB,3,1_3,5_LTT
-CHE2241,Hóa học bề mặt và Hóa keo,3,CHE2241 CTDB,3,1_3,5_LTT
 CHE3000,Các phương pháp phân tích cấu trúc trong hóa vô cơ,3,CHE3000,3,6_8,4_LTT
 CHE3010,Các Phương pháp phân tích quang học,2,CHE3010,4,4_5,3_LTT
 CHE3013,Xử lí mẫu trong hóa phân tích,2,CHE3013,3,1_2,1_LTT
-CHE3036,Quản lí và xử li chât thải rắn,2,CHE3036 2 CLCCNKTHH,6,4_5,5_LTT
 CHE3036,Quản lí và xử lí chất thải rắn,2,CHE3036 1,3,9_10,5_LTT
+CHE3036,Quản lí và xử li chât thải rắn,2,CHE3036 2 CLCCNKTHH,6,4_5,5_LTT
 CHE3037,Phân tích môi trường,2,CHE3037,2,6_7,4_LTT
 CHE3037E,Phân tích môi trường,2,CHE3037E CLCCNKTHH,5,6_7,4_LTT
-CHE3045,Hóa học dầu mỏ,3,CHE3045 2 TNHH,3,3_5,3_LTT
 CHE3045,Hoá học dầu mỏ,3,CHE3045 1,6,1_3,103_T4
+CHE3045,Hóa học dầu mỏ,3,CHE3045 2 TNHH,3,3_5,3_LTT
 CHE3046,Công nghệ lọc dầu,2,CHE3046,3,1_2,2_LTT
 CHE3046E,Công nghệ lọc dầu,2,CHE3046E CLCCNKTHH,4,9_10,5_LTT
-CHE3047,Công nghệ hóa dầu,2,CHE3047 2 CLCCNKTHH,6,6_7,4_LTT
 CHE3047,Công nghệ Hóa dầu,2,CHE3047 1,4,9_10,6_LTT
-CHE3050,Các sản phẩm dầu mỏ,2,CHE3050 2 CLCCNKTHH,6,9_10,3_LTT
+CHE3047,Công nghệ hóa dầu,2,CHE3047 2 CLCCNKTHH,6,6_7,4_LTT
 CHE3050,Các sản phẩm dầu mỏ,2,CHE3050 1,2,9_10,2_LTT
-CHE3051,Công nghệ sản xuất nhiên liệu dầu và khí,2,CHE3051 2 CLCCNKTHH,5,1_2,3_LTT
+CHE3050,Các sản phẩm dầu mỏ,2,CHE3050 2 CLCCNKTHH,6,9_10,3_LTT
 CHE3051,Công nghệ sản xuất nhiên liệu dầu và khí,2,CHE3051 1,3,9_10,4_LTT
+CHE3051,Công nghệ sản xuất nhiên liệu dầu và khí,2,CHE3051 2 CLCCNKTHH,5,1_2,3_LTT
 CHE3060,Công nghệ hóa sinh,2,CHE3060 1 CLCCNKTHH,6,6_7,1_LTT
 CHE3060,Công nghệ Hóa sinh,2,CHE3060 2,3,9_10,1_LTT
 CHE3063,Hóa học thực phẩm,2,CHE3063,4,1_2,2_LTT
@@ -503,9 +495,9 @@ CHE3135,Hóa học phức chất,3,CHE3135,2,6_8,1_LTT
 CHE3138,Các phương pháp phân tích điện hóa,3,CHE3138,5,6_8,3_LTT
 CHE3140,Các phương pháp tách trong phân tích,3,CHE3140,2,1_3,1_LTT
 CHE3141,Tổng hợp hữu cơ,3,CHE3141,6,3_5,4_LTT
+CHE3142,Hóa học các hợp chất thiên nhiên,3,CHE3142 1,2,6_8,2_LTT
 CHE3142,Hóa học các hợp chất thiên nhiên,3,CHE3142 2 CLCHD,4,6_8,1_LTT
 CHE3142,Hóa học các hợp chất thiên nhiên,3,CHE3142 3 CLCHD,3,3_5,4_LTT
-CHE3142,Hóa học các hợp chất thiên nhiên,3,CHE3142 1,2,6_8,2_LTT
 CHE3144,Lí thuyết xúc tác và ứng dụng,3,CHE3144,4,1_3,4_LTT
 CHE3171,Kiểm nghiệm thuốc và tiêu chuẩn dược phẩm,3,CHE3171 1 CLCHD,2,8_10,4_LTT
 CHE3171,Kiểm nghiệm thuốc và tiêu chuẩn dược phẩm,3,CHE3171 2 CLCHD,4,1_3,5_LTT
@@ -514,40 +506,34 @@ CHE3185,Thực phẩm chức năng,2,CHE3185 1 CLCHD,5,4_5,5_LTT
 CHE3185,Thực phẩm chức năng,2,CHE3185 2 CLCHD,2,4_5,4_LTT
 CHE3190,Hóa học các nguyên tố đất hiếm,3,CHE3190,2,3_5,5_LTT
 CHE3193,Ứng dụng phương pháp phổ trong hóa học hữu cơ,3,CHE3193,2,1_3,6_LTT
+CHE3198,Thực tập hóa môi trường,2,CHE3198 1,6,6_9,PTNMT
 CHE3198,Thực tập hóa môi trường,2,CHE3198 2 CLCCNKTHH,2,6_9,PTNMT
 CHE3198,Thực tập hóa môi trường,2,CHE3198 3 CLCCNKTHH,3,6_9,PTNMT
-CHE3198,Thực tập hóa môi trường,2,CHE3198 1,6,6_9,PTNMT
+CHE3200,Thực tập hóa dầu,2,CHE3200 1,4,1_4,PTNHd
 CHE3200,Thực tập hóa dầu,2,CHE3200 2 CLCCNKTHH,2,1_4,PTNHd
 CHE3200,Thực tập hóa dầu,2,CHE3200 3 CLCCNKTHH,2,6_9,PTNHd
-CHE3200,Thực tập hóa dầu,2,CHE3200 1,4,1_4,PTNHd
 CHE3211,Hoá lí vô cơ,3,CHE3211 CTDB,2,6_8,3_LTT
-CHE3211,Hóa lý vô cơ ,3,CHE3211 CTDB,2,6_8,3_LTT
 CHE3215,Các chương chọn lọc của hóa học vô cơ ,3,CHE3215 CTDB,3,6_8,3_LTT
-CHE3215,Các chương chọn lọc của hóa học vô cơ,3,CHE3215 CTDB,3,6_8,3_LTT
-CHE3219,Các phương pháp nghiên cứu hóa học hữu cơ,3,CHE3219 CTDB,6,6_8,6_LTT
 CHE3219,Các phương pháp nghiên cứu hóa học hữu cơ,3,CHE3219 CTDB,6,6_8,6_LTT
 CHE3220,Các chương chọn lọc trong hoá học hữu cơ,3,CHE3220 CTDB,6,1_3,3_LTT
-CHE3220,Các chương chọn lọc trong hoá hữu cơ,3,CHE3220 CTDB,6,1_3,3_LTT
-CHE3234,Các chương chọn lọc của Hóa lý,3,CHE3234 CTDB,4,6_8,3_LTT
 CHE3234,Các chương chọn lọc của Hóa lý,3,CHE3234 CTDB,4,6_8,3_LTT
 CHE3239,Động học điện hóa,3,CHE3239,5,8_10,4_LTT
 CHE3240,Hóa lí của các hợp chất cao phân tử,3,CHE3240,4,8_10,4_LTT
 CHE3243,Hóa học bề mặt và ứng dụng,3,CHE3243,6,8_10,4_LTT
 CHE3247,Xúc tác hữu cơ,3,CHE3247,5,6_8,6_LTT
 CHE3250,Các phương pháp tách và sắc ký,3,CHE3250 CTDB,5,1_3,5_LTT
-CHE3250,Các phương pháp tách và sắc ký,3,CHE3250 CTDB,5,1_3,5_LTT
 CHE3251E,Kĩ thuật phản ứng hóa học,3,CHE3251E 1 CLCCNKTHH,5,6_8,2_LTT
 CHE3251E,Kĩ thuật phản ứng hóa học,3,CHE3251E 2 CLCCNKTHH,3,6_8,6_LTT
-CHE3255,Thực tập công nghệ kĩ thuật hóa học,2,CHE3255 4 CLCCNKTHH,7,6_9,PTNCN
-CHE3255,Thực tập công nghệ kĩ thuật hóa học,2,CHE3255 5 CLCCNKTHH,7,1_4,PTNCN
 CHE3255,Thực tập công nghệ Kĩ thuật hóa học,2,CHE3255 1,5,1_4,PTNCN
 CHE3255,Thực tập công nghệ Kĩ thuật hóa học,2,CHE3255 2,5,6_9,PTNCN
 CHE3255,Thực tập công nghệ Kĩ thuật hóa học,2,CHE3255 3,6,1_4,PTNCN
+CHE3255,Thực tập công nghệ kĩ thuật hóa học,2,CHE3255 4 CLCCNKTHH,7,6_9,PTNCN
+CHE3255,Thực tập công nghệ kĩ thuật hóa học,2,CHE3255 5 CLCCNKTHH,7,1_4,PTNCN
 CHE3255,Thực tập công nghệ Kĩ thuật hóa học,2,CHE3255 6,6,6_9,PTNCN
 CHE3263,Các phương pháp xử lí nước và nước thải,2,CHE3263,4,4_5,5_LTT
 CHE3263E,Các phương pháp xử lý nước và nước thải,2,CHE3263E CLCCNKTHH,5,9_10,5_LTT
-CHE3264,Xử lý khí thải,2,CHE3264 2 CLCCNKTHH,6,9_10,6_LTT
 CHE3264,Xử lí khí thải,2,CHE3264 1,3,9_10,2_LTT
+CHE3264,Xử lý khí thải,2,CHE3264 2 CLCCNKTHH,6,9_10,6_LTT
 CHE3266,Xúc tác trong công nghiệp lọc_ hóa dầu,2,CHE3266,2,6_7,5_LTT
 CHE3266E,Xúc tác trong công nghiệp lọc_ hóa dầu,2,CHE3266E CLCCNKTHH,4,6_7,4_LTT
 CHE3267,Các PP tổng hợp vật liệu,2,CHE3267 CLCCNKTHH,6,1_2,2_LTT
@@ -561,16 +547,16 @@ CHE3284,Các phương pháp nghiên cứu vật liệu,2,CHE3284 CLCCNKTHH,5,1_2
 CHE3300,Các Phương pháp phân tích cấu trúc và định lượng,4,CHE3300 CLCCNKTHH,5,9_10,6_LTT
 CHE3300,Các Phương pháp phân tích cấu trúc và định lượng,4,CHE3300 CLCCNKTHH,2,4_5,2_LTT
 CHE3301,Thực tập các PP phân tích cấu trúc và đinh lượng,2,CHE3301 1 CLCCNKTHH,2,6_9,PTN
-CHE3301,Thực tập các PP phân tích cấu trúc và đinh lượng,2,CHE3301 8 CLCCNKTHH,2,1_4,PTN
 CHE3301,Thực tập các PP phân tích cấu trúc và đinh lượng,2,CHE3301 2 CLCHD,5,1_4,PTN
 CHE3301,Thực tập các PP phân tích cấu trúc và đinh lượng,2,CHE3301 3 CLCHD,5,6_9,PTN
 CHE3301,Thực tập các PP phân tích cấu trúc và đinh lượng,2,CHE3301 4 CLCHD,4,6_9,PTN
 CHE3301,Thực tập các PP phân tích cấu trúc và đinh lượng,2,CHE3301 5 CLCHD,4,1_4,PTN
+CHE3301,Thực tập các PP phân tích cấu trúc và đinh lượng,2,CHE3301 8 CLCCNKTHH,2,1_4,PTN
 CHE3303E,Phương pháp nghiên cưu khoa học,3,CHE3303E 1 CLCCNKTHH,4,6_8,6_LTT
 CHE3303E,Phương pháp nghiên cưu khoa học,3,CHE3303E 4 CLCHD,6,8_10,1_LTT
 CHE3306,Thống kê ứng dụng trong hóa PT,2,CHE3306,3,4_5,6_LTT
-CHE3310,Độc chất học môi trường cơ sở,2,CHE3310 2 CLCCNKTHH,2,9_10,3_LTT
 CHE3310,Độc chất học môi trường cơ sở,2,CHE3310 1,4,9_10,2_LTT
+CHE3310,Độc chất học môi trường cơ sở,2,CHE3310 2 CLCCNKTHH,2,9_10,3_LTT
 CHE4051,Khóa luận tốt nghiệp,10,CHE4051 CLCCNKTHH,7,13,BM
 CHE4052,Khóa luận tốt nghiệp,7,CHE4052,7,13,BM
 CHE4054,Khóa luận tốt nghiệp,10,CHE4054 TNHH,7,13,BM
@@ -600,8 +586,8 @@ EVF2035,Thực tập công nghiệp,3,EVF2035,CN,13,BM
 EVF2037,Thực tập sản xuất,2,EVF2037,7,13,BM
 EVF2040,Nhập môn khoa học và công nghệ thực phẩm,3,EVF2040 1,2,6_8,206_T5
 EVF2040,Nhập môn khoa học và công nghệ thực phẩm,3,EVF2040 2,3,3_5,206_T5
-EVS2000,Khoa học sự sống,3,EVS2000 2,6,6_8,102_T4
 EVS2000,Khoa học sự sống,3,EVS2000 1 CLCKHMT,6,1_3,109_T5
+EVS2000,Khoa học sự sống,3,EVS2000 2,6,6_8,102_T4
 EVS2000,Khoa học sự sống,3,EVS2000 3,4,1_3,102_T4
 EVS2000E,Khoa học sự sống,3,EVS2000E 1 KTKTKHMT,5,1_3,208_T5
 EVS2009,Vật lý môi trường,2,EVS2009 1,4,4_5,208_T5
@@ -611,8 +597,8 @@ EVS2044,Thực tập công nghiệp,2,EVS2044,CN,12,BM
 EVS2095,Thực tập thực tế,2,EVS2095 CLCCNKTMT,7,13,BM
 EVS2303,Cơ sở môi trường đất_ nước_ không khí (**),4,EVS2303 CLCKHMT,6,3_5,210_T5
 EVS2303,Cơ sở môi trường đất_ nước_ không khí (**),4,EVS2303 CLCKHMT,3,9_10,213_T5
-EVS2304,Cở sở môi trường đất_ nước_ không khí,3,EVS2304 2 CLCCNKTMT,6,6_8,313_T5
 EVS2304,Cơ sở môi trường đất_ nước_ không khí ,3,EVS2304 1,3,6_8,208_T5
+EVS2304,Cở sở môi trường đất_ nước_ không khí,3,EVS2304 2 CLCCNKTMT,6,6_8,313_T5
 EVS2305,Biến đổi khí hậu,3,EVS2305 1,4,8_10,103_T5
 EVS2305,Biến đổi khí hậu,3,EVS2305 2 CLCKHMT,3,8_10,404_T5
 EVS2307,Sinh thái môi trường,3,EVS2307,4,8_10,104_T5
@@ -761,14 +747,14 @@ FLF1107,Tiếng Anh B1,5,FLF1107 8,3,1_3,508_T3
 FLF1107,Tiếng Anh B1,5,FLF1107 8,5,6_7,508_T3
 FLF1107,Tiếng Anh B1,5,FLF1107 9,4,3_5,511_T4
 FLF1107,Tiếng Anh B1,5,FLF1107 9,5,4_5,404_T5
+FLF1108,Tiếng Anh B2,5,FLF1108 1,2,6_7,203_T5
+FLF1108,Tiếng Anh B2,5,FLF1108 1,4,8_10,203_T5
 FLF1108,Tiếng Anh B2,5,FLF1108 2,3,1_2,402_T4
 FLF1108,Tiếng Anh B2,5,FLF1108 2,5,6_8,301_T4
 FLF1108,Tiếng Anh B2,5,FLF1108 3,6,1_2,207_T5
 FLF1108,Tiếng Anh B2,5,FLF1108 3,5,3_5,301_T4
 FLF1108,Tiếng Anh B2,5,FLF1108 4,2,1_2,210_T5
 FLF1108,Tiếng Anh B2,5,FLF1108 4,6,3_5,301_T4
-FLF1108,Tiếng Anh B2,5,FLF1108 1,2,6_7,203_T5
-FLF1108,Tiếng Anh B2,5,FLF1108 1,4,8_10,203_T5
 FLF1109,Tiếng Anh C1,5,FLF1109,4,6_7,203_T5
 FLF1109,Tiếng Anh C1,5,FLF1109,2,8_10,203_T5
 GEO1050,Khoa học trái đất và sự sống,3,GEO1050 1,2,6_8,408_T5
@@ -776,29 +762,29 @@ GEO1050,Khoa học trái đất và sự sống,3,GEO1050 2,3,6_8,408_T5
 GEO1050,Khoa học trái đất và sự sống,3,GEO1050 3,5,6_8,408_T5
 GEO2001,Cơ sở Địa lý tự nhiên,3,GEO2001,2,1_3,108_T5
 GEO2007,Thực tập trắc địa đại cương,2,GEO2007,7,13,BM
-GEO2055,Địa lý Việt Nam,3,GEO2055 2,2,1_3,408_T5
 GEO2055,Địa lý Việt Nam,3,GEO2055 1,2,3_5,211_T5
-GEO2060,Bản đồ đại cương,3,GEO2060 4,5,1_3,109_T5
+GEO2055,Địa lý Việt Nam,3,GEO2055 2,2,1_3,408_T5
 GEO2060,Bản đồ đại cương,3,GEO2060 1,5,8_10,105_T5
 GEO2060,Bản đồ đại cương,3,GEO2060 2 KTKTQLDD,3,8_10,104_T4
 GEO2060,Bản đồ đại cương,3,GEO2060 3 KTKTQLDD,3,8_10,101_T5
+GEO2060,Bản đồ đại cương,3,GEO2060 4,5,1_3,109_T5
 GEO2076,Quản lý tài chính đất đai,2,GEO2076,3,1_2,208T5
 GEO2078,Cơ sở Địa lý nhân văn,3,GEO2078,3,3_5,109_T5
-GEO2091,Cơ sở viễn thám,3,GEO2091 2,3,1_3,211_T5
 GEO2091,Cơ sở viễn thám,3,GEO2091 1 KTKTQLDD,6,6_8,208_T5
+GEO2091,Cơ sở viễn thám,3,GEO2091 2,3,1_3,211_T5
 GEO2092,Tiếng Anh chuyên ngành,3,GEO2092,6,3_5,BM
 GEO2093,Phương pháp nghiên cứu khoa học,3,GEO2093,6,1_3,211_T5
 GEO2300,Địa lý học,3,GEO2300,2,6_8,413_T5
 GEO2303,Thực tập thiên nhiên,2,GEO2303,7,13,BM
 GEO2304,Khoa học môi trường và biến đổi khí hậu,3,GEO2304,3,6_8,202_T5
-GEO2318,Trắc địa đại cương,3,GEO2318 4,2,8_10,105_T5
-GEO2318,Trắc địa đại cương,3,GEO2318 2,2,1_3,104_T5
 GEO2318,Trắc địa đại cương,3,GEO2318 1 KTKTQLDD,6,8_10,103_T4
+GEO2318,Trắc địa đại cương,3,GEO2318 2,2,1_3,104_T5
 GEO2318,Trắc địa đại cương,3,GEO2318 3 KTKTQLDD,6,8_10,104_T4
-GEO2319,Hệ thống thông tin địa lý,3,GEO2319 2,2,1_3,508_T3
+GEO2318,Trắc địa đại cương,3,GEO2318 4,2,8_10,105_T5
 GEO2319,Hệ thống thông tin địa lý,3,GEO2319 1,4,3_5,211_T5
-GEO2320,Khoa học môi trường và Biến đổi khí hậu,2,GEO2320 2,2,4_5,BM
+GEO2319,Hệ thống thông tin địa lý,3,GEO2319 2,2,1_3,508_T3
 GEO2320,Khoa học Môi trường và biến đổi khí hậu,2,GEO2320 1,5,1_2,202_T5
+GEO2320,Khoa học môi trường và Biến đổi khí hậu,2,GEO2320 2,2,4_5,BM
 GEO2323,Quản lý tài nguyên và môi trường,2,GEO2323,6,4_5,208_T5
 GEO2402,Kinh tế học phát triển,3,GEO2402,5,3_5,201_T4
 GEO2403,Cơ sở quản lý đất đai và bất động sản,3,GEO2403,6,6_8,202_T5
@@ -813,8 +799,8 @@ GEO3125,Thực tập sản xuất và thực hành khởi nghiệp,5,GEO3125,7,1
 GEO3128,Viễn thám ứng dụng,3,GEO3128,4,1_3,BM
 GEO3135,Địa không gian trong nghiên cứu tai biến thiên nhiên,3,GEO3135,6,6_8,BM
 GEO3144,Thực tập xây dựng thư viện phổ từ máy đo phổ cầm tay,3,GEO3144,7,12,BM
-GEO3210,Thực tập trắc địa đại cương,2,GEO3210 2,CN,13,BM
 GEO3210,Thực tập trắc địa đại cương,2,GEO3210 1,CN,13,BM
+GEO3210,Thực tập trắc địa đại cương,2,GEO3210 2,CN,13,BM
 GEO3212,Khoa học cảnh quan và ứng dụng,4,GEO3212,3,6_7,BM
 GEO3212,Khoa học cảnh quan và ứng dụng,4,GEO3212,5,6_7,BM
 GEO3213,Kinh tế Môi trường và Kinh tế sinh thái,2,GEO3213,2,9_10,BM
@@ -827,8 +813,8 @@ GEO3221,Địa mạo học,3,GEO3221,6,6_8,210_T5
 GEO3225,Địa sinh vật và sinh thái cảnh quan,4,GEO3225,2,4_5,508_T3
 GEO3225,Địa sinh vật và sinh thái cảnh quan,4,GEO3225,6,1_2,109_T5
 GEO3226,Thực tập cơ sở địa lý,2,GEO3226 1,7,13,BM
-GEO3226,Thực tập cơ sở địa lý,2,GEO3226 3,7,13,BM
 GEO3226,Thực tập cơ sở địa lý,2,GEO3226 2,7,12,BM
+GEO3226,Thực tập cơ sở địa lý,2,GEO3226 3,7,13,BM
 GEO3229,Dân số học và địa lý dân cư,3,GEO3229,6,3_5,109_T5
 GEO3237,Phân loại thực vật và các hệ sinh thái rừng Việt Nam,3,GEO3237,3,8_10,BM
 GEO3242,Địa mạo và địa chất biển,3,GEO3242,2,6_8,BM
@@ -875,8 +861,6 @@ GEO3435,Môi giới bất động sản,3,GEO3435,4,3_5,203_T5
 GEO3436,Marketing bất động sản,3,GEO3436,4,8_10,210_T5
 GLO2001,Địa chất đại cương,3,GLO2001,3,4_5,103_T4
 GLO2001,Địa chất đại cương,3,GLO2001,5,4_5,103_T4
-GLO2001,Địa chất đại cương,3,GLO2001,3,4_5,103_T4
-GLO2001,Địa chất đại cương,3,GLO2001,5,4_5,103_T4
 GLO2023,Khoáng sản học,3,GLO2023 CLCĐCH,2,6_8,610T5
 GLO2037,Tai biến thiên nhiên,3,GLO2037,6,3_5,106_T5
 GLO2045,Phân tích không gian trong QLTN thiên nhiên,3,GLO2045,3,4_5,104_T4
@@ -884,20 +868,13 @@ GLO2045,Phân tích không gian trong QLTN thiên nhiên,3,GLO2045,5,4_5,104_T4
 GLO2056,Phân tích chi phí và lợi ích ,3,GLO2056,6,6_7,206_T5
 GLO2058,Địa tin học ứng dụng,3,GLO2058,3,3_5,BM
 GLO2058,Địa tin học ứng dụng,3,GLO2058,5,3_5,BM
-GLO2058,Địa tin học ứng dụng ,3,GLO2058,3,3_5,BM
-GLO2058,Địa tin học ứng dụng ,3,GLO2058,5,3_5,BM
 GLO2062,Địa chất cấu trúc và kiến tạo,5,GLO2062 CLCĐCH,4,6_8,604T5
 GLO2062,Địa chất cấu trúc và kiến tạo,5,GLO2062 CLCĐCH,6,6_8,604T5
 GLO2068,Tai biến thiên nhiên,3,GLO2068,4,3_5,514_T4
-GLO2068,Tai biến thiên nhiên,3,GLO2068,4,3_5,514_T4
 GLO2070,Địa hóa,3,GLO2070,6,3_5,604T5
-GLO2070,Địa hóa,3,GLO2070,6,3_5,604T5
-GLO2074,Địa vật lý đại cương,3,GLO2074,6,3_5,605T5
 GLO2074,Địa vật lý đại cương,3,GLO2074,6,3_5,605T5
 GLO2076,Tiếng anh cho Địa chất,3,GLO2076,2,4_5,604T5
 GLO2076,Tiếng anh cho Địa chất,3,GLO2076,4,4_5,604T5
-GLO2076,Tiếng anh cho địa chất,3,GLO2076,2,4_5,604T5
-GLO2076,Tiếng anh cho địa chất,3,GLO2076,4,4_5,604T5
 GLO2078,Địa chất đại cương,4,GLO2078 CLCĐCH,6,3_5,213_T5
 GLO2078,Địa chất đại cương,4,GLO2078 CLCĐCH,2,4_5,213_T5
 GLO2087,Cơ sở lý luận pháp triển bền vững,3,GLO2087,2,3_5,105_T5
@@ -911,12 +888,10 @@ GLO2102,Tiếng anh chuyên ngành,3,GLO2102,4,4_5,407_T5
 GLO2202,Hệ thống trái đất,4,GLO2202,2,6_8,213_T5
 GLO2202,Hệ thống trái đất,4,GLO2202,4,6_7,213_T5
 GLO2204,Cơ sở pháp lý quan trắc và giám sát tài nguyên môi trường ,3,GLO2204,5,1_3,213_T5
+GLO2206,Phương pháp nghiên cứu khoa học,3,GLO2206 1,3,6_7,303_T4
+GLO2206,Phương pháp nghiên cứu khoa học,3,GLO2206 1,5,6_7,303_T4
 GLO2206,Phương pháp nghiên cứu khoa học,3,GLO2206 2 CLCĐCH,4,4_5,BM
 GLO2206,Phương pháp nghiên cứu khoa học,3,GLO2206 2 CLCĐCH,2,9_10,BM
-GLO2206,Phương pháp nghiên cứu khoa học,3,GLO2206 1,3,6_7,303_T4
-GLO2206,Phương pháp nghiên cứu khoa học,3,GLO2206 1,5,6_7,303_T4
-GLO2206,Phương pháp nghiên cứu khoa học,3,GLO2206 1,3,6_7,303_T4
-GLO2206,Phương pháp nghiên cứu khoa học,3,GLO2206 1,5,6_7,303_T4
 GLO2213,Nhập môn Quản lý tài nguyên và Môi trường,3,GLO2213,4,3_5,105_T5
 GLO2214,Khoa học môi trường đại cương,3,GLO2214,3,6_8,213_T5
 GLO3076,Tài nguyên khoáng sản việt nam,3,GLO3076,5,6_8,213_T5
@@ -962,12 +937,12 @@ HIS1001,Lịch sử Đảng cộng sản Việt Nam,2,HIS1001 7,6,6_7,502_T3
 HIS1001,Lịch sử Đảng cộng sản Việt Nam,2,HIS1001 8,6,1_2,502_T3
 HIS1001,Lịch sử Đảng cộng sản Việt Nam,2,HIS1001 9,5,6_7,502_T3
 HIS1056,Cơ sở văn hóa Việt Nam,3,HIS1056 1,3,1_3,302_T4
-HIS1056,Cơ sở văn hóa Việt Nam,3,HIS1056 2,3,1_3,301_T4
-HIS1056,Cơ sở văn hóa Việt Nam,3,HIS1056 3,5,1_3,304_T4
 HIS1056,Cơ sở văn hóa Việt Nam,3,HIS1056 10,4,1_3,102_T5
 HIS1056,Cơ sở văn hóa Việt Nam,3,HIS1056 11,4,6_8,203_T4
 HIS1056,Cơ sở văn hóa Việt Nam,3,HIS1056 12,5,3_5,203_T4
 HIS1056,Cơ sở văn hóa Việt Nam,3,HIS1056 13,5,8_10,203_T4
+HIS1056,Cơ sở văn hóa Việt Nam,3,HIS1056 2,3,1_3,301_T4
+HIS1056,Cơ sở văn hóa Việt Nam,3,HIS1056 3,5,1_3,304_T4
 HIS1056,Cơ sở văn hóa Việt Nam,3,HIS1056 4,6,3_5,203_T4
 HIS1056,Cơ sở văn hóa Việt Nam,3,HIS1056 5,6,8_10,203_T4
 HIS1056,Cơ sở văn hóa Việt Nam,3,HIS1056 6,2,3_5,402_T5
@@ -978,7 +953,6 @@ HMO2026,Dự báo thuỷ văn,3,HMO2026,5,6_8,513_T5
 HMO2103,Biến đổi thảm phủ và sử dụng đất,3,HMO2103,6,8_10,211_T5
 HMO2147,Sóng biển ,3,HMO2147,2,6_8,410_T5
 HMO2148,Thủy triều,3,HMO2148,2,3_5,209_T5
-HMO2202,Cơ học chất lỏng,3,HMO2202,6,3_5,513_T5
 HMO2202,Cơ học chất lỏng,3,HMO2202,6,3_5,513_T5
 HMO2203,GIS và Viễn thám,3,HMO2203 1 CLCKT_KHH,3,1_3,311_T5
 HMO2203,GIS và Viễn thám,3,HMO2203 2,3,8_10,410_T5
@@ -1027,81 +1001,21 @@ HMO3620,Phương pháp mô hình hóa trong hải dương học ,3,HMO3620,6,1_3
 HMO3624,Kinh tế biển ,3,HMO3624,6,6_8,506_T3
 HMO3631,Thực tập khảo sát hải văn,3,HMO3631,7,13,BM
 HMO3732,Niên luận 2*,3,HMO3732 CLCHDH,7,12,BM
-HUS1011,Tin học cơ sở ,3,HUS1011 40_41,6,6_8_8_10,409T5
-HUS1011,Tin học cơ sở ,3,HUS1011 40_41_42_43,4,9_10,202_T5
-HUS1011,Tin học cơ sở,3,HUS1011 56_57_58_59,4,4_5,408_T5
-HUS1011,Tin học cơ sở,3,HUS1011 58_59,6,1_3_3_5,411T5
-HUS1011,Tin học cơ sở,3,HUS1011 20_21_22_23,2,6_7,509_T3
-HUS1011,Tin học cơ sở,3,HUS1011 22_23,5,6_8_8_10,411T5
-HUS1011,Tin học cơ sở,3,HUS1011 20_21_22_23,2,6_7,509_T3
-HUS1011,Tin học cơ sở,3,HUS1011 22_23,5,6_8_8_10,411T5
-HUS1011,Tin học cơ sở,3,HUS1011 32_33,4,6_8_8_10,409T5
-HUS1011,Tin học cơ sở,3,HUS1011 32_33_34_35,3,4_5,203_T4
-HUS1011,Tin học cơ sở ,3,HUS1011 44_45_46_47,6,4_5,408_T5
-HUS1011,Tin học cơ sở ,3,HUS1011 44_45_46_47,2,1_3_3_5,409T5_411T5
-HUS1011,Tin học cơ sở,3,HUS1011 10,2,8_10,511FT5
-HUS1011,Tin học cơ sở,3,HUS1011 10_11_12_13,3,9_10,408_T5
-HUS1011,Tin học cơ sở,3,HUS1011 11,6,6_8,511FT5
-HUS1011,Tin học cơ sở,3,HUS1011 12,6,8_10,511FT5
-HUS1011,Tin học cơ sở,3,HUS1011 13,2,6_8,511FT5
-HUS1011,Tin học cơ sở ,3,HUS1011 14_15,4,4_5,404_T5
-HUS1011,Tin học cơ sở ,3,HUS1011 15,6,3_5,511FT5
-HUS1011,Tin học cơ sở ,3,HUS1011 36_37_38_39,5,6_7,203_T4
-HUS1011,Tin học cơ sở ,3,HUS1011 36_37_38_39,3,6_8_8_10,409T5_411T5
-HUS1011,Tin học cơ sở,3,HUS1011 2,2,9_10,PM
-HUS1011,Tin học cơ sở,3,HUS1011 2_3_4_5,6,9_10,202_T5
-HUS1011,Tin học cơ sở,3,HUS1011 3,3,6_8,PM
-HUS1011,Tin học cơ sở,3,HUS1011 4,4,3_4,PM
-HUS1011,Tin học cơ sở,3,HUS1011 5,5,3_5,PM
-HUS1011,Tin học cơ sở,3,HUS1011 6,2,6_8,PM
-HUS1011,Tin học cơ sở,3,HUS1011 6_7_8_9,4,6_7,202_T5
-HUS1011,Tin học cơ sở,3,HUS1011 7,3,9_10,PM
-HUS1011,Tin học cơ sở,3,HUS1011 8,4,6_7,PM
-HUS1011,Tin học cơ sở,3,HUS1011 9,5,6_8,PM
-HUS1011,Tin học cơ sở,3,HUS1011 32_33_34_35,3,4_5,203_T4
-HUS1011,Tin học cơ sở,3,HUS1011 34_35,4,6_8_8_10,411T5
-HUS1011,Tin học cơ sở,3,HUS1011 20_21,5,6_8_8_10,409T5
-HUS1011,Tin học cơ sở,3,HUS1011 20_21_22_23,2,6_7,509_T3
-HUS1011,Tin học cơ sở ,3,HUS1011 40_41_42_43,4,9_10,202_T5
-HUS1011,Tin học cơ sở ,3,HUS1011 42_43,6,6_8_8_10,411T5
-HUS1011,Tin học cơ sở,3,HUS1011 28_29,3,4_5,202_T5
-HUS1011,Tin học cơ sở,3,,4,1_3_3_5,511FT5
-HUS1011,Tin học cơ sở,3,,4,6_8_8_10,511FT5
-HUS1011,Tin học cơ sở,3,HUS1011 24_25_26_27,3,4_5,509_T3
-HUS1011,Tin học cơ sở,3,HUS1011 24_25_26_27,5,1_3_3_5,409T5_411T5
-HUS1011,Tin học cơ sở,3,HUS1011 52_53_54_55,2,6_7,303_T4
-HUS1011,Tin học cơ sở,3,HUS1011 54_55,4,1_3_3_5,411T5
-HUS1011,Tin học cơ sở,3,HUS1011 56_57,6,1_3_3_5,409T5
-HUS1011,Tin học cơ sở,3,HUS1011 56_57_58_59,4,4_5,408_T5
-HUS1011,Tin học cơ sở ,3,HUS1011 48_49_50_51,2,6_8_8_10,409T5_411T5
-HUS1011,Tin học cơ sở ,3,HUS1011 48_49_50_51,6,1_2,402_T5
-HUS1011,Tin học cơ sở,3,HUS1011 52_53,4,1_3_3_5,409T5
-HUS1011,Tin học cơ sở,3,HUS1011 52_53_54_55,2,6_7,303_T4
-HUS1011,Tin học cơ sở,3,HUS1011 14,6,1_3,511FT5
-HUS1011,Tin học cơ sở,3,HUS1011 14_15,4,4_5,404_T5
-HUS1011,Tin học cơ sở,3,HUS1011 16_17,3,1_3_3_5,409T5
-HUS1011,Tin học cơ sở,3,HUS1011 16_17_18_19,2,4_5,303_T4
-HUS1011,Tin học cơ sở,3,HUS1011 18_19,3,1_3_3_5,411T5
-HUS1011,Tin học cơ sở ,3,HUS1011 1 TNVLH,2,6_7,406_T5
-HUS1011,Tin học cơ sở ,3,HUS1011 1 TNVLH,4,6_8,206F_T1
-HUS1021,Khoa học trái đất và sự sống,3,HUS1021 7,6,3_5,502_T3
-HUS1021,Khoa học trái đất và sự sống,3,HUS1021 5,3,1_3,406_T5
-HUS1021,Khoa học trái đất và sự sống,3,HUS1021 1,2,3_5,202_T4
-HUS1021,Khoa học trái đất và sự sống,3,HUS1021 8,3,8_10,513_T4
-HUS1021,Khoa học trái đất và sự sống,3,HUS1021 9,2,6_8,512_T4
-HUS1021,Khoa học trái đất và sự sống,3,HUS1021 6,4,3_5,303_T4
-HUS1021,Khoa học trái đất và sự sống,3,HUS1021 9,2,6_8,512_T4
-HUS1021,Khoa học trái đất và sự sống,3,HUS1021 3,3,1_3,201_T5
 HUS1021,Khoa học trái đất và sự sống,3,HUS1021 1,2,3_5,202_T4
 HUS1021,Khoa học trái đất và sự sống,3,HUS1021 2,2,3_5,201_T4
 HUS1021,Khoa học trái đất và sự sống,3,HUS1021 3,3,1_3,201_T5
 HUS1021,Khoa học trái đất và sự sống,3,HUS1021 4,3,1_3,204_T4
-HUS1022,Nhập môn Internet kết nối vạn vật ,2,HUS1022 4,4,9_10,102_T4
+HUS1021,Khoa học trái đất và sự sống,3,HUS1021 5,3,1_3,406_T5
+HUS1021,Khoa học trái đất và sự sống,3,HUS1021 6,4,3_5,303_T4
+HUS1021,Khoa học trái đất và sự sống,3,HUS1021 7,6,3_5,502_T3
+HUS1021,Khoa học trái đất và sự sống,3,HUS1021 8,3,8_10,513_T4
+HUS1021,Khoa học trái đất và sự sống,3,HUS1021 9,2,6_8,512_T4
+HUS1022,Nhập môn Internet kết nối vạn vật ,2,HUS1022 1,2,6_7,503_T3
 HUS1022,Nhập môn Internet kết nối vạn vật ,2,HUS1022 2,4,6_7,503_T3
 HUS1022,Nhập môn Internet kết nối vạn vật ,2,HUS1022 3,6,4_5,413_T5
+HUS1022,Nhập môn Internet kết nối vạn vật ,2,HUS1022 4,4,9_10,102_T4
 HUS1022,Nhập môn Internet kết nối vạn vật ,2,HUS1022 5,2,1_2,105_T5
 HUS1022,Nhập môn Internet kết nối vạn vật,2,HUS1022 6,2,4_5,413_T5
-HUS1022,Nhập môn Internet kết nối vạn vật ,2,HUS1022 1,2,6_7,503_T3
 HUS1023,Nhập môn phân tích dữ liệu,2,HUS1023 1,6,4_5,302_T4
 HUS1023,Nhập môn phân tích dữ liệu,2,HUS1023 2,6,4_5,304_T4
 MAT1060,Nhập môn phân tích dữ liệu,2,MAT1060 1,3,4_5,203_T5
@@ -1110,74 +1024,49 @@ MAT1060,Nhập môn phân tích dữ liệu,2,MAT1060 3,4,4_5,301_T4
 MAT1060,Nhập môn phân tích dữ liệu,2,MAT1060 4,5,4_5,402_T4
 MAT1060,Nhập môn phân tích dữ liệu,2,MAT1060 5,6,6_7,308_T5
 MAT1090,Đại số tuyến tính,3,MAT1090 1 KTKTCNKTHH,3,1_2,413_T5
-MAT1090,Đại số tuyến tính,3,MAT1090 3 KTKTCNKTHH,3,4_5,404_T5
 MAT1090,Đại số tuyến tính,3,MAT1090 1 KTKTCNKTHH,5,1_2,404_T5
+MAT1090,Đại số tuyến tính,3,MAT1090 10,4,6_8,408_T5
+MAT1090,Đại số tuyến tính,3,MAT1090 11,5,6_8,204_T5
+MAT1090,Đại số tuyến tính,3,MAT1090 12,2,6_8,204_T4
+MAT1090,Đại số tuyến tính,3,MAT1090 13,4,6_8,205_T5
+MAT1090,Đại số tuyến tính,3,MAT1090 14,4,3_5,304_T4
+MAT1090,Đại số tuyến tính,3,MAT1090 2 KTKTHH,3,4_5,403_T5
+MAT1090,Đại số tuyến tính,3,MAT1090 2 KTKTHH,6,6_7,404_T5
+MAT1090,Đại số tuyến tính,3,MAT1090 3 KTKTCNKTHH,3,4_5,404_T5
 MAT1090,Đại số tuyến tính,3,MAT1090 3 KTKTCNKTHH,5,4_5,403_T5
-MAT1090,Đại số tuyến tính,3,MAT1090 9,5,6_8,203_T5
+MAT1090,Đại số tuyến tính,3,MAT1090 4 KTKTHH,4,1_2,311_T5
+MAT1090,Đại số tuyến tính,3,MAT1090 4 KTKTHH,6,6_7,403_T5
 MAT1090,Đại số tuyến tính,3,MAT1090 5 KTKTHD,2,6_7,404_T5
-MAT1090,Đại số tuyến tính,3,MAT1090 6 KTKTHD,2,6_7,403_T5
 MAT1090,Đại số tuyến tính,3,MAT1090 5 KTKTHD,5,6_7,404_T5
+MAT1090,Đại số tuyến tính,3,MAT1090 6 KTKTHD,2,6_7,403_T5
 MAT1090,Đại số tuyến tính,3,MAT1090 6 KTKTHD,5,4_5,401_T5
 MAT1090,Đại số tuyến tính,3,MAT1090 7 CLCHH,4,6_7,413_T5
 MAT1090,Đại số tuyến tính,3,MAT1090 7 CLCHH,5,4_5,513_T5
-MAT1090,Đại số tuyến tính,3,MAT1090 2 KTKTHH,3,4_5,403_T5
-MAT1090,Đại số tuyến tính,3,MAT1090 4 KTKTHH,4,1_2,311_T5
-MAT1090,Đại số tuyến tính,3,MAT1090 2 KTKTHH,6,6_7,404_T5
-MAT1090,Đại số tuyến tính,3,MAT1090 4 KTKTHH,6,6_7,403_T5
-MAT1090,Đại số tuyến tính,3,MAT1090 13,4,6_8,205_T5
-MAT1090,Đại số tuyến tính,3,MAT1090 12,2,6_8,204_T4
-MAT1090,Đại số tuyến tính,3,MAT1090 14,4,3_5,304_T4
 MAT1090,Đại số tuyến tính,3,MAT1090 8,3,1_3,209_T5
-MAT1090,Đại số tuyến tính,3,MAT1090 12,2,6_8,204_T4
-MAT1090,Đại số tuyến tính,3,MAT1090 11,5,6_8,204_T5
+MAT1090,Đại số tuyến tính,3,MAT1090 9,5,6_8,203_T5
 MAT1090,Đại số tuyến tính,3,MAT1090 9,5,6_8,204_T5
-MAT1090,Đại số tuyến tính,3,MAT1090 10,4,6_8,408_T5
-MAT1090E,Đại số tuyến tính,3,MAT1090E 2 KTKTCNKTMT,3,4_5,504_T3
-MAT1090E,Đại số tuyến tính,3,MAT1090E 2 KTKTCNKTMT,5,1_2,503_T3
 MAT1090E,Đại số tuyến tính,3,MAT1090E 1 KTKTKHMT,3,1_2,402_T5
 MAT1090E,Đại số tuyến tính,3,MAT1090E 1 KTKTKHMT,5,4_5,402_T5
-MAT1091,Giải tích 1,3,MAT1091 4 KTKTCNKTHH,2,4_5,309_T5
-MAT1091,Giải tích 1,3,MAT1091 4 KTKTCNKTHH,4,1_2,413_T5
-MAT1091,Giải tích 1,3,MAT1091 5 KTKTCNKTHH,4,1_2,404_T5
-MAT1091,Giải tích 1,3,MAT1091 5 KTKTCNKTHH,6,1_2,404_T5
-MAT1091,Giải tích 1,3,MAT1091 13,4,3_5,202_T5
-MAT1091,Giải tích 1,3,MAT1091 8,5,1_3,205_T5
-MAT1091,Giải tích 1,3,MAT1091 8,5,1_3,205_T5
-MAT1091,Giải tích 1,3,MAT1091 8,5,1_3,205_T5
-MAT1091,Giải tích 1,3,MAT1091 6 KTKTHD,2,4_5,401_T5
-MAT1091,Giải tích 1,3,MAT1091 6 KTKTHD,3,4_5,401_T5
-MAT1091,Giải tích 1,3,MAT1091 7 KTKTHD,3,1_2,505_T3
-MAT1091,Giải tích 1,3,MAT1091 7 KTKTHD,6,1_2,505_T3
-MAT1091,Giải tích 1,3,MAT1091 3 CLCHH,3,9_10,503_T3
-MAT1091,Giải tích 1,3,MAT1091 3 CLCHH,6,9_10,503_T3
-MAT1091,Giải tích 1,3,MAT1091 1 KTKTHH,2,9_10,407_T5
-MAT1091,Giải tích 1,3,MAT1091 2 KTKTHH,3,6_7,401_T5
-MAT1091,Giải tích 1,3,MAT1091 1 KTKTHH,5,9_10,407_T5
-MAT1091,Giải tích 1,3,MAT1091 2 KTKTHH,6,9_10,413_T5
-MAT1091,Giải tích 1,3,MAT1091 9,5,1_3,302_T4
-MAT1091,Giải tích 1,3,MAT1091 14,3,3_5,501_T3
-MAT1091,Giải tích 1,3,MAT1091 12,3,3_5,503_T3
-MAT1091,Giải tích 1,3,MAT1091 14,3,3_5,501_T3
-MAT1091,Giải tích 1,3,MAT1091 11,4,3_5,204_T5
-MAT1091,Giải tích 1,3,MAT1091 10,3,3_5,204_T5
+MAT1090E,Đại số tuyến tính,3,MAT1090E 2 KTKTCNKTMT,3,4_5,504_T3
+MAT1090E,Đại số tuyến tính,3,MAT1090E 2 KTKTCNKTMT,5,1_2,503_T3
 MAT1092,Giải tích 2,3,MAT1092 1,2,6_8,403_T4
 MAT1092,Giải tích 2,3,MAT1092 2,4,6_8,401_T4
 MAT1092,Giải tích 2,3,MAT1092 3,6,3_5,401_T4
-MAT1101,Xác suất thống kê,3,MAT1101 4 CLCCNKTHH,6,4_5,501_T3
-MAT1101,Xác suất thống kê,3,MAT1101 4 CLCCNKTHH,4,6_7,501_T3
 MAT1101,Xác suất thống kê,3,MAT1101 1 CLCHD,2,4_5,311_T5
 MAT1101,Xác suất thống kê,3,MAT1101 1 CLCHD,4,6_7,404_T5
-MAT1101,Xác suất thống kê,3,MAT1101 3 CLCHD,6,4_5,304_T5
-MAT1101,Xác suất thống kê,3,MAT1101 3 CLCHD,5,1_2,407_T5
-MAT1101,Xác suất thống kê,3,MAT1101 2 TNHH,5,4_5,504_T3
-MAT1101,Xác suất thống kê,3,MAT1101 2 TNHH,3,6_7,504_T3
-MAT1101,Xác suất thống kê ,3,MAT1101 6,3,6_8,201_T5
-MAT1101,Xác suất thống kê ,3,MAT1101 7,3,6_8,401_T4
-MAT1101,Xác suất thống kê,3,MAT1101 5,3,1_3,102_T5
 MAT1101,Xác suất thống kê,3,MAT1101 10,2,3_5,402_T4
 MAT1101,Xác suất thống kê,3,MAT1101 11,3,6_8,402_T4
 MAT1101,Xác suất thống kê,3,MAT1101 12,4,3_5,402_T4
 MAT1101,Xác suất thống kê,3,MAT1101 13,4,6_8,402_T4
+MAT1101,Xác suất thống kê,3,MAT1101 2 TNHH,5,4_5,504_T3
+MAT1101,Xác suất thống kê,3,MAT1101 2 TNHH,3,6_7,504_T3
+MAT1101,Xác suất thống kê,3,MAT1101 3 CLCHD,6,4_5,304_T5
+MAT1101,Xác suất thống kê,3,MAT1101 3 CLCHD,5,1_2,407_T5
+MAT1101,Xác suất thống kê,3,MAT1101 4 CLCCNKTHH,6,4_5,501_T3
+MAT1101,Xác suất thống kê,3,MAT1101 4 CLCCNKTHH,4,6_7,501_T3
+MAT1101,Xác suất thống kê,3,MAT1101 5,3,1_3,102_T5
+MAT1101,Xác suất thống kê ,3,MAT1101 6,3,6_8,201_T5
+MAT1101,Xác suất thống kê ,3,MAT1101 7,3,6_8,401_T4
 MAT1192,Giải tích 2,2,MAT1192 1,2,4_5,302_T4
 MAT1192,Giải tích 2,2,MAT1192 2,3,6_7,509_T3
 MAT1192,Giải tích 2,2,MAT1192 3,4,6_7,302_T4
@@ -1185,12 +1074,8 @@ MAT1192,Giải tích 2,2,MAT1192 4,5,6_7,302_T4
 MAT1192,Giải tích 2,2,MAT1192 5,6,4_5,303_T4
 MAT1290,Đại số tuyến tính,4,MAT1290 CTDB,3,1_3,301_T5
 MAT1290,Đại số tuyến tính,4,MAT1290 CTDB,5,4_5,505_T3
-MAT1290,Đại số tuyến tính ,4,MAT1290 CTDB,3,1_3,301_T5
-MAT1290,Đại số tuyến tính ,4,MAT1290 CTDB,5,4_5,505_T3
 MAT1291,Giải tích 1,4,MAT1291 CTDB,2,1_3,306_T5
 MAT1291,Giải tích 1,4,MAT1291 CTDB,4,1_2,403_T5
-MAT1291,Giải tích 1 ,4,MAT1291 CTDB,2,1_3,306_T5
-MAT1291,Giải tích 1 ,4,MAT1291 CTDB,4,1_2,403_T5
 MAT2034,Giải tích số,3,MAT2034 1,3,9_10,202_T5
 MAT2034,Giải tích số,3,MAT2034 1,5,6_7,202_T5
 MAT2034,Giải tích số ,3,MAT2034 2 CLCMT_KHTT,3,6_7,203_T4
@@ -1203,19 +1088,6 @@ MAT2300,Đại số tuyến tính 1,4,MAT2300 3_4,5,6_8,103_T4
 MAT2300,Đại số tuyến tính 1,4,MAT2300 4,4,4_5,108_T5
 MAT2301,Đại số tuyến tính 2,4,MAT2301,4,8_10,106_T5
 MAT2301,Đại số tuyến tính 2,4,MAT2301,2,4_5,106_T5
-MAT2302,Giải tích 1,5,MAT2302 1,3,4_5,107_T5
-MAT2302,Giải tích 1,5,MAT2302 1,4,4_5,109_T5
-MAT2302,Giải tích 1,5,MAT2302 1_2,2,3_5,102_T4
-MAT2302,Giải tích 1,5,MAT2302 2,3,4_5,108_T5
-MAT2302,Giải tích 1,5,MAT2302 2,4,4_5,111_T5
-MAT2302,Giải tích 1,5,MAT2302 3 TNTH,2,6_7,401_T5
-MAT2302,Giải tích 1,5,MAT2302 3 TNTH,4,1_3,309_T5
-MAT2302,Giải tích 1,5,MAT2302 3 TNTH,5,4_5,506_T3
-MAT2302,Giải tích 1,2,MAT2302 4,4,1_2,207_T5
-MAT2302,Giải tích 1,2,MAT2302 4,6,6_7,103_T5
-MAT2302,Giải tích 1,3,MAT2302 4_5,2,6_8,103_T4
-MAT2302,Giải tích 1,2,MAT2302 5,4,1_2,204_T5
-MAT2302,Giải tích 1,2,MAT2302 5,6,6_7,104_T5
 MAT2303,Giải tích 2,5,MAT2303,5,3_5,103_T5
 MAT2303,Giải tích 2,5,MAT2303,2,9_10,106_T5
 MAT2303,Giải tích 2,5,MAT2303,6,6_7,105_T5
@@ -1227,11 +1099,8 @@ MAT2304,Giải tích 3,3,MAT2304 3_4,3,6_8,103_T5
 MAT2304,Giải tích 3,3,MAT2304 4,3,1_3,304_T5
 MAT2307,Giải tích số 1,4,MAT2307,6,3_5,404_T5
 MAT2307,Giải tích số 1,4,MAT2307,3,4_5,111_T5
-MAT2307,Giải tích số 1,4,MAT2307,6,3_5,404_T5
-MAT2307,Giải tích số 1,4,MAT2307,3,4_5,111_T5
 MAT2308,Xác suất 1,3,MAT2308 TNTH,3,6_7,505_T3
 MAT2308,Xác suất 1,3,MAT2308 TNTH,5,1_2,508_T3
-MAT2310,Hình học giải tích,2,MAT2310 TNTH,6,8_10,404_T5
 MAT2310,Hình học giải tích,2,MAT2310 TNTH,6,8_10,404_T5
 MAT2313,Phương trình đạo hàm riêng 1,4,MAT2313 TNTH,2,6_8,301_T5
 MAT2313,Phương trình đạo hàm riêng 1,4,MAT2313 TNTH,5,4_5,511_T4
@@ -1259,11 +1128,11 @@ MAT2322,Giải tích 3,5,MAT2322 TNTH,3,9_10,506_T3
 MAT2322,Giải tích 3,5,MAT2322 TNTH,6,6_7,303_T5
 MAT2323,Xác suất _ Thống kê,4,MAT2323,3,3_5,205_T5
 MAT2323,Xác suất _ Thống kê,4,MAT2323,6,1_2,104_T4
-MAT2400,Đại số tuyến tính,5,MAT2400 3,5,6_8,104_T4
-MAT2400,Đại số tuyến tính,5,MAT2400 3,3,3_5,104_T5
 MAT2400,Đại số tuyến tính,5,MAT2400 1,5,6_8,309_T5
 MAT2400,Đại số tuyến tính,5,MAT2400 1_2,2,3_5,103_T4
 MAT2400,Đại số tuyến tính,5,MAT2400 2,5,6_8,407_T5
+MAT2400,Đại số tuyến tính,5,MAT2400 3,5,6_8,104_T4
+MAT2400,Đại số tuyến tính,5,MAT2400 3,3,3_5,104_T5
 MAT2405,Xác suất,3,MAT2405,5,1_2,204_T4
 MAT2405,Xác suất,3,MAT2405,6,1_2,204_T4
 MAT2407,Tối ưu hóa,3,MAT2407,4,4_5,104_T4
@@ -1282,10 +1151,7 @@ MAT2501,Giải tích 1,4,MAT2501 6,3,6_8,306_T5
 MAT2502,Giải tích 2,4,MAT2502,4,8_10,107_T5
 MAT2502,Giải tích 2,4,MAT2502,6,8_10,103_T5
 MAT2503,Giải tích 3,2,MAT2503 1,6,3_5,107_T5
-MAT2503,Giải tích 3,2,MAT2503 1,6,3_5,107_T5
 MAT2503,Giải tích 3,2,MAT2503 2 KTKTKHMT_TT,2,6_8,104_T5
-MAT2503,Giải tích 3,2,MAT2503 2 KTKTKHMT_TT,2,6_8,104_T5
-MAT2503,Giải tích 3,2,MAT2503 3 KTKTKHMT_TT,5,3_5,204_T4
 MAT2503,Giải tích 3,2,MAT2503 3 KTKTKHMT_TT,5,3_5,204_T4
 MAT2505,Lập trình cơ bản,3,MAT2505 1,2,9_10,PM
 MAT2505,Lập trình cơ bản,3,MAT2505 1_2_3_4,6,9_10,102_T4
@@ -1310,20 +1176,14 @@ MAT3148,Tính toán song song,3,MAT3148 2,2,6_9,PM
 MAT3301,Giải tích hàm,3,MAT3301,5,1_2,106_T5
 MAT3301,Giải tích hàm,3,MAT3301,6,1_2,106_T5
 MAT3304,Thực hành tính toán,2,MAT3304 1,3,1_3,104_T4
-MAT3304,Thực hành tính toán,2,MAT3304 1,3,1_3,104_T4
-MAT3304,Thực hành tính toán,2,MAT3304 2 TNTH,5,1_3,413_T5
 MAT3304,Thực hành tính toán,2,MAT3304 2 TNTH,5,1_3,413_T5
 MAT3305,Tôpô đại cương (*),3,MAT3305 TNTH,5,3_5,309_T5
 MAT3307,Lý thuyết độ đo và tích phân,3,MAT3307 1,2,1_3,104_T4
 MAT3307,Lý thuyết độ đo và tích phân,3,MAT3307 2 TNTH,3,1_3,306_T5
 MAT3311,Lý thuyết nhóm và biểu diễn nhóm,3,MAT3311,6,3_5,205_T5
-MAT3311,Lý thuyết nhóm và biểu diễn nhóm,3,MAT3311,6,3_5,205_T5
 MAT3318,Giải tích trên đa tạp,3,MAT3318,2,3_5,109_T5
 MAT3321,Quá trình ngẫu nhiên,3,MAT3321,5,6_8,403_T4
-MAT3321,Quá trình ngẫu nhiên,3,MAT3321,5,6_8,403_T4
 MAT3323,Tối ưu rời rạc,3,MAT3323,4,1_3,503_T3
-MAT3323,Tối ưu rời rạc,3,MAT3323,4,1_3,503_T3
-MAT3327,Điều khiển tối ưu,3,MAT3327,3,3_5,511_T4
 MAT3327,Điều khiển tối ưu,3,MAT3327,3,3_5,511_T4
 MAT3334,Các mô hình toán ứng dụng 2 (trong sinh thái _ môi trường),3,MAT3334,6,3_5,108_T5
 MAT3335,Đại số máy tính,3,MAT3335,2,6_8,202_T5
@@ -1331,11 +1191,8 @@ MAT3339,Đại số tuyến tính 3 (*),3,MAT3339 TNTH,4,3_5,304_T5
 MAT3341,Giải tích điều hòa,3,MAT3341 TNTH,6,6_8,401_T5
 MAT3345,Lý thuyết ổn định của phương trình vi phân,3,MAT3345,4,6_8,105_T5
 MAT3359,Thực tập chuyên ngành,3,MAT3359 1,7,13,BM
-MAT3359,Thực tập chuyên ngành,3,MAT3359 1,7,13,BM
-MAT3359,Thực tập chuyên ngành,3,MAT3359 3 TNTH,7,13,BM
-MAT3359,Thực tập chuyên ngành,3,MAT3359 3 TNTH,7,13,BM
 MAT3359,Thực tập chuyên ngành,3,MAT3359 2,7,13,BM
-MAT3359,Thực tập chuyên ngành,3,MAT3359 2,7,13,BM
+MAT3359,Thực tập chuyên ngành,3,MAT3359 3 TNTH,7,13,BM
 MAT3361,Cơ học lý thuyết nâng cao,3,MAT3361,2,1_2,102_T4
 MAT3361,Cơ học lý thuyết nâng cao,3,MAT3361,6,4_5,104_T5
 MAT3364,Xêmina 2,2,MAT3364 TNTH,3,6_8,309_T5
@@ -1345,7 +1202,6 @@ MAT3372,Các thành phần phần mềm,3,MAT3372 1,4,1_5,PM
 MAT3372,Các thành phần phần mềm,3,MAT3372 1_2_3,2,9_10,103_T4
 MAT3372,Các thành phần phần mềm,3,MAT3372 2,4,1_5,PM
 MAT3372,Các thành phần phần mềm,3,MAT3372 3,4,1_5,PM
-MAT3374,Thực tập thực tế phát triển phần mềm,3,MAT3374 CLCMT_KHTT,7,13,PM
 MAT3374,Thực tập thực tế phát triển phần mềm,3,MAT3374 CLCMT_KHTT,7,13,PM
 MAT3376,Lập trình nâng cao,2,MAT3376 1 CLCMT_KHTT,2,6_10,508T5
 MAT3376,Lập trình nâng cao,2,MAT3376 1_2_3 CLCMT_KHTT,5,6_7,504_T3
@@ -1401,7 +1257,7 @@ MAT3508,Nhập môn trí tuệ nhân tạo,3,MAT3508 2,5,1_5,PM
 MAT3509,Ngôn ngữ hình thức và ôtômat,3,MAT3509,5,6_8,205_T5
 MAT3509,Ngôn ngữ hình thức và ôtômat,3,MAT3509,5,6_8,PM
 MAT3514,Cấu trúc dữ liệu và thuật toán,4,MAT3514 1,5,1_5,PM
-MAT3514,Cấu trúc dữ liệu và thuật toán,4,MAT3514 1_2_3,2,1_3,101_T5
+MAT3514,Cấu trúc dữ liệu và thuật toán,4,MAT3514 1_2_3,2,1_3,301_T5
 MAT3514,Cấu trúc dữ liệu và thuật toán,4,MAT3514 2,5,1_5,PM
 MAT3514,Cấu trúc dữ liệu và thuật toán,4,MAT3514 3,5,1_5,PM
 MAT3514,Cấu trúc dữ liệu và thuật toán,4,MAT3514 4 KTKTKHMT_TT,3,6_10,PM
@@ -1431,21 +1287,21 @@ MAT3541E,Nguyên lý các ngôn ngữ lập trình (**),3,MAT3541E 2 CLCMT_KHTT,
 MAT3541E,Nguyên lý các ngôn ngữ lập trình (**),3,MAT3541E 3 CLCMT_KHTT,3,1_2,PM
 MAT3541E,Nguyên lý các ngôn ngữ lập trình (**),3,MAT3541E 3_4 CLCMT_KHTT,4,4_5,503_T3
 MAT3541E,Nguyên lý các ngôn ngữ lập trình (**),3,MAT3541E 4 CLCMT_KHTT,3,1_2,PM
-MAT3542,Phát triển ứng dụng Web,1,MAT3542 3,2,4_5,308CT1
-MAT3542,Phát triển ứng dụng Web,2,MAT3542 3_4,2,9_10,408_T5
-MAT3542,Phát triển ứng dụng Web,1,MAT3542 4,4,9_10,308CT1
 MAT3542,Phát triển ứng dụng Web,3,MAT3542 1 CLCMT_KHTT,6,1_5,PM
 MAT3542,Phát triển ứng dụng Web,3,MAT3542 1_2 CLCMT_KHTT,5,4_5,512_T4
 MAT3542,Phát triển ứng dụng Web,3,MAT3542 2 CLCMT_KHTT,6,1_5,PM
-MAT3543,Công nghệ phần mềm ,1,MAT3543 5,3,6_7,308CT1
-MAT3543,Công nghệ phần mềm ,2,MAT3543 5_6,2,6_7,502_T3
-MAT3543,Công nghệ phần mềm ,1,MAT3543 6,4,6_7,308CT1
+MAT3542,Phát triển ứng dụng Web,1,MAT3542 3,2,4_5,308CT1
+MAT3542,Phát triển ứng dụng Web,2,MAT3542 3_4,2,9_10,408_T5
+MAT3542,Phát triển ứng dụng Web,1,MAT3542 4,4,9_10,308CT1
 MAT3543,Công nghệ phần mềm,3,MAT3543 1 CLCMT_KHTT,6,11,PM
 MAT3543,Công nghệ phần mềm,3,MAT3543 1_2 CLCMT_KHTT,3,1_2,506_T3
 MAT3543,Công nghệ phần mềm,3,MAT3543 2 CLCMT_KHTT,6,11,PM
 MAT3543,Công nghệ phần mềm,3,MAT3543 3 CLCMT_KHTT,6,11,PM
 MAT3543,Công nghệ phần mềm,3,MAT3543 3_4 CLCMT_KHTT,3,4_5,508_T3
 MAT3543,Công nghệ phần mềm,3,MAT3543 4 CLCMT_KHTT,6,11,PM
+MAT3543,Công nghệ phần mềm ,1,MAT3543 5,3,6_7,308CT1
+MAT3543,Công nghệ phần mềm ,2,MAT3543 5_6,2,6_7,502_T3
+MAT3543,Công nghệ phần mềm ,1,MAT3543 6,4,6_7,308CT1
 MAT3550E,Nguyên lý hệ điều hành (**),3,MAT3550E 1 CLCMT_KHTT,5,1_2,PM
 MAT3550E,Nguyên lý hệ điều hành (**),3,MAT3550E 1_2 CLCMT_KHTT,2,1_2,503_T3
 MAT3550E,Nguyên lý hệ điều hành (**),3,MAT3550E 2 CLCMT_KHTT,5,1_2,PM
@@ -1469,23 +1325,23 @@ MAT3557,Môi trường lập trình Linux,2,MAT3557 4_5_6,4,4_5,206_T5
 MAT3557,Môi trường lập trình Linux,2,MAT3557 5,2,1_5,PM
 MAT3557,Môi trường lập trình Linux,2,MAT3557 6,2,1_5,PM
 MAT3559,Xây dựng hệ thống nhúng (*),2,MAT3559 1 CLCMT_KHTT,7,1_3,102_T5
-MAT3559,Xây dựng hệ thống nhúng (*),2,MAT3559 2 CLCMT_KHTT,7,3_5,102_T5
 MAT3559,Xây dựng hệ thống nhúng (*),2,MAT3559 1_2_3 CLCMT_KHTT,6,9_10,402_T4
+MAT3559,Xây dựng hệ thống nhúng (*),2,MAT3559 2 CLCMT_KHTT,7,3_5,102_T5
 MAT3559,Xây dựng hệ thống nhúng (*),2,MAT3559 3 CLCMT_KHTT,7,6_8,102_T5
 MAT3561E,Xử lý ngôn ngữ tự nhiên và ứng dụng (**),3,MAT3561E 1 CLCMT_KHTT,6,6_7,PM
 MAT3561E,Xử lý ngôn ngữ tự nhiên và ứng dụng (**),3,MAT3561E 1_2 CLCMT_KHTT,5,1_2,514_T4
 MAT3561E,Xử lý ngôn ngữ tự nhiên và ứng dụng (**),3,MAT3561E 2 CLCMT_KHTT,6,6_7,PM
-MAT3562,Thị giác máy tính,3,MAT3562 5,5,8_10,PM
-MAT3562,Thị giác máy tính,3,MAT3562 5_6,2,4_5,108_T5
-MAT3562,Thị giác máy tính,3,MAT3562 6,5,8_10,PM
-MAT3562,Thị giác máy tính,2,MAT3562 7,6,6_7,104_T4
-MAT3562,Thị giác máy tính,1,MAT3562 7,3,9_10,308CT1
 MAT3562,Thị giác máy tính,3,MAT3562 1,4,8_10,PM
 MAT3562,Thị giác máy tính,3,MAT3562 1_2,4,6_7,109_T5
 MAT3562,Thị giác máy tính,3,MAT3562 2,4,8_10,PM
 MAT3562,Thị giác máy tính,3,MAT3562 3,6,3_5,PM
 MAT3562,Thị giác máy tính,3,MAT3562 3_4,6,1_2,107_T5
 MAT3562,Thị giác máy tính,3,MAT3562 4,6,3_5,PM
+MAT3562,Thị giác máy tính,3,MAT3562 5,5,8_10,PM
+MAT3562,Thị giác máy tính,3,MAT3562 5_6,2,4_5,108_T5
+MAT3562,Thị giác máy tính,3,MAT3562 6,5,8_10,PM
+MAT3562,Thị giác máy tính,2,MAT3562 7,6,6_7,104_T4
+MAT3562,Thị giác máy tính,1,MAT3562 7,3,9_10,308CT1
 MAT3562E,Thị giác máy tính (**),3,MAT3562E 1 CLCMT_KHTT,5,6_7,PM
 MAT3562E,Thị giác máy tính (**),3,MAT3562E 1_2 CLCMT_KHTT,2,6_7,111_T5
 MAT3562E,Thị giác máy tính (**),3,MAT3562E 2 CLCMT_KHTT,5,6_7,PM
@@ -1538,33 +1394,26 @@ PHI1002,Chủ nghĩa xã hội khoa học,2,PHI1002 6,4,6_7,308_T5
 PHI1002,Chủ nghĩa xã hội khoa học,2,PHI1002 7,5,1_2,308_T5
 PHI1002,Chủ nghĩa xã hội khoa học,2,PHI1002 8,5,4_5,308_T5
 PHI1002,Chủ nghĩa xã hội khoa học,2,PHI1002 9,5,6_7,308_T5
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 7,3,6_8,203_T5
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 17,3,1_3,202_T5
 PHI1006,Triết học Mác _ Lê nin,3,PHI1006 1,6,8_10,205_T5
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 15,4,6_8,204_T4
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 6,4,6_8,201_T4
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 1,6,8_10,205_T5
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 1,6,8_10,205_T5
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 18,4,1_3,203_T4
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 16,3,1_3,202_T4
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 19,5,6_8,402_T5
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 20,6,3_5,402_T5
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 13,6,6_8,204_T5
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 14,6,6_8,203_T5
-PHI1006,Triết học Mác _ Lê nin,3,,,,Lùi sang HK2
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 8,3,8_10,102_T5
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 5,5,1_3,202_T4
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 9,6,1_3,303_T4
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 19,5,6_8,402_T5
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 2,2,1_3,301_T4
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 4,4,1_3,209_T5
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 3,5,8_10,202_T5
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 3,5,8_10,202_T5
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 11,2,8_10,205_T5
+PHI1006,Triết học Mác – Lênin,3,PHI1006 10,2,8_10,406_T5
 PHI1006,Triết học Mác _ Lê nin,3,PHI1006 11,2,8_10,205_T5
 PHI1006,Triết học Mác _ Lê nin,3,PHI1006 12,2,1_3,302_T4
-PHI1006,Triết học Mác – Lênin,3,PHI1006 10,2,8_10,406_T5
-PHI1006,Triết học Mác _ Lê nin,3,PHI1006 10,2,8_10,406_T5
+PHI1006,Triết học Mác _ Lê nin,3,PHI1006 13,6,6_8,204_T5
+PHI1006,Triết học Mác _ Lê nin,3,PHI1006 14,6,6_8,203_T5
+PHI1006,Triết học Mác _ Lê nin,3,PHI1006 15,4,6_8,204_T4
+PHI1006,Triết học Mác _ Lê nin,3,PHI1006 16,3,1_3,202_T4
+PHI1006,Triết học Mác _ Lê nin,3,PHI1006 17,3,1_3,202_T5
+PHI1006,Triết học Mác _ Lê nin,3,PHI1006 18,4,1_3,203_T4
+PHI1006,Triết học Mác _ Lê nin,3,PHI1006 19,5,6_8,402_T5
+PHI1006,Triết học Mác _ Lê nin,3,PHI1006 2,2,1_3,301_T4
+PHI1006,Triết học Mác _ Lê nin,3,PHI1006 20,6,3_5,402_T5
+PHI1006,Triết học Mác _ Lê nin,3,PHI1006 3,5,8_10,202_T5
+PHI1006,Triết học Mác _ Lê nin,3,PHI1006 4,4,1_3,209_T5
+PHI1006,Triết học Mác _ Lê nin,3,PHI1006 5,5,1_3,202_T4
+PHI1006,Triết học Mác _ Lê nin,3,PHI1006 6,4,6_8,201_T4
+PHI1006,Triết học Mác _ Lê nin,3,PHI1006 7,3,6_8,203_T5
+PHI1006,Triết học Mác _ Lê nin,3,PHI1006 8,3,8_10,102_T5
+PHI1006,Triết học Mác _ Lê nin,3,PHI1006 9,6,1_3,303_T4
 PHY1010,Đại số tuyến tính,5,PHY1010 TNVLH,2,1_3,309_T5
 PHY1010,Đại số tuyến tính,5,PHY1010 TNVLH,4,4_5,504_T3
 PHY1010,Đại số tuyến tính,5,PHY1010 TNVLH,5,9_10,306_T5
@@ -1577,18 +1426,18 @@ PHY1020,Nhập môn Robotic,3,PHY1020 3,4,6_8,304_T4
 PHY1020,Nhập môn Robotic,3,PHY1020 4,5,6_8,304_T4
 PHY1050,Cơ học,1,PHY1050 1,6,6_7,106_T5
 PHY1050,Cơ học,2,PHY1050 1,3,1_2,101_T5
+PHY1050,Cơ học,1,PHY1050 2,6,6_7,107_T5
+PHY1050,Cơ học,2,PHY1050 2_3,3,1_2,304_T4
+PHY1050,Cơ học,1,PHY1050 3,5,9_10,106_T5
+PHY1050,Cơ học,1,PHY1050 4,4,6_7,111_T5
+PHY1050,Cơ học,2,PHY1050 4_5,3,6_7,201_T4
+PHY1050,Cơ học,1,PHY1050 5,3,1_2,407_T5
 PHY1050,Cơ học,1,PHY1050 6 KTKTKHVL,6,6_7,501_T3
 PHY1050,Cơ học,2,PHY1050 6_7 KTKTKHVL,2,4_5,505_T3
 PHY1050,Cơ học,1,PHY1050 7 KTKTKHVL,6,9_10,311_T5
 PHY1050,Cơ học,1,PHY1050 8 KTKTKHVL,6,6_7,504_T3
 PHY1050,Cơ học,2,PHY1050 8_9 KTKTKHVL,2,4_5,506_T3
 PHY1050,Cơ học,1,PHY1050 9 KTKTKHVL,6,9_10,401_T5
-PHY1050,Cơ học,1,PHY1050 4,4,6_7,111_T5
-PHY1050,Cơ học,2,PHY1050 4_5,3,6_7,201_T4
-PHY1050,Cơ học,1,PHY1050 5,3,1_2,407_T5
-PHY1050,Cơ học,1,PHY1050 2,6,6_7,107_T5
-PHY1050,Cơ học,2,PHY1050 2_3,3,1_2,304_T4
-PHY1050,Cơ học,1,PHY1050 3,5,9_10,106_T5
 PHY1059,Cơ sở vật lý hiện đại,3,PHY1059,4,6_8,209_T5
 PHY1059,Cơ sở vật lý hiện đại,3,PHY1059,5,6_7,209_T5
 PHY1066,Cơ sở vật lý hiện đại,2,PHY1066 TNTH,4,9_10,403_T5
@@ -1596,32 +1445,32 @@ PHY1066,Cơ sở vật lý hiện đại,1,PHY1066 TNTH,5,8_10,404_T5
 PHY1070,Nhập môn Internet kết nối vạn vật ,2,PHY1070 1,5,6_7,505_T3
 PHY1070,Nhập môn Internet kết nối vạn vật ,2,PHY1070 2,6,6_7,304_T4
 PHY1070,Nhập môn Internet kết nối vạn vật ,2,PHY1070 3,2,4_5,206_T5
+PHY1100,Cơ _ Nhiệt,3,PHY1100 1 KTKTHH,3,1_2,514_T4
+PHY1100,Cơ _ Nhiệt,3,PHY1100 1 KTKTHH,5,1_2,401_T4
+PHY1100,Cơ _ Nhiệt,3,PHY1100 10,5,6_8,204_T4
+PHY1100,Cơ _ Nhiệt,3,PHY1100 2 KTKTHH,2,6_7,401_T4
+PHY1100,Cơ _ Nhiệt,3,PHY1100 2 KTKTHH,4,9_10,401_T4
 PHY1100,Cơ _ Nhiệt,3,PHY1100 3 KTKTKHMT_TT,3,4_5,406_T5
 PHY1100,Cơ _ Nhiệt,3,PHY1100 3 KTKTKHMT_TT,4,6_7,406_T5
 PHY1100,Cơ _ Nhiệt,3,PHY1100 4 KTKTKHMT_TT,3,6_7,406_T5
 PHY1100,Cơ _ Nhiệt,3,PHY1100 4 KTKTKHMT_TT,6,4_5,406_T5
-PHY1100,Cơ _ Nhiệt,3,PHY1100 2 KTKTHH,2,6_7,401_T4
-PHY1100,Cơ _ Nhiệt,3,PHY1100 1 KTKTHH,3,1_2,514_T4
-PHY1100,Cơ _ Nhiệt,3,PHY1100 2 KTKTHH,4,9_10,401_T4
-PHY1100,Cơ _ Nhiệt,3,PHY1100 1 KTKTHH,5,1_2,401_T4
 PHY1100,Cơ _ Nhiệt,3,PHY1100 5,6,3_5,201_T5
-PHY1100,Cơ _ Nhiệt,3,PHY1100 10,5,6_8,204_T4
 PHY1100,Cơ _ Nhiệt,3,PHY1100 6,2,3_5,403_T4
 PHY1100,Cơ _ Nhiệt,3,PHY1100 7,3,6_8,205_T5
 PHY1100,Cơ _ Nhiệt,3,PHY1100 8,4,3_5,403_T4
 PHY1100,Cơ _ Nhiệt,3,PHY1100 9,4,6_8,403_T4
-PHY1103,Điện _ Quang,3,PHY1103 2 KTKTCNKTHH,2,4_5,407_T5
 PHY1103,Điện _ Quang,3,PHY1103 1 KTKTCNKTHH,3,6_7,514_T4
-PHY1103,Điện _ Quang,3,PHY1103 2 KTKTCNKTHH,3,1_2,513_T5
 PHY1103,Điện _ Quang,3,PHY1103 1 KTKTCNKTHH,5,4_5,206_T5
-PHY1103,Điện _ Quang,3,PHY1103 3 KTKTHD,3,6_7,403_T4
-PHY1103,Điện _ Quang,3,PHY1103 4 KTKTHD,3,4_5,505_T3
-PHY1103,Điện _ Quang,3,PHY1103 3 KTKTHD,5,4_5,201_T5
-PHY1103,Điện _ Quang,3,PHY1103 4 KTKTHD,5,1_2,505_T3
 PHY1103,Điện _ Quang,3,PHY1103 10,2,6_8,302_T4
 PHY1103,Điện _ Quang,3,PHY1103 11,3,6_8,301_T4
 PHY1103,Điện _ Quang,3,PHY1103 12,4,3_5,401_T4
 PHY1103,Điện _ Quang,3,PHY1103 13,5,3_5,401_T4
+PHY1103,Điện _ Quang,3,PHY1103 2 KTKTCNKTHH,2,4_5,407_T5
+PHY1103,Điện _ Quang,3,PHY1103 2 KTKTCNKTHH,3,1_2,513_T5
+PHY1103,Điện _ Quang,3,PHY1103 3 KTKTHD,3,6_7,403_T4
+PHY1103,Điện _ Quang,3,PHY1103 3 KTKTHD,5,4_5,201_T5
+PHY1103,Điện _ Quang,3,PHY1103 4 KTKTHD,3,4_5,505_T3
+PHY1103,Điện _ Quang,3,PHY1103 4 KTKTHD,5,1_2,505_T3
 PHY1103,Điện _ Quang,3,PHY1103 5,5,6_8,401_T4
 PHY1103,Điện _ Quang,3,PHY1103 6,6,6_8,401_T4
 PHY1103,Điện _ Quang,3,PHY1103 7,5,6_8,202_T4
@@ -1640,7 +1489,9 @@ PHY1104,Thực hành vật lý đại cương,2,PHY1104 6,6,6_9,PTN
 PHY1104,Thực hành vật lý đại cương,2,PHY1104 7,3,2_5,PTN
 PHY1104,Thực hành vật lý đại cương,2,PHY1104 8,4,2_5,PTN
 PHY1104,Thực hành vật lý đại cương,2,PHY1104 9,5,2_5,PTN
+PHY1106,Đại số tuyến tính,1,PHY1106 1,6,1_2,108_T5
 PHY1106,Đại số tuyến tính,2,PHY1106 1_2_3,2,4_5,208_T5
+PHY1106,Đại số tuyến tính,1,PHY1106 2,6,4_5,105_T5
 PHY1106,Đại số tuyến tính,1,PHY1106 3,5,4_5,111_T5
 PHY1106,Đại số tuyến tính,1,PHY1106 4 KTKTKHVL,5,4_5,306_T5
 PHY1106,Đại số tuyến tính,2,PHY1106 4_5 KTKTKHVL,3,6_7,508_T3
@@ -1651,10 +1502,9 @@ PHY1106,Đại số tuyến tính,1,PHY1106 7 KTKTKHVL,5,6_7,413_T5
 PHY1106,Đại số tuyến tính,1,PHY1106 8,3,4_5,512_T4
 PHY1106,Đại số tuyến tính,2,PHY1106 8_9,2,9_10,102_T5
 PHY1106,Đại số tuyến tính,1,PHY1106 9,4,1_2,211_T5
-PHY1106,Đại số tuyến tính,1,PHY1106 1,6,1_2,108_T5
-PHY1106,Đại số tuyến tính,2,PHY1106 1_2_3,2,4_5,208_T5
-PHY1106,Đại số tuyến tính,1,PHY1106 2,6,4_5,105_T5
+PHY1107,Giải tích 1,1,PHY1107 1,5,6_7,101_T5
 PHY1107,Giải tích 1,2,PHY1107 1_2_3,4,4_5,203_T4
+PHY1107,Giải tích 1,1,PHY1107 2,3,4_5,209_T5
 PHY1107,Giải tích 1,1,PHY1107 3,6,4_5,111_T5
 PHY1107,Giải tích 1,1,PHY1107 4 KTKTKHVL,5,9_10,501_T3
 PHY1107,Giải tích 1,2,PHY1107 4_5 KTKTKHVL,2,6_7,504_T3
@@ -1665,42 +1515,41 @@ PHY1107,Giải tích 1,2,PHY1107 7 KTKTKHVL,4,9_10,209_T5
 PHY1107,Giải tích 1,1,PHY1107 8,4,9_10,103_T4
 PHY1107,Giải tích 1,2,PHY1107 8_9,6,4_5,209_T5
 PHY1107,Giải tích 1,1,PHY1107 9,6,6_7 ,101_T5
-PHY1107,Giải tích 1,1,PHY1107 1,5,6_7,101_T5
-PHY1107,Giải tích 1,2,PHY1107 1_2_3,4,4_5,203_T4
-PHY1107,Giải tích 1,1,PHY1107 2,3,4_5,209_T5
+PHY1109,Xác suất thống kê,3,PHY1109 1,2,1_3,103_T5
 PHY1109,Xác suất thống kê,3,PHY1109 2 KTKTKHVL,6,6_8,108_T5
 PHY1109,Xác suất thống kê,3,PHY1109 3,4,6_8,206_T5
 PHY1109,Xác suất thống kê,3,PHY1109 4 TNVLH,2,6_7,211_T5
 PHY1109,Xác suất thống kê,3,PHY1109 4 TNVLH,3,4_5,210_T5
-PHY1109,Xác suất thống kê,3,PHY1109 1,2,1_3,103_T5
 PHY1110,Xác suất thống kê cho vật lý hạt nhân,2,PHY1110,4,6_7,208T1
 PHY1110,Xác suất thống kê cho vật lý hạt nhân,1,PHY1110,6,1_2,208T1
-PHY1159,Vật lý đại cương 1,3,PHY1159 5,5,1_3,105_T5
-PHY1159,Vật lý đại cương 1,3,PHY1159 6,5,1_3,101_T5
 PHY1159,Vật lý đại cương 1,3,PHY1159 1 CLCHH,3,6_8,311_T5
 PHY1159,Vật lý đại cương 1,3,PHY1159 2 TNHH,6,6_8,503_T3
-PHY1159,Vật lý đại cương 1,3,PHY1159 4,3,1_3,105_T5
 PHY1159,Vật lý đại cương 1,3,PHY1159 3,6,3_5,202_T5
+PHY1159,Vật lý đại cương 1,3,PHY1159 4,3,1_3,105_T5
 PHY1159,Vật lý đại cương 1,3,PHY1159 4,6,3_5,202_T5
-PHY2000,Phương pháp nghiên cứu Khoa  học ,3,PHY2000 3,3,6_8,208T1
-PHY2000,Phương pháp nghiên cứu Khoa học ,3,PHY2000 2,6,6_8,Bộmôn
-PHY2000,Phương pháp nghiên cứu Khoa  học ,3,PHY2000 4 TNVLH,7,1_5,BM
+PHY1159,Vật lý đại cương 1,3,PHY1159 5,5,1_3,105_T5
+PHY1159,Vật lý đại cương 1,3,PHY1159 6,5,1_3,101_T5
 PHY2000,Phương pháp nghiên cứu Khoa  học ,3,PHY2000 1,6,3_5,Bộmôn
+PHY2000,Phương pháp nghiên cứu Khoa học ,3,PHY2000 2,6,6_8,Bộmôn
+PHY2000,Phương pháp nghiên cứu Khoa  học ,3,PHY2000 3,3,6_8,208T1
+PHY2000,Phương pháp nghiên cứu Khoa  học ,3,PHY2000 4 TNVLH,7,1_5,BM
 PHY2000E,Phương pháp nghiên cứu Khoa  học ,3,PHY2000E QTVLH,7,1_5,BM
 PHY2004,Vật lý hạt nhân,2,PHY2004 TNVLH,2,6_8,309_T5
 PHY2064,Vật lý nguyên tử,2,PHY2064,4,4_5,204_T4
 PHY2166,Thực tập Vật lý hiện đại,3,PHY2166 TNVLH,3,9_10,511_T4
 PHY2166,Thực tập Vật lý hiện đại,3,PHY2166 TNVLH,4,1_5,BM
 PHY2174,Cơ học lượng tử 2,3,PHY2174 TNVLH,2,3_5,404_T5
-PHY2201,Phương pháp toán cho vật lý 1,2,PHY2201 2,2,4_5,204_T5
-PHY2201,Phương pháp toán cho vật lý 1,1,PHY2201 2,3,4_5,207_T5
 PHY2201,Phương pháp toán cho Vật lý 1,2,PHY2201 1,3,4_5,204_T4
 PHY2201,Phương pháp Toán cho Vật lý 1,1,PHY2201 1,2,4_5,203_T5
+PHY2201,Phương pháp toán cho vật lý 1,2,PHY2201 2,2,4_5,204_T5
+PHY2201,Phương pháp toán cho vật lý 1,1,PHY2201 2,3,4_5,207_T5
 PHY2300,Toán cho vật lý,2,PHY2300 KTKTKHVL,6,4_5,204_T5
 PHY2300,Toán cho vật lý,1,PHY2300 KTKTKHVL,6,1_2,205_T5
 PHY2301,Cơ học,4,PHY2301 TNVLH,4,9_10,401_T5
 PHY2301,Cơ học,4,PHY2301 TNVLH,5,6_8,403_T5
+PHY2303,Điện và Từ học,1,PHY2303 1,4,4_5,202_T4
 PHY2303,Điện và Từ học,3,PHY2303 1_2_3,4,1_3,208_T5
+PHY2303,Điện và Từ học,1,PHY2303 2,5,6_7,108_T5
 PHY2303,Điện và Từ học,1,PHY2303 3,5,4_5,108_T5
 PHY2303,Điện và Từ học,1,PHY2303 4 KTKTKHVL,5,4_5,207_T5
 PHY2303,Điện và Từ học,3,PHY2303 4_5 KTKTKHVL,5,6_8,207_T5
@@ -1708,26 +1557,21 @@ PHY2303,Điện và Từ học,1,PHY2303 5 KTKTKHVL,5,1_2,209_T5
 PHY2303,Điện và Từ học,1,PHY2303 6,3,6_7,108_T5
 PHY2303,Điện và Từ học,3,PHY2303 6_7,2,3_5,201_T5
 PHY2303,Điện và Từ học,1,PHY2303 7,3,9_10,201_T4
-PHY2303,Điện và Từ học,1,PHY2303 1,4,4_5,202_T4
-PHY2303,Điện và Từ học,3,PHY2303 1_2_3,4,1_3,208_T5
-PHY2303,Điện và Từ học,1,PHY2303 2,5,6_7,108_T5
 PHY2304,Quang học,3,PHY2304 TNVLH,3,6_7,512_T4
 PHY2304,Quang học,3,PHY2304 TNVLH,4,6_7,512_T4
 PHY2306,Cơ học lượng tử,3,PHY2306,5,8_10,101_T5
 PHY2306,Cơ học lượng tử,1,PHY2306,4,6_7,204_T5
-PHY2306,Cơ học lượng tử,3,PHY2306,5,8_10,101_T5
-PHY2306,Cơ học lượng tử,1,PHY2306,4,6_7,204_T5
+PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 1,6,1_4,106T3
+PHY2308,Thực hành Vật lý Đại cương 2,2,PHY2308 10,4,1_4,106T3
+PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 11 TNVLH,7,6_9,106T3
+PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 2,6,6_9,106T3
+PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 3,5,1_4,106T3
 PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 4,5,6_9,106T3
 PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 5 KTKTKHVL,2,1_4,106T3
 PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 6 KTKTKHVL,4,6_9,106T3
 PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 7 KTKTKHVL,3,6_9,106T3
-PHY2308,Thực hành Vật lý Đại cương 2,2,PHY2308 10,4,1_4,106T3
 PHY2308,Thực hành Vật lý Đại cương 2,2,PHY2308 8,2,6_9,106T3
 PHY2308,Thực hành Vật lý Đại cương 2,2,PHY2308 9,3,1_4,106T3
-PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 11 TNVLH,7,6_9,106T3
-PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 1,6,1_4,106T3
-PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 2,6,6_9,106T3
-PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 3,5,1_4,106T3
 PHY2309,Thực hành Vật lý đại cương 3,2,PHY2309 QTVLH,3,2_5,104T3
 PHY2504,Phương pháp số,1,PHY2504 1,6,4_5,308GT1
 PHY2504,Phương pháp số,2,PHY2504 1_2_3,6,1_2,201_T4
@@ -1739,20 +1583,20 @@ PHY3135,Vật lý màng mỏng,3,PHY3135,2,6_8,120T1
 PHY3160,Vật lý Nơtron và Lò phản ứng,2,PHY3160,3,4_5,208T1
 PHY3160,Vật lý Nơtron và Lò phản ứng,2,PHY3160,4,4_5,201_T4
 PHY3173,Điện tử hạt nhân ,3,PHY3173,5,6_8,208T1
-PHY3301,Cơ học lý thuyết,3,PHY3301 2,5,1_3,103_T4
 PHY3301,Cơ học lý thuyết,3,PHY3301 1,2,8_10,104_T4
+PHY3301,Cơ học lý thuyết,3,PHY3301 2,5,1_3,103_T4
 PHY3314,Linh kiện bán dẫn và kỹ thuật số ,2,PHY3314,2,9_10,208T1
 PHY3314,Linh kiện bán dẫn và kỹ thuật số ,1,PHY3314,4,4_5,208T1
-PHY3329,Vật lý laser và ứng dụng,3,PHY3329 2 TNVLH,5,6_9,201T1
 PHY3329,Vật lý laser và ứng dụng,3,PHY3329 1,4,3_4_5,201T1
+PHY3329,Vật lý laser và ứng dụng,3,PHY3329 2 TNVLH,5,6_9,201T1
 PHY3329E,Vật lý laser và ứng dụng,3,PHY3329E QTVLH,5,1_4,201T1
 PHY3333,Thống kê lượng tử,3,PHY3333,4,3_5,104T1
-PHY3335,Hệ thống nhúng,2,PHY3335 4,3,1_2,208FT1
-PHY3335,Hệ thống nhúng,1,PHY3335 4,2,4_5,208FT1
 PHY3335,Hệ thống nhúng,1,PHY3335 1,3,9_10,301_T4
 PHY3335,Hệ thống nhúng,2,PHY3335 1_2_3,3,6_7,206_T5
 PHY3335,Hệ thống nhúng,1,PHY3335 2,4,1_2,301_T4
 PHY3335,Hệ thống nhúng,1,PHY3335 3,4,4_5,302_T4
+PHY3335,Hệ thống nhúng,2,PHY3335 4,3,1_2,208FT1
+PHY3335,Hệ thống nhúng,1,PHY3335 4,2,4_5,208FT1
 PHY3337,Vật lý các hệ thấp chiều,3,PHY3337,4,6_8,104T1
 PHY3341,Vật lý chất rắn 1,1,PHY3341,5,4_5,101_T5
 PHY3341,Vật lý chất rắn 1,3,PHY3341,2,8_10,103_T5
@@ -1761,53 +1605,50 @@ PHY3343,Thực tập chuyên ngành Vật lý bán dẫn,3,PHY3343,5,6_10,107T1
 PHY3345,Vật lý chất rắn 2,3,PHY3345,5,3_5,107_T5
 PHY3346,Vật lý chất rắn,3,PHY3346,2,1_3,107T1
 PHY3346E,Vật lý chất rắn,3,PHY3346E QTVLH,5,1_4,206E_T1
+PHY3347,Vật lý bán dẫn ,3,PHY3347 1,3,3_5,107T1
 PHY3347,Vật lý bán dẫn,3,PHY3347 2,3,3_5,101_T5
 PHY3347,Vật lý bán dẫn,3,PHY3347 3 TNVLH,5,6_9,107T1
-PHY3347,Vật lý bán dẫn ,3,PHY3347 1,3,3_5,107T1
 PHY3347E,Vật lý bán dẫn,3,PHY3347E QTVLH,5,6_9,206T2
-PHY3351,Vật lý linh kiện bán dẫn,3,PHY3351 2,5,3_5,209_T5
 PHY3351,Vật lý linh kiện bán dẫn ,3,PHY3351 1,3,6_8,107T1
+PHY3351,Vật lý linh kiện bán dẫn,3,PHY3351 2,5,3_5,209_T5
 PHY3351,Vật lý linh kiện bán dẫn,3,PHY3351 3,2,6_8,108_T5
 PHY3353,Quang bán dẫn,3,PHY3353,3,6_8,209_T5
 PHY3354,Thực tập chuyên ngành Khoa học vật liệu tính toán,3,PHY3354,4,1_5,206EF_T1
 PHY3355,Thực tập Vật lý chất rắn,3,PHY3355,4,1_5,107T1
+PHY3356,Thực tập Quang lượng tử,3,PHY3356 1,4,6_10,201T1
 PHY3356,Thực tập Quang lượng tử,3,PHY3356 2 TNVLH,2,1_2,201T1
 PHY3356,Thực tập Quang lượng tử,3,PHY3356 2 TNVLH,3,1_3,201T1
-PHY3356,Thực tập Quang lượng tử,3,PHY3356 1,4,6_10,201T1
 PHY3356E,Thực tập Quang lượng tử,3,PHY3356E QTVLH,2,9_10,201T1
 PHY3356E,Thực tập Quang lượng tử,3,PHY3356E QTVLH,3,6_8,201T1
 PHY3357,Thực tập Vật lý lý thuyết,3,PHY3357,3,6_10,104T1
 PHY3358,Thực tập Vật lý nhiệt độ thấp,3,PHY3358 TNVLH,6,1_5,BMNĐT
 PHY3359,Thực tập Vật lý trái đất,3,PHY3359,6,1_3,103T1
 PHY3364,Thực tập vật lý hạt nhân 1,2,PHY3364,5,1_4,108T1
-PHY3375,Thực tập Kỹ thuật điện tử hiện đại,3,PHY3375 2 TNVLH,2,6_9,213T1
-PHY3375,Thực tập Kỹ thuật điện tử hiện đại,3,PHY3375 2 TNVLH,3,1_2,213T1
 PHY3375,Thực tập kỹ thuật Điện tử hiện đại,3,PHY3375 1,6,1_3,216T1
 PHY3375,Thực tập kỹ thuật Điện tử hiện đại,3,PHY3375 1,6,8_10,217T1
+PHY3375,Thực tập Kỹ thuật điện tử hiện đại,3,PHY3375 2 TNVLH,2,6_9,213T1
+PHY3375,Thực tập Kỹ thuật điện tử hiện đại,3,PHY3375 2 TNVLH,3,1_2,213T1
 PHY3376E,Thực tập Tin Vật lý,3,PHY3376E QTVLH,5,1_5,308A_T1
 PHY3377,Thực tập tính toán trong  Khoa học Vật liệu,3,PHY3377 TNVLH,6,1_5,206E_T1
 PHY3377E,Thực tập tính toán trong  Khoa học Vật liệu,3,PHY3377E QTVLH,6,1_5,206E_T1
 PHY3388,Quang phổ học nguyên tử,3,PHY3388 TNVLH,2,6_8,201T1
 PHY3390,Quang phổ học phân tử,3,PHY3390 TNVLH,5,1_3,201T1
 PHY3390E,Quang phổ học phân tử,3,PHY3390E QTVLH,5,6_8,201T1
-PHY3391,Quang phổ học thực nghiệm,3,PHY3391 2 TNVLH,6,6_8,201T1
 PHY3391,Quang phổ học thực nghiệm,3,PHY3391 1,3,3_5,201T1
+PHY3391,Quang phổ học thực nghiệm,3,PHY3391 2 TNVLH,6,6_8,201T1
 PHY3392,Mở đầu Vật lý Vật liệu mềm và các hệ y sinh ,3,PHY3392,5,6_8,104T1
-PHY3392,Mở đầu Vật lý vật liệu mềm và các hệ y sinh,3,PHY3392,5,6_8,104T1
 PHY3392E,Mở đầy Vật lý vật liệu mềm và các hệ y sinh ,3,PHY3392E QTVLH,5,6_9,BM
+PHY3401,Thông tin quang,3,PHY3401 1,2,3_5,201T1
 PHY3401,Thông tin quang,3,PHY3401 2 TNVLH,6,1_4,201T1
 PHY3401,Thông tin quang,3,PHY3401 3 QTVLH,6,6_9,201T1
-PHY3401,Thông tin quang,3,PHY3401 1,2,3_5,201T1
 PHY3404,Phương pháp thăm dò điện,3,PHY3404,6,6_8,103T1
-PHY3420,Siêu dẫn,3,PHY3420 TNVLH,4,6_9,BMNĐT
 PHY3420,Siêu dẫn,3,PHY3420 TNVLH,4,6_9,BMNĐT
 PHY3420E,Siêu dẫn,3,PHY3420E QTVLH,6,6_9,BMNĐT
 PHY3422,Từ học,3,PHY3422 TNVLH,2,2_5,BMNĐT
-PHY3422,Từ học,3,PHY3422 TNVLH,2,2_5,BMNĐT
-PHY3423,Nguyên lý và ứng dụng siêu âm,3,PHY3423 2 TNVLH,6,9_10,213T1
-PHY3423,Nguyên lý và ứng dụng siêu âm,3,PHY3423 2 TNVLH,6,6_7,213T1
 PHY3423,Nguyên lý và ứng dụng siêu âm,2,PHY3423 1,5,6_7,109_T5
 PHY3423,Nguyên lý và ứng dụng siêu âm,1,PHY3423 1,2,9_10,217T1
+PHY3423,Nguyên lý và ứng dụng siêu âm,3,PHY3423 2 TNVLH,6,9_10,213T1
+PHY3423,Nguyên lý và ứng dụng siêu âm,3,PHY3423 2 TNVLH,6,6_7,213T1
 PHY3426,Ghi nhận và đo lường bức xạ hạt nhân,2,PHY3426,2,6_7,209_T5
 PHY3426,Ghi nhận và đo lường bức xạ hạt nhân,2,PHY3426,6,4_5,208T1
 PHY3427,Mở đầu vật lí hạt nhân ứng dụng,2,PHY3427,2,4_5,207_T5
@@ -1817,33 +1658,32 @@ PHY3439,Thực tế khóa luận,3,PHY3439,3,3_5,BM
 PHY3446,Vật lý và kỹ thuật nhiệt độ thấp,3,PHY3446,3,3_5,120T1
 PHY3446,Vật lý và kỹ thuật nhiệt độ thấp,3,,3,2_5,BMNĐT
 PHY3448,Vật lý siêu dẫn và ứng dụng ,3,PHY3448,2,3_5,120T1
+PHY3454,Thực tập thực tế,3,PHY3454 1,7,13,BM
+PHY3454,Thực tập thực tế,3,PHY3454 2,7,13,BM
 PHY3454,Thực tập thực tế,3,PHY3454 3,7,13,BM
 PHY3454,Thực tập thực tế,3,PHY3454 4,7,13,BM
 PHY3454,Thực tập thực tế,3,PHY3454 5 QTVLH,7,13,BM
 PHY3454,Thực tập thực tế,3,PHY3454 6 TNVLH,7,13,BM
-PHY3454,Thực tập thực tế,3,PHY3454 1,7,13,BM
-PHY3454,Thực tập thực tế,3,PHY3454 2,7,13,BM
 PHY3461,Khoa học Vật liệu đại cương,3,PHY3461 TNVLH,5,2_5,206T2
-PHY3461,Khoa học Vật liệu đại cương,3,PHY3461 TNVLH,5,2_5,206T2
-PHY3502,Vật lý tính toán 1,3,PHY3502 4 TNVLH,3,6_7,513_T5
-PHY3502,Vật lý tính toán 1,3,PHY3502 4 TNVLH,4,9_10,206F_T1
 PHY3502,Vật lý tính toán 1,1,PHY3502 1,5,4_5,308GT1
 PHY3502,Vật lý tính toán 1,2,PHY3502 1_2_3,5,1_2,206_T5
 PHY3502,Vật lý tính toán 1,1,PHY3502 2,5,6_7,308GT1
 PHY3502,Vật lý tính toán 1,1,PHY3502 3,4,1_ 2,308GT1
+PHY3502,Vật lý tính toán 1,3,PHY3502 4 TNVLH,3,6_7,513_T5
+PHY3502,Vật lý tính toán 1,3,PHY3502 4 TNVLH,4,9_10,206F_T1
 PHY3502E,Vật lý tính toán 1,3,PHY3502E QTVLH,2,6_7,505_T3
 PHY3502E,Vật lý tính toán 1,3,PHY3502E QTVLH,5,6_7,206F_T1
 PHY3506,Các phương pháp thí nghiệm trong Vật lý hiện đại,2,PHY3506 TNVLH,2,1_2,301_T5
 PHY3507,Thực tập Vật lý hiện đại,2,PHY3507 QTVLH,3,9_10,209_T5
 PHY3507,Thực tập Vật lý hiện đại,2,PHY3507 QTVLH,4,1_2,BM
+PHY3510,Mở đầu Thiên văn học,3,PHY3510 1_3,2,3_5,GĐ7T5
 PHY3510,Mở đầu Thiên văn học,3,PHY3510 2 TNVLH,2,9_10,506_T3
 PHY3510,Mở đầu Thiên văn học,3,PHY3510 2 TNVLH,6,4_5,403_T5
-PHY3510,Mở đầu Thiên văn học,3,PHY3510 1_3,2,3_5,GĐ7T5
 PHY3510E,Mở đầu Thiên văn học,3,PHY3510E QTVLH,2,9_10,506_T3
 PHY3510E,Mở đầu Thiên văn học,3,PHY3510E QTVLH,6,4_5,403_T5
-PHY3512,Điều chế xung và điều chế số,3,PHY3512 2 TNVLH,4,6_9,213T1
 PHY3512,Điều chế xung và điều chế số,2,PHY3512 1,5,4_5,216T1
 PHY3512,Điều chế xung và điều chế số,1,PHY3512 1,4,4_5,217T1
+PHY3512,Điều chế xung và điều chế số,3,PHY3512 2 TNVLH,4,6_9,213T1
 PHY3515,Địa chấn học,3,PHY3515,3,6_8,103T1
 PHY3517,Lý thuyết xử lý tín hiệu số,3,PHY3517 TNVLH,5,6_9,213T1
 PHY3517E,Lý thuyết xử lý tín hiệu số,3,PHY3517E QTVLH,6,1_4,214T1
@@ -1860,12 +1700,12 @@ PHY3605,Cơ học lý thuyết,4,PHY3605 TNVLH,2,3_5,403_T5
 PHY3605,Cơ học lý thuyết,4,PHY3605 TNVLH,3,9_10,107_T5
 PHY3606E,Điện động lực học,4,PHY3606E QTVLH,2,1_3,311_T5
 PHY3606E,Điện động lực học,4,PHY3606E QTVLH,5,4_5,203_T5
-PHY3609,Điện tử tương tự,3,PHY3609 4 TNVLH,3,9_10,313_T5
-PHY3609,Điện tử tương tự,3,PHY3609 4 TNVLH,6,6_7,108T3
 PHY3609,Điện tử tương tự,1,PHY3609 1,3,4_5,108T3
 PHY3609,Điện tử tương tự,2,PHY3609 1_2_3,3,6_7,302_T4
 PHY3609,Điện tử tương tự,1,PHY3609 2,4,9_10,108T3
 PHY3609,Điện tử tương tự,1,PHY3609 3,6,1_2,108T3
+PHY3609,Điện tử tương tự,3,PHY3609 4 TNVLH,3,9_10,313_T5
+PHY3609,Điện tử tương tự,3,PHY3609 4 TNVLH,6,6_7,108T3
 PHY3609E,Điện tử tương tự,3,PHY3609E QTVLH,2,4_5,313_T5
 PHY3609E,Điện tử tương tự,3,PHY3609E QTVLH,5,1_2,108T3
 PHY3610,Điện tử số,1,PHY3610 1,5,1_2,301_T4
@@ -1879,8 +1719,8 @@ PHY3626,Lập trình hướng đối tượng,1,PHY3626 1,5,4_5,308CT1
 PHY3626,Lập trình hướng đối tượng,2,PHY3626 1_2_3,4,9_10,206_T5
 PHY3626,Lập trình hướng đối tượng,1,PHY3626 2,5,6_7,308CT1
 PHY3626,Lập trình hướng đối tượng,1,PHY3626 3,5,9_10,308GT1
-PHY3627,Thực tập thực tế,3,PHY3627 2,7,13,216T1
 PHY3627,Thực tập thực tế,3,PHY3627 1,7,13,216T1
+PHY3627,Thực tập thực tế,3,PHY3627 2,7,13,216T1
 PHY3628,Mạng và truyền thông máy tính,2,PHY3628,5,4_5,304_T4
 PHY3628,Mạng và truyền thông máy tính,1,PHY3628,5,1_2,308CT1
 PHY3630,Hệ quản trị Cơ sở dữ liệu,3,PHY3630,2,8_10,202_T4
@@ -1939,15 +1779,13 @@ POL1001,Tư tưởng Hồ Chí Minh,2,POL1001 6,3,6_7,402_T5
 POL1001,Tư tưởng Hồ Chí Minh,2,POL1001 7,4,4_5,402_T5
 POL1001,Tư tưởng Hồ Chí Minh,2,POL1001 8,5,1_2,502_T3
 POL1001,Tư tưởng Hồ Chí Minh,2,POL1001 9,5,4_5,502_T3
-THL1057,Nhà nước và pháp luật đại cương,2,THL1057 2,6,6_7,205_T5
-THL1057,Nhà nước và pháp luật đại cương,2,THL1057 2,6,6_7,205_T5
-THL1057,Nhà nước và pháp luật đại cương,2,THL1057 2,6,6_7,205_T5
 THL1057,Nhà nước và pháp luật đại cương,2,THL1057 1,3,1_2,502_T3
-THL1057,Nhà nước và pháp luật đại cương,2,THL1057 3,2,4_5,301_T4
 THL1057,Nhà nước và Pháp luật Đại cương,2,THL1057 10,2,1_2,513_T4
 THL1057,Nhà nước và Pháp luật Đại cương,2,THL1057 11,2,4_5,513_T4
 THL1057,Nhà nước và Pháp luật Đại cương,2,THL1057 12,2,6_7,513_T4
 THL1057,Nhà nước và Pháp luật Đại cương,2,THL1057 13,3,1_2,513_T4
+THL1057,Nhà nước và pháp luật đại cương,2,THL1057 2,6,6_7,205_T5
+THL1057,Nhà nước và pháp luật đại cương,2,THL1057 3,2,4_5,301_T4
 THL1057,Nhà nước và Pháp luật Đại cương,2,THL1057 4,3,4_5,513_T4
 THL1057,Nhà nước và Pháp luật Đại cương,2,THL1057 5,3,6_7,513_T4
 THL1057,Nhà nước và Pháp luật Đại cương,2,THL1057 6,4,1_2,513_T4

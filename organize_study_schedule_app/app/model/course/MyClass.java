@@ -38,21 +38,6 @@ public class MyClass {
         this.time = time;
     }
 
-    public MyClass classId(String classId) {
-        setClassId(classId);
-        return this;
-    }
-
-    public MyClass course(Course course) {
-        setCourse(course);
-        return this;
-    }
-
-    public MyClass time(Time time) {
-        setTime(time);
-        return this;
-    }
-
     @Override
     public String toString() {
         return "{" +
