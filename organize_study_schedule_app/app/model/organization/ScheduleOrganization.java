@@ -26,8 +26,8 @@ public class ScheduleOrganization {
         printBoardList(boardList);
     }
 
-    public static MyArrayList<MyArrayList<MyClass>> enterData(MyArrayList<CourseNode<String,
-            MyArrayList<MyClass>>> courseList) {
+    public static MyArrayList<MyArrayList<MyClass>> enterData(
+            MyArrayList<CourseNode<String, MyArrayList<MyClass>>> courseList) {
         // Nhập mã học phần muốn đăng kí vào MyArrayList<danh sách mã lớp>
         // MyArrayList này lưu trữ các classList của mỗi học phần
         MyArrayList<MyArrayList<MyClass>> allClassOfCourseList = new MyArrayList<>();
@@ -46,7 +46,6 @@ public class ScheduleOrganization {
             // Nếu có --> thêm vào MyArrayList<danh sách mã lớp>
             int indexOfCourseIdsInCourseList = findIndexOfCourseIdsInCourseList(courseList, courseIds[i]);
 
-
             if (indexOfCourseIdsInCourseList != -1) {
                 allClassOfCourseList.add(courseList.get(indexOfCourseIdsInCourseList).getValue());
 
@@ -64,8 +63,8 @@ public class ScheduleOrganization {
         return allClassOfCourseList;
     }
 
-    public static int findIndexOfCourseIdsInCourseList(MyArrayList<CourseNode<String,
-            MyArrayList<MyClass>>> courseList, String courseIds) {
+    public static int findIndexOfCourseIdsInCourseList(MyArrayList<CourseNode<String, MyArrayList<MyClass>>> courseList,
+            String courseIds) {
         for (int j = 0; j < courseList.size(); j++) {
             if (courseIds.equals(courseList.get(j).getKey())) {
                 return j;
@@ -76,7 +75,7 @@ public class ScheduleOrganization {
     }
 
     public static void organize(MyArrayList<String[][]> boardList, String[][] board, int indexOfCourse,
-                                int indexOfClass, MyArrayList<MyArrayList<MyClass>> allClassOfCourseList) {
+            int indexOfClass, MyArrayList<MyArrayList<MyClass>> allClassOfCourseList) {
         // Nếu đã duyệt hết các môn hoặc các lớp thì return
         if (indexOfCourse >= allClassOfCourseList.size()
                 || indexOfClass >= allClassOfCourseList.get(indexOfCourse).size()) {
@@ -129,8 +128,8 @@ public class ScheduleOrganization {
     }
 
     public static boolean classCanBeInserted(MyClass myClass, String[][] board,
-                                             int dayOfWeek, int timeStart, int timeEnd,
-                                             int dayOfWeekTheory, int timeStartTheory, int timeEndTheory) {
+            int dayOfWeek, int timeStart, int timeEnd,
+            int dayOfWeekTheory, int timeStartTheory, int timeEndTheory) {
         for (int i = timeStart - 1; i < timeEnd; i++) {
             // thứ trong tuần bắt đầu từ thứ 2 nhưng ở trong mảng 2 chiều thì bắt đầu từ 0
             // nên trừ đi 2
