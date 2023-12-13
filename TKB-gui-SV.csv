@@ -557,10 +557,6 @@ CHE3303E,Phương pháp nghiên cưu khoa học,3,CHE3303E 4 CLCHD,6,8_10,1_LTT
 CHE3306,Thống kê ứng dụng trong hóa PT,2,CHE3306,3,4_5,6_LTT
 CHE3310,Độc chất học môi trường cơ sở,2,CHE3310 1,4,9_10,2_LTT
 CHE3310,Độc chất học môi trường cơ sở,2,CHE3310 2 CLCCNKTHH,2,9_10,3_LTT
-CHE4051,Khóa luận tốt nghiệp,10,CHE4051 CLCCNKTHH,7,13,BM
-CHE4052,Khóa luận tốt nghiệp,7,CHE4052,7,13,BM
-CHE4054,Khóa luận tốt nghiệp,10,CHE4054 TNHH,7,13,BM
-CHE4054E,Khóa luận tốt nghiệp,10,CHE4054E TTHH,7,13,BM
 EVF2001,Hệ thống cây trồng vật nuôi an toàn,3,EVF2001,2,6_8,208_T5
 EVF2002,An ninh lương thực,3,EVF2002,4,6_8,103_T4
 EVF2003,Công nghệ bao bì và đóng gói thực phẩm,3,EVF2003,3,1_2,103_T5
@@ -581,9 +577,6 @@ EVF2029,Tự động hóa và tối ưu hóa trong chế biến thực phẩm,3,
 EVF2030,Thực phẩm chức năng và thực phẩm biến đổi gen,3,EVF2030,4,8_10,208_T5
 EVF2031,Đánh giá rủi ro an toàn thực phẩm,3,EVF2031,3,4_5,105_T5
 EVF2031,Đánh giá rủi ro an toàn thực phẩm,3,EVF2031,6,1_3,105_T5
-EVF2034,Thực tập thực tế ,2,EVF2034,CN,13,BM
-EVF2035,Thực tập công nghiệp,3,EVF2035,CN,13,BM
-EVF2037,Thực tập sản xuất,2,EVF2037,7,13,BM
 EVF2040,Nhập môn khoa học và công nghệ thực phẩm,3,EVF2040 1,2,6_8,206_T5
 EVF2040,Nhập môn khoa học và công nghệ thực phẩm,3,EVF2040 2,3,3_5,206_T5
 EVS2000,Khoa học sự sống,3,EVS2000 1 CLCKHMT,6,1_3,109_T5
@@ -594,7 +587,6 @@ EVS2009,Vật lý môi trường,2,EVS2009 1,4,4_5,208_T5
 EVS2009,Vật lý môi trường*,2,EVS2009 2 CLCKHMT,4,6_7,313_T5
 EVS2016,Độc học và sức khỏe môi trường,2,EVS2016,5,6_7,208_T5
 EVS2044,Thực tập công nghiệp,2,EVS2044,CN,12,BM
-EVS2095,Thực tập thực tế,2,EVS2095 CLCCNKTMT,7,13,BM
 EVS2303,Cơ sở môi trường đất_ nước_ không khí (**),4,EVS2303 CLCKHMT,6,3_5,210_T5
 EVS2303,Cơ sở môi trường đất_ nước_ không khí (**),4,EVS2303 CLCKHMT,3,9_10,213_T5
 EVS2304,Cơ sở môi trường đất_ nước_ không khí ,3,EVS2304 1,3,6_8,208_T5
@@ -663,7 +655,6 @@ EVS3309,Vật liệu mới trong xử lý đất ô nhiễm,3,EVS3309,4,4_5,128T
 EVS3309,Vật liệu mới trong xử lý đất ô nhiễm,3,EVS3309,4,6_7,129T1
 EVS3310,Cải tạo và xử lý đất thoái hóa,3,EVS3310,5,6_8,210_T5
 EVS3332,Thực tập thực tế 1,2,EVS3332 1,CN,12,BM
-EVS3332,Thực tập thực tế 1*,2,EVS3332 2 CLCKHMT,CN,13,BM
 EVS3333,Thực tập thực tế 2,2,EVS3333 1,7,12,BM
 EVS3333,Thực tập thực tế 2,2,EVS3333 2 CLCKHMT,7,12,BM
 EVS3403,Phương pháp nghiên cứu khoa học,2,EVS3403 CLCCNKTMT,2,6_7,105_T5
@@ -692,11 +683,6 @@ EVS3462,Truyền nhiệt chuyển khối,3,EVS3462,3,1_2,106_T5
 EVS3462,Truyền nhiệt chuyển khối,3,EVS3462,4,6_7,107_T5
 EVS4071,Thực tập hóa học,2,EVS4071 1 CLCCNKTMT,4,2_5,BM
 EVS4071,Thực tập hóa học,2,EVS4071 2 CLCCNKTMT,4,6_9,BM
-EVS4075,Khóa luận tốt nghiệp,7,EVS4075,7,13,BM
-EVS4080,Khóa luận tốt nghiệp,10,EVS4080 CLCKHMT,7,13,BM
-EVS4080E,Khóa luận tốt nghiệp ,10,EVS4080E CLCCNKTMT,7,13,BM
-EVS4085,Khóa luận tốt nghiệp ,7,EVS4085,7,13,BM
-EVS499,Khóa luận tốt nghiệp,8,EVS499 TTKHMT,7,13,BM
 FLF1107,Tiếng Anh B1,5,FLF1107 1,2,1_2,513_T5
 FLF1107,Tiếng Anh B1,5,FLF1107 1,4,3_5,513_T5
 FLF1107,Tiếng Anh B1,5,FLF1107 10,2,3_5,513_T5
@@ -761,7 +747,6 @@ GEO1050,Khoa học trái đất và sự sống,3,GEO1050 1,2,6_8,408_T5
 GEO1050,Khoa học trái đất và sự sống,3,GEO1050 2,3,6_8,408_T5
 GEO1050,Khoa học trái đất và sự sống,3,GEO1050 3,5,6_8,408_T5
 GEO2001,Cơ sở Địa lý tự nhiên,3,GEO2001,2,1_3,108_T5
-GEO2007,Thực tập trắc địa đại cương,2,GEO2007,7,13,BM
 GEO2055,Địa lý Việt Nam,3,GEO2055 1,2,3_5,211_T5
 GEO2055,Địa lý Việt Nam,3,GEO2055 2,2,1_3,408_T5
 GEO2060,Bản đồ đại cương,3,GEO2060 1,5,8_10,105_T5
@@ -775,7 +760,6 @@ GEO2091,Cơ sở viễn thám,3,GEO2091 2,3,1_3,211_T5
 GEO2092,Tiếng Anh chuyên ngành,3,GEO2092,6,3_5,BM
 GEO2093,Phương pháp nghiên cứu khoa học,3,GEO2093,6,1_3,211_T5
 GEO2300,Địa lý học,3,GEO2300,2,6_8,413_T5
-GEO2303,Thực tập thiên nhiên,2,GEO2303,7,13,BM
 GEO2304,Khoa học môi trường và biến đổi khí hậu,3,GEO2304,3,6_8,202_T5
 GEO2318,Trắc địa đại cương,3,GEO2318 1 KTKTQLDD,6,8_10,103_T4
 GEO2318,Trắc địa đại cương,3,GEO2318 2,2,1_3,104_T5
@@ -795,12 +779,9 @@ GEO3073,Trắc địa biển,2,GEO3073,4,4_5,505_T3
 GEO3090,Địa lý nông nghiệp,2,GEO3090,3,4_5,BM
 GEO3114,Địa lý xã hội,3,GEO3114,3,1_3,BM
 GEO3120,Hệ thống vệ tinh dẫn đường toàn cầu,3,GEO3120,3,3_5,413_T5
-GEO3125,Thực tập sản xuất và thực hành khởi nghiệp,5,GEO3125,7,13,BM
 GEO3128,Viễn thám ứng dụng,3,GEO3128,4,1_3,BM
 GEO3135,Địa không gian trong nghiên cứu tai biến thiên nhiên,3,GEO3135,6,6_8,BM
 GEO3144,Thực tập xây dựng thư viện phổ từ máy đo phổ cầm tay,3,GEO3144,7,12,BM
-GEO3210,Thực tập trắc địa đại cương,2,GEO3210 1,CN,13,BM
-GEO3210,Thực tập trắc địa đại cương,2,GEO3210 2,CN,13,BM
 GEO3212,Khoa học cảnh quan và ứng dụng,4,GEO3212,3,6_7,BM
 GEO3212,Khoa học cảnh quan và ứng dụng,4,GEO3212,5,6_7,BM
 GEO3213,Kinh tế Môi trường và Kinh tế sinh thái,2,GEO3213,2,9_10,BM
@@ -812,9 +793,7 @@ GEO3217,Quản lý thị trường bất động sản,2,GEO3217,4,6_7,207_T5
 GEO3221,Địa mạo học,3,GEO3221,6,6_8,210_T5
 GEO3225,Địa sinh vật và sinh thái cảnh quan,4,GEO3225,2,4_5,508_T3
 GEO3225,Địa sinh vật và sinh thái cảnh quan,4,GEO3225,6,1_2,109_T5
-GEO3226,Thực tập cơ sở địa lý,2,GEO3226 1,7,13,BM
 GEO3226,Thực tập cơ sở địa lý,2,GEO3226 2,7,12,BM
-GEO3226,Thực tập cơ sở địa lý,2,GEO3226 3,7,13,BM
 GEO3229,Dân số học và địa lý dân cư,3,GEO3229,6,3_5,109_T5
 GEO3237,Phân loại thực vật và các hệ sinh thái rừng Việt Nam,3,GEO3237,3,8_10,BM
 GEO3242,Địa mạo và địa chất biển,3,GEO3242,2,6_8,BM
@@ -826,8 +805,6 @@ GEO3262,Cơ sở và lịch sử quản lý đất đai,4,GEO3262 KTKTQLDD,5,4_5
 GEO3267,Đánh giá hiện trạng và biến động sử dụng đất đai,2,GEO3267,2,6_7,203_T4
 GEO3271,Đo đạc địa chính và ứng dụng tin học trong thành lập bản đồ,4,GEO3271,2,4_5,202_T5
 GEO3271,Đo đạc địa chính và ứng dụng tin học trong thành lập bản đồ,4,GEO3271,6,9_10,208_T5
-GEO3272,Thực tập đo đạc địa chính,2,GEO3272,7,13,BM
-GEO3275,Thực tập Công nghệ ảnh số và giải đoán_ điều vẽ ảnh,2,GEO3275,7,13,BM
 GEO3276,GIS ứng dụng,3,GEO3276,5,1_3,108_T5
 GEO3277,Bản đồ chuyên đề trong quản lý đất đai,2,GEO3277,5,4_5,205_T5
 GEO3280,Thanh tra đất đai,2,GEO3280,6,4_5,311_T5
@@ -845,8 +822,6 @@ GEO3407,Cơ sở quy hoạch,3,GEO3407,3,1_3,201_T4
 GEO3408,Quy hoạch đô thị,3,GEO3408,6,1_3,208_T5
 GEO3409,Thị trường bất động sản,3,GEO3409,2,1_3,208_T5
 GEO3412,Hệ thống thông tin đô thị,3,GEO3412,6,6_8,201_T4
-GEO3413,Thực tập cơ sở đô thị và bất động sản,3,GEO3413,CN,13,BM
-GEO3414,Thực tập quản lí đô thị và bất động sản,3,GEO3414,7,13,BM
 GEO3417,Quản lí nhà nước về đất đai và bất động sản,3,GEO3417,2,1_3,BM
 GEO3418,Quản lí xây dựng đô thị,3,GEO3418,3,3_5,BM
 GEO3423,Quản lí môi trường đô thị,3,GEO3423,2,8_10,BM
@@ -912,7 +887,6 @@ GLO3201,Thiết kế chương trình quan trắc và Giám sát tài nguyên mô
 GLO3201,Thiết kế chương trình quan trắc và Giám sát tài nguyên môi trường,3,GLO3201,4,6_7,309_T5
 GLO3204,Viễn thám ứng dụng trong quan và giám sát tài nguyên môi trường,3,GLO3204,6,4_5,610T5
 GLO3204,Viễn thám ứng dụng trong quan và giám sát tài nguyên môi trường,3,GLO3204,6,6_7,610T5
-GLO3209,Thực tập sản xuất,2,GLO3209,7,13,BM
 GLO3225,Luật và chính sách tài nguyên và môi trường,3,GLO3225,2,8_10,102_T4
 GLO3226,Kinh tế tài nguyên và môi trường,3,GLO3226,4,8_10,104_T4
 GLO3229,Phân tích môi trường,2,GLO3229,6,6_7,103_T4
@@ -961,9 +935,7 @@ HMO3057,Thực hành Đánh giá tác động môi trường,2,HMO3057,7,11,BM
 HMO3058,Thực hành GIS và Viễn thám trong Quản lý tài nguyên và Môi trường nước,2,HMO3058,7,12,BM
 HMO3083,Quản lý rủi ro thiên tai,3,HMO3083,6,1_3,209_T5
 HMO3101,Quản lý lưu vực sông,3,HMO3101,6,3_5,101_T5
-HMO3175,Thực hành khởi nghiệp,3,HMO3175,7,13,BM
 HMO3182,Tin học chuyên ngành trong hải dương học,4,HMO3182,4,6_9,407_T5
-HMO3184,Thực hành khởi nghiệp,3,HMO3184,7,13,BM
 HMO3185,Phương pháp nghiên cứu khoa học trong Khí tượng thủy văn,3,HMO3185,2,1_3,111_T5
 HMO3205,Cơ sở biến đổi khí hậu,3,HMO3205,3,6_8,111_T5
 HMO3207,Đo đạc và chỉnh lý số liệu thủy văn,4,HMO3207,2,4_5,111_T5
@@ -971,7 +943,6 @@ HMO3207,Đo đạc và chỉnh lý số liệu thủy văn,4,HMO3207,6,1_2,210_T
 HMO3208,Phân tích và tính toán thủy văn,3,HMO3208,3,1_3,210_T5
 HMO3210,Thủy động lực học,3,HMO3210,6,3_5,508_T3
 HMO3215,Các phương pháp phân tích môi trường,2,HMO3215,6,8_10,513_T5
-HMO3216,Niên luận,2,HMO3216,CN,13,BM
 HMO3217,Seminar,2,HMO3217,3,6_7,210_T5
 HMO3221,Xử lý nước,3,HMO3221,5,8_10,111_T5
 HMO3223,Hóa học môi trường nước,3,HMO3223,5,3_5,204_T5
@@ -987,19 +958,16 @@ HMO3315,Khí hậu vật lý,3,HMO3315,6,3_5,309_T5
 HMO3319,Ứng dụng máy tính trong khí tượng,3,HMO3319,5,6_8,112_T5
 HMO3323,Mô hình hóa hệ thống khí hậu,3,HMO3323,4,3_5,210_T5
 HMO3325,Thực tập quan trắc khí tượng,3,HMO3325,6,8_10,309_T5
-HMO3327,Niên luận 1,3,HMO3327,7,13,BM
 HMO3328,Thực hành khởi nghiệp,4,HMO3328,7,11,BM
 HMO3334,Niên luận 2 (***),2,HMO3334 CLCKT_KHH,7,12,BM
 HMO3401,Điều tiết dòng chảy,2,HMO3401,4,4_5,313_T5
 HMO3518,Thủy văn đô thị,3,HMO3518,2,6_8,513_T5
-HMO3542,Thực tập chuyên ngành,3,HMO3542,7,13,BM
 HMO3604,Sinh học và sinh thái biển ,3,HMO3604,4,6_8,310_T5
 HMO3605,Địa chất và địa mạo biển ,3,HMO3605,5,6_8,310_T5
 HMO3606,Dòng chảy biển ,3,HMO3606,6,1_3,413_T5
 HMO3618,Sóng dài trong đới ven bờ ,3,HMO3618,3,6_8,407_T5
 HMO3620,Phương pháp mô hình hóa trong hải dương học ,3,HMO3620,6,1_3,311_T5
 HMO3624,Kinh tế biển ,3,HMO3624,6,6_8,506_T3
-HMO3631,Thực tập khảo sát hải văn,3,HMO3631,7,13,BM
 HMO3732,Niên luận 2*,3,HMO3732 CLCHDH,7,12,BM
 HUS1021,Khoa học trái đất và sự sống,3,HUS1021 1,2,3_5,202_T4
 HUS1021,Khoa học trái đất và sự sống,3,HUS1021 2,2,3_5,201_T4
@@ -1107,11 +1075,8 @@ MAT2313,Phương trình đạo hàm riêng 1,4,MAT2313 TNTH,5,4_5,511_T4
 MAT2314,Phương trình vi phân,4,MAT2314,5,8_10,103_T5
 MAT2314,Phương trình vi phân,4,MAT2314,3,9_10,106_T5
 MAT2315,Phương pháp nghiên cứu khoa học,3,MAT2315 1,6,1_2,102_T4
-MAT2315,Phương pháp nghiên cứu khoa học,3,MAT2315 1,6,13,PM
 MAT2315,Phương pháp nghiên cứu khoa học,3,MAT2315 2,4,4_5,501_T3
-MAT2315,Phương pháp nghiên cứu khoa học,3,MAT2315 2,6,13,PM
 MAT2315,Phương pháp nghiên cứu khoa học,3,MAT2315 3 TNTH,6,1_2,303_T5
-MAT2315,Phương pháp nghiên cứu khoa học,3,MAT2315 3 TNTH,6,13,PM
 MAT2317,Lập trình Java,3,MAT2317 1,5,6_10,PM
 MAT2317,Lập trình Java,3,MAT2317 1_2_3,3,1_2,205_T5
 MAT2317,Lập trình Java,3,MAT2317 2,5,6_10,PM
@@ -1190,9 +1155,6 @@ MAT3335,Đại số máy tính,3,MAT3335,2,6_8,202_T5
 MAT3339,Đại số tuyến tính 3 (*),3,MAT3339 TNTH,4,3_5,304_T5
 MAT3341,Giải tích điều hòa,3,MAT3341 TNTH,6,6_8,401_T5
 MAT3345,Lý thuyết ổn định của phương trình vi phân,3,MAT3345,4,6_8,105_T5
-MAT3359,Thực tập chuyên ngành,3,MAT3359 1,7,13,BM
-MAT3359,Thực tập chuyên ngành,3,MAT3359 2,7,13,BM
-MAT3359,Thực tập chuyên ngành,3,MAT3359 3 TNTH,7,13,BM
 MAT3361,Cơ học lý thuyết nâng cao,3,MAT3361,2,1_2,102_T4
 MAT3361,Cơ học lý thuyết nâng cao,3,MAT3361,6,4_5,104_T5
 MAT3364,Xêmina 2,2,MAT3364 TNTH,3,6_8,309_T5
@@ -1202,7 +1164,6 @@ MAT3372,Các thành phần phần mềm,3,MAT3372 1,4,1_5,PM
 MAT3372,Các thành phần phần mềm,3,MAT3372 1_2_3,2,9_10,103_T4
 MAT3372,Các thành phần phần mềm,3,MAT3372 2,4,1_5,PM
 MAT3372,Các thành phần phần mềm,3,MAT3372 3,4,1_5,PM
-MAT3374,Thực tập thực tế phát triển phần mềm,3,MAT3374 CLCMT_KHTT,7,13,PM
 MAT3376,Lập trình nâng cao,2,MAT3376 1 CLCMT_KHTT,2,6_10,508T5
 MAT3376,Lập trình nâng cao,2,MAT3376 1_2_3 CLCMT_KHTT,5,6_7,504_T3
 MAT3376,Lập trình nâng cao,2,MAT3376 2 CLCMT_KHTT,2,6_10,508T5
@@ -1658,12 +1619,6 @@ PHY3439,Thực tế khóa luận,3,PHY3439,3,3_5,BM
 PHY3446,Vật lý và kỹ thuật nhiệt độ thấp,3,PHY3446,3,3_5,120T1
 PHY3446,Vật lý và kỹ thuật nhiệt độ thấp,3,,3,2_5,BMNĐT
 PHY3448,Vật lý siêu dẫn và ứng dụng ,3,PHY3448,2,3_5,120T1
-PHY3454,Thực tập thực tế,3,PHY3454 1,7,13,BM
-PHY3454,Thực tập thực tế,3,PHY3454 2,7,13,BM
-PHY3454,Thực tập thực tế,3,PHY3454 3,7,13,BM
-PHY3454,Thực tập thực tế,3,PHY3454 4,7,13,BM
-PHY3454,Thực tập thực tế,3,PHY3454 5 QTVLH,7,13,BM
-PHY3454,Thực tập thực tế,3,PHY3454 6 TNVLH,7,13,BM
 PHY3461,Khoa học Vật liệu đại cương,3,PHY3461 TNVLH,5,2_5,206T2
 PHY3502,Vật lý tính toán 1,1,PHY3502 1,5,4_5,308GT1
 PHY3502,Vật lý tính toán 1,2,PHY3502 1_2_3,5,1_2,206_T5
@@ -1719,8 +1674,6 @@ PHY3626,Lập trình hướng đối tượng,1,PHY3626 1,5,4_5,308CT1
 PHY3626,Lập trình hướng đối tượng,2,PHY3626 1_2_3,4,9_10,206_T5
 PHY3626,Lập trình hướng đối tượng,1,PHY3626 2,5,6_7,308CT1
 PHY3626,Lập trình hướng đối tượng,1,PHY3626 3,5,9_10,308GT1
-PHY3627,Thực tập thực tế,3,PHY3627 1,7,13,216T1
-PHY3627,Thực tập thực tế,3,PHY3627 2,7,13,216T1
 PHY3628,Mạng và truyền thông máy tính,2,PHY3628,5,4_5,304_T4
 PHY3628,Mạng và truyền thông máy tính,1,PHY3628,5,1_2,308CT1
 PHY3630,Hệ quản trị Cơ sở dữ liệu,3,PHY3630,2,8_10,202_T4
@@ -1760,10 +1713,10 @@ PHY3704,Khoa học vật liệu đại cương,3,PHY3704,6,3_5,201_T4
 PHY3706,Từ học và vật liệu từ ,3,PHY3706,2,6_8,120T1
 PHY3707,Các phép đo từ,3,PHY3707,4,3_5,120T1
 PHY3712,Vật liệu và công nghệ bán dẫn,3,PHY3712,6,6_8,201_T5
-PHY3804,Thực tập Vật lý hạt nhân 2 ,2,PHY3804,6,6_9,208_T1
-PHY3811,Ứng dụng kỹ thuật hạt nhân trong y học ,3,PHY3811,2,6_8,208_T1
-PHY3812,Ứng dụng kỹ thuật hạt nhân  phân tích môi trường_ địa chất,2,PHY3812,4,1_2,208_T1
-PHY3812,Ứng dụng kỹ thuật hạt nhân  phân tích môi trường_ địa chất,1,PHY3812,5,4_5,208_T1
+PHY3804,Thực tập Vật lý hạt nhân 2 ,2,PHY3804,6,6_9,208FT1
+PHY3811,Ứng dụng kỹ thuật hạt nhân trong y học ,3,PHY3811,2,6_8,208FT1
+PHY3812,Ứng dụng kỹ thuật hạt nhân  phân tích môi trường_ địa chất,2,PHY3812,4,1_2,208FT1
+PHY3812,Ứng dụng kỹ thuật hạt nhân  phân tích môi trường_ địa chất,1,PHY3812,5,4_5,208FT1
 PHY4325E,Mở đầu thuyết tương đối và vật lý lượng tử ,3,PHY4325E QTVLH,3,6_8,403_T5
 POL1001,Tư tưởng Hồ Chí Minh,2,POL1001 1,4,6_7,513_T4
 POL1001,Tư tưởng Hồ Chí Minh,2,POL1001 10,4,9_10,513_T4
