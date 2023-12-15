@@ -145,4 +145,21 @@ public class MyArrayList<T> {
             throw new ArrayIndexOutOfBoundsException();
         }
     }
+    @Override
+    public String toString() {
+        StringBuilder result = new StringBuilder("[");
+
+        // Duyệt qua từng phần tử và thêm vào chuỗi kết quả
+        for (int i = 0; i < size; i++) {
+            result.append(array[i]);
+
+            // Thêm dấu phẩy nếu không phải là phần tử cuối cùng
+            if (i < size - 1) {
+                result.append(", ");
+            }
+        }
+
+        result.append("]");
+        return result.toString();
+    }
 }

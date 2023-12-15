@@ -90,11 +90,6 @@ public class ScheduleOrganization {
         int dayOfWeek = Integer.valueOf(myClass.getClassTime().getDayOfWeek());
         int timeStart = Integer.valueOf(myClass.getClassTime().getTime().substring(0, 1));
         int timeEnd = Integer.valueOf(myClass.getClassTime().getTime().substring(2));
-        
-        MyArrayList<Time> theoryTime = new MyArrayList<>();
-        while (!myClass.getTheoryTime().isEmpty()) {
-            theoryTime.add(myClass.getTheoryTime().dequeue());
-        }
 
         // Tạo cloneBoard để đăng kí các lớp tiếp theo trong học phần này
         String[][] cloneBoard = new String[5][10];
@@ -105,17 +100,17 @@ public class ScheduleOrganization {
         }
 
         // Thêm myClass vào board nếu insertToBoard = true
-        if (classCanBeInserted(myClass, board, dayOfWeek, timeStart, timeEnd, theoryTime)) {
+        if (classCanBeInserted(myClass, board, dayOfWeek, timeStart, timeEnd, myClass.getTheoryTime())) {
             for (int i = timeStart - 1; i < timeEnd; i++) {
                 board[dayOfWeek - 2][i] = myClass.getClassId();
             }
 
             // Nếu myClass có lớp l thuyết ---> add lớp lý thuyết vào board
             if (myClass.getTheoryId() != null) {
-                for (int i = 0; i < theoryTime.size(); i++) {
-                    int dayOfWeekTheory = Integer.valueOf(theoryTime.get(i).getDayOfWeek());
-                    int timeStartTheory = Integer.valueOf(theoryTime.get(i).getTime().substring(0, 1));
-                    int timeEndTheory = Integer.valueOf(theoryTime.get(i).getTime().substring(2));
+                for (int i = 0; i < myClass.getTheoryTime().size(); i++) {
+                    int dayOfWeekTheory = Integer.valueOf(myClass.getTheoryTime().get(i).getDayOfWeek());
+                    int timeStartTheory = Integer.valueOf(myClass.getTheoryTime().get(i).getTime().substring(0, 1));
+                    int timeEndTheory = Integer.valueOf(myClass.getTheoryTime().get(i).getTime().substring(2));
                     for (int k = timeStartTheory - 1; k < timeEndTheory; k++) {
                         board[dayOfWeekTheory - 2][k] = myClass.getTheoryId();
                     }
@@ -165,7 +160,7 @@ public class ScheduleOrganization {
             System.out.println("\n\n\n");
             System.out.printf("%-8s", "");
             for (int i = 0; i < 5; i++) {
-                System.out.printf("%s%-15s", "|", "Thứ " + (i + 1));
+                System.out.printf("%s%-15s", "|", "Thứ " + (i + 2));
             }
             System.out.println();
             for (int j = 0; j < boardList.get(k)[0].length; j++) {
