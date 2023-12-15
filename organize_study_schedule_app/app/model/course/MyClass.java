@@ -1,16 +1,22 @@
 package app.model.course;
 
+import resource.arraylist.MyArrayList;
+import resource.queue.ArrayQueue;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class MyClass {
     private String classId;
     private String theoryId;
     Course course;
     Time classTime;
-    Time theoryTime;
+    ArrayQueue<Time> theoryTime;
 
     public MyClass() {
     }
 
-    public MyClass(String classId, String theoryId, Course course, Time classTime, Time theoryTime) {
+    public MyClass(String classId, String theoryId, Course course, Time classTime, ArrayQueue<Time> theoryTime) {
         this.classId = classId;
         this.theoryId = theoryId;
         this.course = course;
@@ -50,12 +56,22 @@ public class MyClass {
         this.classTime = classTime;
     }
 
-    public Time getTheoryTime() {
+    public ArrayQueue<Time> getTheoryTime() {
         return theoryTime;
     }
 
-    public void setTheoryTime(Time theoryTime) {
+    public void setTheoryTime(ArrayQueue<Time> theoryTime) {
         this.theoryTime = theoryTime;
+    }
+
+    public String theoryTimeToString(ArrayQueue theoryTime) {
+        Queue<Time> theoryTimeQueue = new LinkedList<>();
+        String theoryTimeString = "";
+        while (!theoryTime.isEmpty()) {
+            theoryTimeString += theoryTime.dequeue();
+        }
+        return theoryTimeString;
+
     }
 
     @Override

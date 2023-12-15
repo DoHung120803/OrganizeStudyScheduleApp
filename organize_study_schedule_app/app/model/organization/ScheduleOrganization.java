@@ -2,6 +2,7 @@ package app.model.organization;
 
 import app.model.course.CourseManager;
 import app.model.course.MyClass;
+import app.model.course.Time;
 import app.model.read.ReadData;
 import resource.arraylist.MyArrayList;
 import resource.node.CourseNode;
@@ -89,9 +90,11 @@ public class ScheduleOrganization {
         int dayOfWeek = Integer.valueOf(myClass.getClassTime().getDayOfWeek());
         int timeStart = Integer.valueOf(myClass.getClassTime().getTime().substring(0, 1));
         int timeEnd = Integer.valueOf(myClass.getClassTime().getTime().substring(2));
-        int dayOfWeekTheory = Integer.valueOf(myClass.getTheoryTime().getDayOfWeek());
-        int timeStartTheory = Integer.valueOf(myClass.getTheoryTime().getTime().substring(0, 1));
-        int timeEndTheory = Integer.valueOf(myClass.getTheoryTime().getTime().substring(2));
+        
+        MyArrayList<Time> theoryTime = new MyArrayList<>();
+        while (!myClass.getTheoryTime().isEmpty()) {
+            theoryTime.add(myClass.getTheoryTime().dequeue());
+        }
 
         // Tạo cloneBoard để đăng kí các lớp tiếp theo trong học phần này
         String[][] cloneBoard = new String[5][10];
@@ -102,16 +105,20 @@ public class ScheduleOrganization {
         }
 
         // Thêm myClass vào board nếu insertToBoard = true
-        if (classCanBeInserted(myClass, board, dayOfWeek, timeStart, timeEnd,
-                dayOfWeekTheory, timeStartTheory, timeEndTheory)) {
+        if (classCanBeInserted(myClass, board, dayOfWeek, timeStart, timeEnd, theoryTime)) {
             for (int i = timeStart - 1; i < timeEnd; i++) {
                 board[dayOfWeek - 2][i] = myClass.getClassId();
             }
 
             // Nếu myClass có lớp l thuyết ---> add lớp lý thuyết vào board
             if (myClass.getTheoryId() != null) {
-                for (int i = timeStartTheory - 1; i < timeEndTheory; i++) {
-                    board[dayOfWeekTheory - 2][i] = myClass.getTheoryId();
+                for (int i = 0; i < theoryTime.size(); i++) {
+                    int dayOfWeekTheory = Integer.valueOf(theoryTime.get(i).getDayOfWeek());
+                    int timeStartTheory = Integer.valueOf(theoryTime.get(i).getTime().substring(0, 1));
+                    int timeEndTheory = Integer.valueOf(theoryTime.get(i).getTime().substring(2));
+                    for (int k = timeStartTheory - 1; k < timeEndTheory; k++) {
+                        board[dayOfWeekTheory - 2][k] = myClass.getTheoryId();
+                    }
                 }
             }
 
@@ -128,9 +135,7 @@ public class ScheduleOrganization {
         organize(boardList, cloneBoard, indexOfCourse, indexOfClass + 1, allClassOfCourseList);
     }
 
-    public static boolean classCanBeInserted(MyClass myClass, String[][] board,
-                                             int dayOfWeek, int timeStart, int timeEnd,
-                                             int dayOfWeekTheory, int timeStartTheory, int timeEndTheory) {
+    public static boolean classCanBeInserted(MyClass myClass, String[][] board, int dayOfWeek, int timeStart, int timeEnd, MyArrayList<Time> theoryTime) {
         for (int i = timeStart - 1; i < timeEnd; i++) {
             // thứ trong tuần bắt đầu từ thứ 2 nhưng ở trong mảng 2 chiều thì bắt đầu từ 0
             // nên trừ đi 2
@@ -138,11 +143,16 @@ public class ScheduleOrganization {
                 return false;
             }
         }
-
+        
         if (myClass.getTheoryId() != null) {
-            for (int i = timeStartTheory - 1; i < timeEndTheory; i++) {
-                if (board[dayOfWeekTheory - 2][i] != null) {
-                    return false;
+            for (int i = 0; i < theoryTime.size(); i++) {
+                int dayOfWeekTheory = Integer.valueOf(theoryTime.get(i).getDayOfWeek());
+                int timeStartTheory = Integer.valueOf(theoryTime.get(i).getTime().substring(0, 1));
+                int timeEndTheory = Integer.valueOf(theoryTime.get(i).getTime().substring(2));
+                for (int k = timeStartTheory - 1; k < timeEndTheory; k++) {
+                    if (board[dayOfWeekTheory - 2][k] != null) {
+                        return false;
+                    }
                 }
             }
         }

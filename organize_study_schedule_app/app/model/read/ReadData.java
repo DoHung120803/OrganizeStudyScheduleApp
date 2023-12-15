@@ -4,8 +4,10 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Queue;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Queue;
 
 import app.model.course.Course;
 import app.model.course.CourseManager;
@@ -13,6 +15,7 @@ import app.model.course.MyClass;
 import app.model.course.Time;
 import resource.arraylist.MyArrayList;
 import resource.node.CourseNode;
+import resource.queue.ArrayQueue;
 
 public class ReadData {
 
@@ -49,9 +52,11 @@ public class ReadData {
 
                 Time classTime = new Time(dayOfWeek, time, room);
 
+                ArrayQueue<Time> theoryTime = new ArrayQueue<>();
+
                 // class infor
                 String classId = dataList.get(3).trim();
-                MyClass myClass = new MyClass(classId, null, course, classTime, classTime);
+                MyClass myClass = new MyClass(classId, null, course, classTime, theoryTime);
 
                 if (!courseId.equals(prevCourseId)) {
                     CourseNode<String, MyArrayList<MyClass>> exerciseCourseNode = new CourseNode<>(courseId,
@@ -130,7 +135,7 @@ public class ReadData {
         String theoryRoom = theory.getClassTime().getRoom();
 
         exercise.setTheoryId(theory.getClassId());
-        exercise.setTheoryTime(new Time(theoryDOW, theoryTime, theoryRoom));
+        exercise.getTheoryTime().enqueue(new Time(theoryDOW, theoryTime, theoryRoom));
     }
 
     // PHY3626 1_2_3 -> lấy ra 3
