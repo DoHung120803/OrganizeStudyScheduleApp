@@ -4,11 +4,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-<<<<<<< HEAD
-=======
 import java.util.Queue;
 import java.util.Iterator;
->>>>>>> 5697f5fe3e38dcedb3e4a5f08d30ddde351c10be
 import java.util.List;
 import java.util.Queue;
 
@@ -36,7 +33,8 @@ public class ReadData {
 
         try {
             String line;
-            dataReader = new BufferedReader(new FileReader("D:\\DataStructureAndAlgorithms\\OrganizeStudyScheduleApp\\TKB-gui-SV.csv"));
+            dataReader = new BufferedReader(
+                    new FileReader("D:\\DataStructureAndAlgorithms\\OrganizeStudyScheduleApp\\TKB-gui-SV.csv"));
             // Read file line by line?
             while ((line = dataReader.readLine()) != null) {
                 List<String> dataList = parseDataLineToList(line);
