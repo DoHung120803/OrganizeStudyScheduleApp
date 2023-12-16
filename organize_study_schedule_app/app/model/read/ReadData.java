@@ -33,7 +33,7 @@ public class ReadData {
 
         try {
             String line;
-            dataReader = new BufferedReader(new FileReader("TKB-gui-SV.csv"));
+            dataReader = new BufferedReader(new FileReader("D:\\DataStructureAndAlgorithms\\OrganizeStudyScheduleApp\\TKB-gui-SV.csv"));
             // Read file line by line?
             while ((line = dataReader.readLine()) != null) {
                 List<String> dataList = parseDataLineToList(line);
@@ -52,7 +52,7 @@ public class ReadData {
 
                 Time classTime = new Time(dayOfWeek, time, room);
 
-                ArrayQueue<Time> theoryTime = new ArrayQueue<>();
+                MyArrayList<Time> theoryTime = new MyArrayList<>();
 
                 // class infor
                 String classId = dataList.get(3).trim();
@@ -135,7 +135,7 @@ public class ReadData {
         String theoryRoom = theory.getClassTime().getRoom();
 
         exercise.setTheoryId(theory.getClassId());
-        exercise.getTheoryTime().enqueue(new Time(theoryDOW, theoryTime, theoryRoom));
+        exercise.getTheoryTime().add(new Time(theoryDOW, theoryTime, theoryRoom));
     }
 
     // PHY3626 1_2_3 -> lấy ra 3

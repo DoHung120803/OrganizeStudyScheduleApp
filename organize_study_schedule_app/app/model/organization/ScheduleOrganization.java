@@ -138,7 +138,7 @@ public class ScheduleOrganization {
                 return false;
             }
         }
-        
+
         if (myClass.getTheoryId() != null) {
             for (int i = 0; i < theoryTime.size(); i++) {
                 int dayOfWeekTheory = Integer.valueOf(theoryTime.get(i).getDayOfWeek());
