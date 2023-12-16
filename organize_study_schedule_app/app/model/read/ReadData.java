@@ -4,7 +4,13 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+<<<<<<< HEAD
+=======
+import java.util.Queue;
+import java.util.Iterator;
+>>>>>>> 5697f5fe3e38dcedb3e4a5f08d30ddde351c10be
 import java.util.List;
+import java.util.Queue;
 
 import app.model.course.Course;
 import app.model.course.CourseManager;
@@ -12,6 +18,7 @@ import app.model.course.MyClass;
 import app.model.course.Time;
 import resource.arraylist.MyArrayList;
 import resource.node.CourseNode;
+import resource.queue.ArrayQueue;
 
 public class ReadData {
 
@@ -29,7 +36,7 @@ public class ReadData {
 
         try {
             String line;
-            dataReader = new BufferedReader(new FileReader("TKB-gui-SV.csv"));
+            dataReader = new BufferedReader(new FileReader("D:\\DataStructureAndAlgorithms\\OrganizeStudyScheduleApp\\TKB-gui-SV.csv"));
             // Read file line by line?
             while ((line = dataReader.readLine()) != null) {
                 List<String> dataList = parseDataLineToList(line);
@@ -48,9 +55,11 @@ public class ReadData {
 
                 Time classTime = new Time(dayOfWeek, time, room);
 
+                MyArrayList<Time> theoryTime = new MyArrayList<>();
+
                 // class infor
                 String classId = dataList.get(3).trim();
-                MyClass myClass = new MyClass(classId, course, classTime);
+                MyClass myClass = new MyClass(classId, null, course, classTime, theoryTime);
 
                 if (!courseId.equals(prevCourseId)) {
                     CourseNode<String, MyArrayList<MyClass>> exerciseCourseNode = new CourseNode<>(courseId,
@@ -124,17 +133,12 @@ public class ReadData {
     // xử lý logic việc hợp nhất thời gian
     // thời gian của các tiết bài tập và lý thuyết được tách bởi dấu |
     private void mergeTimeHandler(MyClass exercise, MyClass theory) {
-        String exerciseTime = exercise.getTime().getTime();
-        String exerciseDOW = exercise.getTime().getDayOfWeek();
-        String exerciseRoom = exercise.getTime().getRoom();
+        String theoryTime = theory.getClassTime().getTime();
+        String theoryDOW = theory.getClassTime().getDayOfWeek();
+        String theoryRoom = theory.getClassTime().getRoom();
 
-        String theoryTime = theory.getTime().getTime();
-        String theoryDOW = theory.getTime().getDayOfWeek();
-        String theoryRoom = theory.getTime().getRoom();
-
-        exercise.getTime().setTime(exerciseTime + "|" + theoryTime);
-        exercise.getTime().setDayOfWeek(exerciseDOW + "|" + theoryDOW);
-        exercise.getTime().setRoom(exerciseRoom + "|" + theoryRoom);
+        exercise.setTheoryId(theory.getClassId());
+        exercise.getTheoryTime().add(new Time(theoryDOW, theoryTime, theoryRoom));
     }
 
     // PHY3626 1_2_3 -> lấy ra 3
