@@ -16,7 +16,7 @@ public class EventHandler {
     AppUI appUI = new AppUI();
 
     public void suggestionSearchCourseId() {
-        JTextField inputCourseId = appUI.getInput
+
     }
 
 }
