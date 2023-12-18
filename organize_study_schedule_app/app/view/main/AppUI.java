@@ -35,13 +35,13 @@ public class AppUI extends javax.swing.JFrame {
                 jLabel1 = new javax.swing.JLabel();
                 jLabel2 = new javax.swing.JLabel();
                 jSeparator1 = new javax.swing.JSeparator();
-                jLabel3 = new javax.swing.JLabel();
-                jLabel4 = new javax.swing.JLabel();
-                jLabel5 = new javax.swing.JLabel();
+                coursesListBtn = new javax.swing.JLabel();
+                coursesListLb = new javax.swing.JLabel();
+                registerCourseBtn = new javax.swing.JLabel();
                 registerCourseLb = new javax.swing.JLabel();
-                jLabel7 = new javax.swing.JLabel();
-                jLabel8 = new javax.swing.JLabel();
-                myTableTimeBtn = new javax.swing.JLabel();
+                registedCoursesBtn = new javax.swing.JLabel();
+                registedCoursesLb = new javax.swing.JLabel();
+                myTimeTableBtn = new javax.swing.JLabel();
                 myTableTimeLb = new javax.swing.JLabel();
                 jSeparator2 = new javax.swing.JSeparator();
                 jLabel11 = new javax.swing.JLabel();
@@ -55,23 +55,40 @@ public class AppUI extends javax.swing.JFrame {
                 closeMenuBarBtn = new javax.swing.JLabel();
                 navigationBar = new javax.swing.JPanel();
                 openMenuBarBtn = new javax.swing.JLabel();
-                jLabel20 = new javax.swing.JLabel();
+                jLabelMenuBar = new javax.swing.JLabel();
                 jLabel22 = new javax.swing.JLabel();
                 jLabel24 = new javax.swing.JLabel();
                 jLabel25 = new javax.swing.JLabel();
                 jLabel26 = new javax.swing.JLabel();
                 jLabel27 = new javax.swing.JLabel();
                 pnContainer = new javax.swing.JPanel();
+                pnRegisterCourse = new javax.swing.JPanel();
+                jTextField11 = new javax.swing.JTextField();
+                jPanel5 = new javax.swing.JPanel();
+                inputCourseJFT = new javax.swing.JTextField();
+                jLabel8 = new javax.swing.JLabel();
+                chooseCourseIdBtn = new javax.swing.JButton();
+                jTextField17 = new javax.swing.JTextField();
+                jScrollPane4 = new javax.swing.JScrollPane();
+                jListSuggestion = new javax.swing.JList<>();
+                jScrollPane5 = new javax.swing.JScrollPane();
+                previewRegistedCoursesJTable = new javax.swing.JTable();
+                organizeCheduleBtn = new javax.swing.JButton();
+                coursesListPanel = new javax.swing.JPanel();
+                jTextField4 = new javax.swing.JTextField();
+                jPanel3 = new javax.swing.JPanel();
+                jScrollPane1 = new javax.swing.JScrollPane();
+                jTableCoursesList = new javax.swing.JTable();
                 pnMyTimeTable = new javax.swing.JPanel();
                 jTextField2 = new javax.swing.JTextField();
                 jPanel16 = new javax.swing.JPanel();
-                pnRegisterCourse = new javax.swing.JPanel();
+                pnRegisterCourse3 = new javax.swing.JPanel();
                 jTextField1 = new javax.swing.JTextField();
                 jPanel1 = new javax.swing.JPanel();
-                inputCourseId = new javax.swing.JTextField();
+                inputCourseJFT3 = new javax.swing.JTextField();
                 jLabel6 = new javax.swing.JLabel();
                 jComboBoxCourses = new javax.swing.JComboBox<>();
-                chooseCourseIdBtn = new javax.swing.JButton();
+                chooseCourseIdBtn3 = new javax.swing.JButton();
                 jTextField6 = new javax.swing.JTextField();
                 jCheckBox1 = new javax.swing.JCheckBox();
                 jCheckBox2 = new javax.swing.JCheckBox();
@@ -84,7 +101,9 @@ public class AppUI extends javax.swing.JFrame {
                 jTextField8 = new javax.swing.JTextField();
                 jTextField5 = new javax.swing.JTextField();
                 jScrollPane2 = new javax.swing.JScrollPane();
-                jList2 = new javax.swing.JList<>();
+                jListSuggestion3 = new javax.swing.JList<>();
+                pnRegistedCourses = new javax.swing.JPanel();
+                jTextField9 = new javax.swing.JTextField();
 
                 setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
                 setTitle("Organize Schedule App");
@@ -106,26 +125,41 @@ public class AppUI extends javax.swing.JFrame {
                 jLabel2.setForeground(new java.awt.Color(51, 153, 255));
                 jLabel2.setText("TẠO LỊCH HỌC CỦA BẠN");
 
-                jLabel3.setIcon(new javax.swing.ImageIcon(
+                coursesListBtn.setIcon(new javax.swing.ImageIcon(
                                 "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\list_icon.png")); // NOI18N
-                jLabel3.setText("jLabel3");
-                jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-                jLabel3.addFocusListener(new java.awt.event.FocusAdapter() {
+                coursesListBtn.setText("jLabel3");
+                coursesListBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+                coursesListBtn.addFocusListener(new java.awt.event.FocusAdapter() {
                         public void focusGained(java.awt.event.FocusEvent evt) {
-                                jLabel3FocusGained(evt);
+                                coursesListBtnFocusGained(evt);
+                        }
+                });
+                coursesListBtn.addMouseListener(new java.awt.event.MouseAdapter() {
+                        public void mouseClicked(java.awt.event.MouseEvent evt) {
+                                coursesListBtnMouseClicked(evt);
                         }
                 });
 
-                jLabel4.setBackground(new java.awt.Color(0, 102, 204));
-                jLabel4.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
-                jLabel4.setForeground(new java.awt.Color(0, 204, 204));
-                jLabel4.setText("DANH SÁCH HỌC PHẦN");
-                jLabel4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+                coursesListLb.setBackground(new java.awt.Color(0, 102, 204));
+                coursesListLb.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
+                coursesListLb.setForeground(new java.awt.Color(0, 204, 204));
+                coursesListLb.setText("DANH SÁCH HỌC PHẦN");
+                coursesListLb.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+                coursesListLb.addMouseListener(new java.awt.event.MouseAdapter() {
+                        public void mouseClicked(java.awt.event.MouseEvent evt) {
+                                coursesListLbMouseClicked(evt);
+                        }
+                });
 
-                jLabel5.setIcon(new javax.swing.ImageIcon(
+                registerCourseBtn.setIcon(new javax.swing.ImageIcon(
                                 "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\add.png")); // NOI18N
-                jLabel5.setText("jLabel5");
-                jLabel5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+                registerCourseBtn.setText("jLabel5");
+                registerCourseBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+                registerCourseBtn.addMouseListener(new java.awt.event.MouseAdapter() {
+                        public void mouseClicked(java.awt.event.MouseEvent evt) {
+                                registerCourseBtnMouseClicked(evt);
+                        }
+                });
 
                 registerCourseLb.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
                 registerCourseLb.setForeground(new java.awt.Color(0, 204, 204));
@@ -137,23 +171,33 @@ public class AppUI extends javax.swing.JFrame {
                         }
                 });
 
-                jLabel7.setIcon(new javax.swing.ImageIcon(
+                registedCoursesBtn.setIcon(new javax.swing.ImageIcon(
                                 "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\tick_icon.png")); // NOI18N
-                jLabel7.setText("jLabel7");
-                jLabel7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-
-                jLabel8.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
-                jLabel8.setForeground(new java.awt.Color(0, 204, 204));
-                jLabel8.setText("HỌC PHẦN ĐÃ ĐĂNG KÝ");
-                jLabel8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-
-                myTableTimeBtn.setIcon(new javax.swing.ImageIcon(
-                                "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\timetable_icon.png")); // NOI18N
-                myTableTimeBtn.setText("jLabel9");
-                myTableTimeBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-                myTableTimeBtn.addMouseListener(new java.awt.event.MouseAdapter() {
+                registedCoursesBtn.setText("jLabel7");
+                registedCoursesBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+                registedCoursesBtn.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseClicked(java.awt.event.MouseEvent evt) {
-                                myTableTimeBtnMouseClicked(evt);
+                                registedCoursesBtnMouseClicked(evt);
+                        }
+                });
+
+                registedCoursesLb.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
+                registedCoursesLb.setForeground(new java.awt.Color(0, 204, 204));
+                registedCoursesLb.setText("HỌC PHẦN ĐÃ ĐĂNG KÝ");
+                registedCoursesLb.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+                registedCoursesLb.addMouseListener(new java.awt.event.MouseAdapter() {
+                        public void mouseClicked(java.awt.event.MouseEvent evt) {
+                                registedCoursesLbMouseClicked(evt);
+                        }
+                });
+
+                myTimeTableBtn.setIcon(new javax.swing.ImageIcon(
+                                "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\timetable_icon.png")); // NOI18N
+                myTimeTableBtn.setText("jLabel9");
+                myTimeTableBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+                myTimeTableBtn.addMouseListener(new java.awt.event.MouseAdapter() {
+                        public void mouseClicked(java.awt.event.MouseEvent evt) {
+                                myTimeTableBtnMouseClicked(evt);
                         }
                 });
 
@@ -198,6 +242,7 @@ public class AppUI extends javax.swing.JFrame {
                 closeMenuBarBtn.setIcon(new javax.swing.ImageIcon(
                                 "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\close_icon.png")); // NOI18N
                 closeMenuBarBtn.setText("jLabel18");
+                closeMenuBarBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
                 closeMenuBarBtn.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseClicked(java.awt.event.MouseEvent evt) {
                                 closeMenuBarBtnMouseClicked(evt);
@@ -243,7 +288,7 @@ public class AppUI extends javax.swing.JFrame {
                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE)
                                                                                                                 .addGroup(menuBarLayout
                                                                                                                                 .createSequentialGroup()
-                                                                                                                                .addComponent(jLabel5,
+                                                                                                                                .addComponent(registerCourseBtn,
                                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
                                                                                                                                                 37,
                                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -252,7 +297,7 @@ public class AppUI extends javax.swing.JFrame {
                                                                                                                                 .addComponent(registerCourseLb))
                                                                                                                 .addGroup(menuBarLayout
                                                                                                                                 .createSequentialGroup()
-                                                                                                                                .addComponent(myTableTimeBtn,
+                                                                                                                                .addComponent(myTimeTableBtn,
                                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
                                                                                                                                                 37,
                                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -261,22 +306,22 @@ public class AppUI extends javax.swing.JFrame {
                                                                                                                                 .addComponent(myTableTimeLb))
                                                                                                                 .addGroup(menuBarLayout
                                                                                                                                 .createSequentialGroup()
-                                                                                                                                .addComponent(jLabel7,
+                                                                                                                                .addComponent(registedCoursesBtn,
                                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
                                                                                                                                                 37,
                                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE)
                                                                                                                                 .addPreferredGap(
                                                                                                                                                 javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                                                                                .addComponent(jLabel8))
+                                                                                                                                .addComponent(registedCoursesLb))
                                                                                                                 .addGroup(menuBarLayout
                                                                                                                                 .createSequentialGroup()
-                                                                                                                                .addComponent(jLabel3,
+                                                                                                                                .addComponent(coursesListBtn,
                                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
                                                                                                                                                 37,
                                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE)
                                                                                                                                 .addPreferredGap(
                                                                                                                                                 javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                                                                                .addComponent(jLabel4))
+                                                                                                                                .addComponent(coursesListLb))
                                                                                                                 .addComponent(jSeparator1,
                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
                                                                                                                                 221,
@@ -361,14 +406,14 @@ public class AppUI extends javax.swing.JFrame {
                                                                                                                 .addGroup(menuBarLayout
                                                                                                                                 .createParallelGroup(
                                                                                                                                                 javax.swing.GroupLayout.Alignment.BASELINE)
-                                                                                                                                .addComponent(jLabel5)
+                                                                                                                                .addComponent(registerCourseBtn)
                                                                                                                                 .addComponent(registerCourseLb))
                                                                                                                 .addGap(42, 42, 42)
                                                                                                                 .addGroup(menuBarLayout
                                                                                                                                 .createParallelGroup(
                                                                                                                                                 javax.swing.GroupLayout.Alignment.BASELINE)
-                                                                                                                                .addComponent(jLabel3)
-                                                                                                                                .addComponent(jLabel4,
+                                                                                                                                .addComponent(coursesListBtn)
+                                                                                                                                .addComponent(coursesListLb,
                                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
                                                                                                                                                 32,
                                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -376,13 +421,13 @@ public class AppUI extends javax.swing.JFrame {
                                                                                                                 .addGroup(menuBarLayout
                                                                                                                                 .createParallelGroup(
                                                                                                                                                 javax.swing.GroupLayout.Alignment.BASELINE)
-                                                                                                                                .addComponent(jLabel7)
-                                                                                                                                .addComponent(jLabel8))
+                                                                                                                                .addComponent(registedCoursesBtn)
+                                                                                                                                .addComponent(registedCoursesLb))
                                                                                                                 .addGap(36, 36, 36)
                                                                                                                 .addGroup(menuBarLayout
                                                                                                                                 .createParallelGroup(
                                                                                                                                                 javax.swing.GroupLayout.Alignment.BASELINE)
-                                                                                                                                .addComponent(myTableTimeBtn)
+                                                                                                                                .addComponent(myTimeTableBtn)
                                                                                                                                 .addComponent(myTableTimeLb))
                                                                                                                 .addGap(36, 36, 36)
                                                                                                                 .addComponent(jSeparator2,
@@ -429,9 +474,15 @@ public class AppUI extends javax.swing.JFrame {
                         }
                 });
 
-                jLabel20.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
-                jLabel20.setForeground(new java.awt.Color(255, 255, 255));
-                jLabel20.setText("MENU");
+                jLabelMenuBar.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
+                jLabelMenuBar.setForeground(new java.awt.Color(255, 255, 255));
+                jLabelMenuBar.setText("MENU");
+                jLabelMenuBar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+                jLabelMenuBar.addMouseListener(new java.awt.event.MouseAdapter() {
+                        public void mouseClicked(java.awt.event.MouseEvent evt) {
+                                jLabelMenuBarMouseClicked(evt);
+                        }
+                });
 
                 jLabel22.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
                 jLabel22.setForeground(new java.awt.Color(255, 255, 255));
@@ -465,7 +516,7 @@ public class AppUI extends javax.swing.JFrame {
                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE)
                                                                 .addPreferredGap(
                                                                                 javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                .addComponent(jLabel20)
+                                                                .addComponent(jLabelMenuBar)
                                                                 .addPreferredGap(
                                                                                 javax.swing.LayoutStyle.ComponentPlacement.RELATED,
                                                                                 javax.swing.GroupLayout.DEFAULT_SIZE,
@@ -509,7 +560,7 @@ public class AppUI extends javax.swing.JFrame {
                                                                                                                                                 javax.swing.GroupLayout.DEFAULT_SIZE,
                                                                                                                                                 Short.MAX_VALUE)
                                                                                                                                 .addComponent(jLabel27)
-                                                                                                                                .addComponent(jLabel20,
+                                                                                                                                .addComponent(jLabelMenuBar,
                                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
                                                                                                                                                 32,
                                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -524,6 +575,275 @@ public class AppUI extends javax.swing.JFrame {
 
                 pnContainer.setBackground(new java.awt.Color(153, 153, 153));
                 pnContainer.setLayout(new java.awt.CardLayout());
+
+                pnRegisterCourse.setBackground(new java.awt.Color(153, 153, 153));
+
+                jTextField11.setBackground(new java.awt.Color(102, 102, 102));
+                jTextField11.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
+                jTextField11.setForeground(new java.awt.Color(204, 255, 255));
+                jTextField11.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+                jTextField11.setText("ĐĂNG KÝ HỌC PHẦN");
+                jTextField11.setFocusable(false);
+                jTextField11.addActionListener(new java.awt.event.ActionListener() {
+                        public void actionPerformed(java.awt.event.ActionEvent evt) {
+                                jTextField11ActionPerformed(evt);
+                        }
+                });
+
+                jPanel5.setBackground(new java.awt.Color(255, 255, 255));
+
+                inputCourseJFT.addActionListener(new java.awt.event.ActionListener() {
+                        public void actionPerformed(java.awt.event.ActionEvent evt) {
+                                inputCourseJFTActionPerformed(evt);
+                        }
+                });
+
+                jLabel8.setIcon(new javax.swing.ImageIcon(
+                                "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\search_icon.png")); // NOI18N
+
+                chooseCourseIdBtn.setBackground(new java.awt.Color(87, 110, 116));
+                chooseCourseIdBtn.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
+                chooseCourseIdBtn.setForeground(new java.awt.Color(255, 255, 255));
+                chooseCourseIdBtn.setText("CHỌN");
+
+                jTextField17.setBackground(new java.awt.Color(87, 110, 116));
+                jTextField17.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
+                jTextField17.setForeground(new java.awt.Color(204, 204, 204));
+                jTextField17.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+                jTextField17.setText("NHẬP MHP");
+                jTextField17.setFocusable(false);
+
+                jScrollPane4.setBorder(null);
+
+                jListSuggestion.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+                jScrollPane4.setViewportView(jListSuggestion);
+
+                previewRegistedCoursesJTable.setModel(new javax.swing.table.DefaultTableModel(
+                                new Object[][] {
+
+                                },
+                                new String[] {
+                                                "Title 1", "Title 2", "Title 3", "Title 4", "Title 5"
+                                }));
+                previewRegistedCoursesJTable.setRowHeight(40);
+                jScrollPane5.setViewportView(previewRegistedCoursesJTable);
+
+                organizeCheduleBtn.setBackground(new java.awt.Color(87, 110, 116));
+                organizeCheduleBtn.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
+                organizeCheduleBtn.setForeground(new java.awt.Color(255, 255, 255));
+                organizeCheduleBtn.setText("SẮP XẾP");
+
+                javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+                jPanel5.setLayout(jPanel5Layout);
+                jPanel5Layout.setHorizontalGroup(
+                                jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(jPanel5Layout.createSequentialGroup()
+                                                                .addGroup(jPanel5Layout.createParallelGroup(
+                                                                                javax.swing.GroupLayout.Alignment.LEADING)
+                                                                                .addGroup(jPanel5Layout
+                                                                                                .createSequentialGroup()
+                                                                                                .addGap(17, 17, 17)
+                                                                                                .addComponent(jLabel8,
+                                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                                                34,
+                                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                                                .addGroup(jPanel5Layout
+                                                                                                .createSequentialGroup()
+                                                                                                .addContainerGap()
+                                                                                                .addComponent(jTextField17,
+                                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                                                javax.swing.GroupLayout.DEFAULT_SIZE,
+                                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                                                .addPreferredGap(
+                                                                                                                javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                                                                .addGroup(jPanel5Layout
+                                                                                                                .createParallelGroup(
+                                                                                                                                javax.swing.GroupLayout.Alignment.LEADING)
+                                                                                                                .addGroup(jPanel5Layout
+                                                                                                                                .createSequentialGroup()
+                                                                                                                                .addGroup(jPanel5Layout
+                                                                                                                                                .createParallelGroup(
+                                                                                                                                                                javax.swing.GroupLayout.Alignment.LEADING,
+                                                                                                                                                                false)
+                                                                                                                                                .addComponent(jScrollPane4)
+                                                                                                                                                .addComponent(inputCourseJFT,
+                                                                                                                                                                javax.swing.GroupLayout.DEFAULT_SIZE,
+                                                                                                                                                                403,
+                                                                                                                                                                Short.MAX_VALUE))
+                                                                                                                                .addPreferredGap(
+                                                                                                                                                javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                                                                                                .addComponent(chooseCourseIdBtn))
+                                                                                                                .addGroup(jPanel5Layout
+                                                                                                                                .createSequentialGroup()
+                                                                                                                                .addComponent(jScrollPane5,
+                                                                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                                                                                649,
+                                                                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                                                                                .addPreferredGap(
+                                                                                                                                                javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                                                                                                .addComponent(organizeCheduleBtn,
+                                                                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                                                                                126,
+                                                                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                                                .addContainerGap(105, Short.MAX_VALUE)));
+                jPanel5Layout.setVerticalGroup(
+                                jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(jPanel5Layout.createSequentialGroup()
+                                                                .addContainerGap(23, Short.MAX_VALUE)
+                                                                .addGroup(jPanel5Layout.createParallelGroup(
+                                                                                javax.swing.GroupLayout.Alignment.BASELINE)
+                                                                                .addComponent(jTextField17,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                                38,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                                .addComponent(inputCourseJFT,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                                35,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                                .addComponent(chooseCourseIdBtn,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                                35,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                                .addGap(0, 0, 0)
+                                                                .addComponent(jScrollPane4,
+                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                76,
+                                                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                .addGap(28, 28, 28)
+                                                                .addGroup(jPanel5Layout.createParallelGroup(
+                                                                                javax.swing.GroupLayout.Alignment.LEADING)
+                                                                                .addComponent(jScrollPane5,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                                198,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                                .addComponent(organizeCheduleBtn,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                                40,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                                .addPreferredGap(
+                                                                                javax.swing.LayoutStyle.ComponentPlacement.RELATED,
+                                                                                22, Short.MAX_VALUE)
+                                                                .addComponent(jLabel8)
+                                                                .addGap(16, 16, 16)));
+
+                javax.swing.GroupLayout pnRegisterCourseLayout = new javax.swing.GroupLayout(pnRegisterCourse);
+                pnRegisterCourse.setLayout(pnRegisterCourseLayout);
+                pnRegisterCourseLayout.setHorizontalGroup(
+                                pnRegisterCourseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(pnRegisterCourseLayout.createSequentialGroup()
+                                                                .addGap(28, 28, 28)
+                                                                .addGroup(pnRegisterCourseLayout.createParallelGroup(
+                                                                                javax.swing.GroupLayout.Alignment.LEADING)
+                                                                                .addComponent(jTextField11,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                                241,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                                .addComponent(jPanel5,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                                javax.swing.GroupLayout.DEFAULT_SIZE,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                                .addContainerGap(20, Short.MAX_VALUE)));
+                pnRegisterCourseLayout.setVerticalGroup(
+                                pnRegisterCourseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(pnRegisterCourseLayout.createSequentialGroup()
+                                                                .addGap(22, 22, 22)
+                                                                .addComponent(jTextField11,
+                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                72,
+                                                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                .addGap(27, 27, 27)
+                                                                .addComponent(jPanel5,
+                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                javax.swing.GroupLayout.DEFAULT_SIZE,
+                                                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                .addContainerGap(58, Short.MAX_VALUE)));
+
+                pnContainer.add(pnRegisterCourse, "card2");
+
+                coursesListPanel.setBackground(new java.awt.Color(153, 153, 153));
+                coursesListPanel.addMouseListener(new java.awt.event.MouseAdapter() {
+                        public void mouseClicked(java.awt.event.MouseEvent evt) {
+                                coursesListPanelMouseClicked(evt);
+                        }
+                });
+
+                jTextField4.setBackground(new java.awt.Color(102, 102, 102));
+                jTextField4.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
+                jTextField4.setForeground(new java.awt.Color(153, 255, 255));
+                jTextField4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+                jTextField4.setText("DANH SÁCH HỌC PHẦN");
+                jTextField4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+                jTextField4.setFocusable(false);
+                jTextField4.addActionListener(new java.awt.event.ActionListener() {
+                        public void actionPerformed(java.awt.event.ActionEvent evt) {
+                                jTextField4ActionPerformed(evt);
+                        }
+                });
+
+                jTableCoursesList.setModel(new javax.swing.table.DefaultTableModel(
+                                new Object[][] {
+                                                { null, null, null, null },
+                                                { null, null, null, null },
+                                                { null, null, null, null },
+                                                { null, null, null, null }
+                                },
+                                new String[] {
+                                                "MÃ HỌC PHẦN", "TÊN HỌC PHẦN", "SỐ TÍN CHỈ", "SỐ LỚP MỞ"
+                                }));
+                jScrollPane1.setViewportView(jTableCoursesList);
+
+                javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+                jPanel3.setLayout(jPanel3Layout);
+                jPanel3Layout.setHorizontalGroup(
+                                jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGap(0, 966, Short.MAX_VALUE)
+                                                .addGroup(jPanel3Layout.createParallelGroup(
+                                                                javax.swing.GroupLayout.Alignment.LEADING)
+                                                                .addComponent(jScrollPane1,
+                                                                                javax.swing.GroupLayout.DEFAULT_SIZE,
+                                                                                966, Short.MAX_VALUE)));
+                jPanel3Layout.setVerticalGroup(
+                                jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGap(0, 439, Short.MAX_VALUE)
+                                                .addGroup(jPanel3Layout.createParallelGroup(
+                                                                javax.swing.GroupLayout.Alignment.LEADING)
+                                                                .addComponent(jScrollPane1,
+                                                                                javax.swing.GroupLayout.DEFAULT_SIZE,
+                                                                                439, Short.MAX_VALUE)));
+
+                javax.swing.GroupLayout coursesListPanelLayout = new javax.swing.GroupLayout(coursesListPanel);
+                coursesListPanel.setLayout(coursesListPanelLayout);
+                coursesListPanelLayout.setHorizontalGroup(
+                                coursesListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(coursesListPanelLayout.createSequentialGroup()
+                                                                .addGap(37, 37, 37)
+                                                                .addGroup(coursesListPanelLayout.createParallelGroup(
+                                                                                javax.swing.GroupLayout.Alignment.LEADING)
+                                                                                .addComponent(jTextField4,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                                245,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                                .addComponent(jPanel3,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                                javax.swing.GroupLayout.DEFAULT_SIZE,
+                                                                                                javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                                .addContainerGap(41, Short.MAX_VALUE)));
+                coursesListPanelLayout.setVerticalGroup(
+                                coursesListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(coursesListPanelLayout.createSequentialGroup()
+                                                                .addGap(30, 30, 30)
+                                                                .addComponent(jTextField4,
+                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                77,
+                                                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                .addGap(37, 37, 37)
+                                                                .addComponent(jPanel3,
+                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                javax.swing.GroupLayout.DEFAULT_SIZE,
+                                                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                .addContainerGap(29, Short.MAX_VALUE)));
+
+                pnContainer.add(coursesListPanel, "card2");
 
                 pnMyTimeTable.setBackground(new java.awt.Color(153, 153, 153));
                 pnMyTimeTable.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -555,7 +875,7 @@ public class AppUI extends javax.swing.JFrame {
                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
                                                                                 245,
                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                                .addContainerGap(818, Short.MAX_VALUE)));
+                                                                .addContainerGap(762, Short.MAX_VALUE)));
                 pnMyTimeTableLayout.setVerticalGroup(
                                 pnMyTimeTableLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                                 .addGroup(pnMyTimeTableLayout.createSequentialGroup()
@@ -572,14 +892,14 @@ public class AppUI extends javax.swing.JFrame {
                 jPanel16.setLayout(jPanel16Layout);
                 jPanel16Layout.setHorizontalGroup(
                                 jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addGap(0, 1100, Short.MAX_VALUE));
+                                                .addGap(0, 1044, Short.MAX_VALUE));
                 jPanel16Layout.setVerticalGroup(
                                 jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                                 .addGap(0, 612, Short.MAX_VALUE));
 
                 pnContainer.add(jPanel16, "card2");
 
-                pnRegisterCourse.setBackground(new java.awt.Color(153, 153, 153));
+                pnRegisterCourse3.setBackground(new java.awt.Color(153, 153, 153));
 
                 jTextField1.setBackground(new java.awt.Color(102, 102, 102));
                 jTextField1.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
@@ -595,9 +915,9 @@ public class AppUI extends javax.swing.JFrame {
 
                 jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-                inputCourseId.addActionListener(new java.awt.event.ActionListener() {
+                inputCourseJFT3.addActionListener(new java.awt.event.ActionListener() {
                         public void actionPerformed(java.awt.event.ActionEvent evt) {
-                                inputCourseIdActionPerformed(evt);
+                                inputCourseJFT3ActionPerformed(evt);
                         }
                 });
 
@@ -608,20 +928,10 @@ public class AppUI extends javax.swing.JFrame {
                 jComboBoxCourses.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] {
                                 "    --------------------   Chọn MHP ở bên dưới    ----------------------", " " }));
 
-                chooseCourseIdBtn.setBackground(new java.awt.Color(87, 110, 116));
-                chooseCourseIdBtn.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
-                chooseCourseIdBtn.setForeground(new java.awt.Color(255, 255, 255));
-                chooseCourseIdBtn.setText("CHỌN");
-                chooseCourseIdBtn.addMouseListener(new java.awt.event.MouseAdapter() {
-                        public void mouseClicked(java.awt.event.MouseEvent evt) {
-                                chooseCourseIdBtnMouseClicked(evt);
-                        }
-                });
-                chooseCourseIdBtn.addActionListener(new java.awt.event.ActionListener() {
-                        public void actionPerformed(java.awt.event.ActionEvent evt) {
-                                chooseCourseIdBtnActionPerformed(evt);
-                        }
-                });
+                chooseCourseIdBtn3.setBackground(new java.awt.Color(87, 110, 116));
+                chooseCourseIdBtn3.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
+                chooseCourseIdBtn3.setForeground(new java.awt.Color(255, 255, 255));
+                chooseCourseIdBtn3.setText("CHỌN");
 
                 jTextField6.setBackground(new java.awt.Color(87, 110, 116));
                 jTextField6.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
@@ -741,8 +1051,8 @@ public class AppUI extends javax.swing.JFrame {
 
                 jScrollPane2.setBorder(null);
 
-                jList2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-                jScrollPane2.setViewportView(jList2);
+                jListSuggestion3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+                jScrollPane2.setViewportView(jListSuggestion3);
 
                 javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
                 jPanel1.setLayout(jPanel1Layout);
@@ -799,13 +1109,13 @@ public class AppUI extends javax.swing.JFrame {
                                                                                                                                 javax.swing.GroupLayout.Alignment.LEADING,
                                                                                                                                 false)
                                                                                                                 .addComponent(jScrollPane2)
-                                                                                                                .addComponent(inputCourseId,
+                                                                                                                .addComponent(inputCourseJFT3,
                                                                                                                                 javax.swing.GroupLayout.DEFAULT_SIZE,
                                                                                                                                 403,
                                                                                                                                 Short.MAX_VALUE))
                                                                                                 .addPreferredGap(
                                                                                                                 javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                                                .addComponent(chooseCourseIdBtn))
+                                                                                                .addComponent(chooseCourseIdBtn3))
                                                                                 .addGroup(jPanel1Layout
                                                                                                 .createSequentialGroup()
                                                                                                 .addGap(17, 17, 17)
@@ -869,11 +1179,11 @@ public class AppUI extends javax.swing.JFrame {
                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
                                                                                                                                 38,
                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                                                                                .addComponent(inputCourseId,
+                                                                                                                .addComponent(inputCourseJFT3,
                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
                                                                                                                                 35,
                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                                                                                .addComponent(chooseCourseIdBtn,
+                                                                                                                .addComponent(chooseCourseIdBtn3,
                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
                                                                                                                                 35,
                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -904,7 +1214,6 @@ public class AppUI extends javax.swing.JFrame {
                                                                                                                                 javax.swing.GroupLayout.Alignment.BASELINE)
                                                                                                                 .addComponent(jCheckBox5)
                                                                                                                 .addComponent(jCheckBox2))))
-                                                                .addGap(18, 18, 18)
                                                                 .addGroup(jPanel1Layout.createParallelGroup(
                                                                                 javax.swing.GroupLayout.Alignment.LEADING)
                                                                                 .addGroup(jPanel1Layout
@@ -931,13 +1240,13 @@ public class AppUI extends javax.swing.JFrame {
                                                                                                                 .addComponent(jLabel6)
                                                                                                                 .addGap(16, 16, 16)))));
 
-                javax.swing.GroupLayout pnRegisterCourseLayout = new javax.swing.GroupLayout(pnRegisterCourse);
-                pnRegisterCourse.setLayout(pnRegisterCourseLayout);
-                pnRegisterCourseLayout.setHorizontalGroup(
-                                pnRegisterCourseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addGroup(pnRegisterCourseLayout.createSequentialGroup()
+                javax.swing.GroupLayout pnRegisterCourse3Layout = new javax.swing.GroupLayout(pnRegisterCourse3);
+                pnRegisterCourse3.setLayout(pnRegisterCourse3Layout);
+                pnRegisterCourse3Layout.setHorizontalGroup(
+                                pnRegisterCourse3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(pnRegisterCourse3Layout.createSequentialGroup()
                                                                 .addGap(28, 28, 28)
-                                                                .addGroup(pnRegisterCourseLayout.createParallelGroup(
+                                                                .addGroup(pnRegisterCourse3Layout.createParallelGroup(
                                                                                 javax.swing.GroupLayout.Alignment.LEADING)
                                                                                 .addComponent(jTextField1,
                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
@@ -947,10 +1256,10 @@ public class AppUI extends javax.swing.JFrame {
                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
                                                                                                 javax.swing.GroupLayout.DEFAULT_SIZE,
                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                                .addContainerGap(76, Short.MAX_VALUE)));
-                pnRegisterCourseLayout.setVerticalGroup(
-                                pnRegisterCourseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addGroup(pnRegisterCourseLayout.createSequentialGroup()
+                                                                .addContainerGap(20, Short.MAX_VALUE)));
+                pnRegisterCourse3Layout.setVerticalGroup(
+                                pnRegisterCourse3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(pnRegisterCourse3Layout.createSequentialGroup()
                                                                 .addGap(22, 22, 22)
                                                                 .addComponent(jTextField1,
                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
@@ -961,9 +1270,52 @@ public class AppUI extends javax.swing.JFrame {
                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
                                                                                 javax.swing.GroupLayout.DEFAULT_SIZE,
                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                                .addContainerGap(56, Short.MAX_VALUE)));
+                                                                .addContainerGap(74, Short.MAX_VALUE)));
 
-                pnContainer.add(pnRegisterCourse, "card2");
+                pnContainer.add(pnRegisterCourse3, "card2");
+
+                pnRegistedCourses.setBackground(new java.awt.Color(153, 153, 153));
+                pnRegistedCourses.addMouseListener(new java.awt.event.MouseAdapter() {
+                        public void mouseClicked(java.awt.event.MouseEvent evt) {
+                                pnRegistedCoursesMouseClicked(evt);
+                        }
+                });
+
+                jTextField9.setBackground(new java.awt.Color(102, 102, 102));
+                jTextField9.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
+                jTextField9.setForeground(new java.awt.Color(153, 255, 255));
+                jTextField9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+                jTextField9.setText("HỌC PHẦN ĐÃ ĐĂNG KÝ");
+                jTextField9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+                jTextField9.setFocusable(false);
+                jTextField9.addActionListener(new java.awt.event.ActionListener() {
+                        public void actionPerformed(java.awt.event.ActionEvent evt) {
+                                jTextField9ActionPerformed(evt);
+                        }
+                });
+
+                javax.swing.GroupLayout pnRegistedCoursesLayout = new javax.swing.GroupLayout(pnRegistedCourses);
+                pnRegistedCourses.setLayout(pnRegistedCoursesLayout);
+                pnRegistedCoursesLayout.setHorizontalGroup(
+                                pnRegistedCoursesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(pnRegistedCoursesLayout.createSequentialGroup()
+                                                                .addGap(37, 37, 37)
+                                                                .addComponent(jTextField9,
+                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                245,
+                                                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                .addContainerGap(762, Short.MAX_VALUE)));
+                pnRegistedCoursesLayout.setVerticalGroup(
+                                pnRegistedCoursesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(pnRegistedCoursesLayout.createSequentialGroup()
+                                                                .addGap(30, 30, 30)
+                                                                .addComponent(jTextField9,
+                                                                                javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                                77,
+                                                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                .addContainerGap(505, Short.MAX_VALUE)));
+
+                pnContainer.add(pnRegistedCourses, "card2");
 
                 javax.swing.GroupLayout pnMainLayout = new javax.swing.GroupLayout(pnMain);
                 pnMain.setLayout(pnMainLayout);
@@ -1031,13 +1383,14 @@ public class AppUI extends javax.swing.JFrame {
                 pack();
         }// </editor-fold>
 
-        private void jLabel3FocusGained(java.awt.event.FocusEvent evt) {
+        private void coursesListBtnFocusGained(java.awt.event.FocusEvent evt) {
                 // TODO add your handling code here:
                 // registerCourseLb.setVisible(true);
         }
 
         private void closeMenuBarBtnMouseClicked(java.awt.event.MouseEvent evt) {
-                closeMenuBar(); // TODO add your handling code here:
+                // TODO add your handling code here:
+                closeMenuBar();
         }
 
         private void openMenuBarBtnMouseClicked(java.awt.event.MouseEvent evt) {
@@ -1048,7 +1401,9 @@ public class AppUI extends javax.swing.JFrame {
         private void registerCourseLbMouseClicked(java.awt.event.MouseEvent evt) {
                 // TODO add your handling code here:
                 pnRegisterCourse.setVisible(true);
+                coursesListPanel.setVisible(false);
                 pnMyTimeTable.setVisible(false);
+                pnRegistedCourses.setVisible(false);
                 closeMenuBar();
         }
 
@@ -1068,22 +1423,22 @@ public class AppUI extends javax.swing.JFrame {
         private void myTableTimeLbMouseClicked(java.awt.event.MouseEvent evt) {
                 // TODO add your handling code here:
                 pnRegisterCourse.setVisible(false);
+                coursesListPanel.setVisible(false);
+                pnRegistedCourses.setVisible(false);
                 pnMyTimeTable.setVisible(true);
                 closeMenuBar();
         }
 
-        private void myTableTimeBtnMouseClicked(java.awt.event.MouseEvent evt) {
+        private void myTimeTableBtnMouseClicked(java.awt.event.MouseEvent evt) {
                 // TODO add your handling code here:
                 pnRegisterCourse.setVisible(false);
+                coursesListPanel.setVisible(false);
                 pnMyTimeTable.setVisible(true);
+                pnRegistedCourses.setVisible(false);
                 closeMenuBar();
         }
 
-        private void inputCourseIdActionPerformed(java.awt.event.ActionEvent evt) {
-                // TODO add your handling code here:
-        }
-
-        private void chooseCourseIdBtnActionPerformed(java.awt.event.ActionEvent evt) {
+        private void inputCourseJFT3ActionPerformed(java.awt.event.ActionEvent evt) {
                 // TODO add your handling code here:
         }
 
@@ -1123,15 +1478,78 @@ public class AppUI extends javax.swing.JFrame {
                 // TODO add your handling code here:
         }
 
-        private void chooseCourseIdBtnMouseClicked(java.awt.event.MouseEvent evt) {
+        private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {
                 // TODO add your handling code here:
-                String courseId = inputCourseId.getText();
-                if (courseId.equals("")) {
-                        System.out.println("Bạn chưa nhập khóa học");
-                } else {
-                        System.out.println(courseId);
-                        inputCourseId.setText("");
-                }
+        }
+
+        private void coursesListPanelMouseClicked(java.awt.event.MouseEvent evt) {
+                // TODO add your handling code here:
+        }
+
+        private void jLabelMenuBarMouseClicked(java.awt.event.MouseEvent evt) {
+                // TODO add your handling code here:
+                openMenuBar();
+        }
+
+        private void registerCourseBtnMouseClicked(java.awt.event.MouseEvent evt) {
+                // TODO add your handling code here:
+                pnRegisterCourse.setVisible(true);
+                coursesListPanel.setVisible(false);
+                pnMyTimeTable.setVisible(false);
+                pnRegistedCourses.setVisible(false);
+                closeMenuBar();
+        }
+
+        private void jTextField9ActionPerformed(java.awt.event.ActionEvent evt) {
+                // TODO add your handling code here:
+        }
+
+        private void pnRegistedCoursesMouseClicked(java.awt.event.MouseEvent evt) {
+                // TODO add your handling code here:
+        }
+
+        private void coursesListBtnMouseClicked(java.awt.event.MouseEvent evt) {
+                // TODO add your handling code here:
+                pnRegisterCourse.setVisible(false);
+                coursesListPanel.setVisible(true);
+                pnMyTimeTable.setVisible(false);
+                pnRegistedCourses.setVisible(false);
+                closeMenuBar();
+        }
+
+        private void coursesListLbMouseClicked(java.awt.event.MouseEvent evt) {
+                // TODO add your handling code here:
+                pnRegisterCourse.setVisible(false);
+                coursesListPanel.setVisible(true);
+                pnMyTimeTable.setVisible(false);
+                pnRegistedCourses.setVisible(false);
+                closeMenuBar();
+        }
+
+        private void registedCoursesBtnMouseClicked(java.awt.event.MouseEvent evt) {
+                // TODO add your handling code here:
+                pnRegisterCourse.setVisible(false);
+                coursesListPanel.setVisible(false);
+                pnMyTimeTable.setVisible(false);
+                pnRegistedCourses.setVisible(true);
+                closeMenuBar();
+        }
+
+        private void registedCoursesLbMouseClicked(java.awt.event.MouseEvent evt) {
+                // TODO add your handling code here:
+                pnRegisterCourse.setVisible(false);
+                coursesListPanel.setVisible(false);
+                pnMyTimeTable.setVisible(false);
+                pnRegistedCourses.setVisible(true);
+                closeMenuBar();
+        }
+
+        private void jTextField11ActionPerformed(java.awt.event.ActionEvent evt) {
+                // TODO add your handling code here:
+        }
+
+        private void inputCourseJFTActionPerformed(java.awt.event.ActionEvent evt) {
+                // TODO add your handling code here:
         }
 
         /*
@@ -1143,6 +1561,7 @@ public class AppUI extends javax.swing.JFrame {
 
         // phương thức mở menu khi click vào close btn
         private void openMenuBar() {
+                unVisitablePnContainer();
                 // tạo luồng chạy song song với luồng chính Main
                 new Thread(new Runnable() {
                         @Override
@@ -1161,6 +1580,7 @@ public class AppUI extends javax.swing.JFrame {
 
         // phương thức đóng menu khi click vào close btn
         private void closeMenuBar() {
+                visitablePnContainer();
                 // tạo luồng chạy song song với luồng chính Main
                 new Thread(new Runnable() {
                         @Override
@@ -1175,6 +1595,14 @@ public class AppUI extends javax.swing.JFrame {
                                 }
                         }
                 }).start();
+        }
+
+        private void unVisitablePnContainer() {
+                pnContainer.setVisible(false);
+        }
+
+        private void visitablePnContainer() {
+                pnContainer.setVisible(true);
         }
 
         private void centerFrame() {
@@ -1222,18 +1650,24 @@ public class AppUI extends javax.swing.JFrame {
                 // </editor-fold>
 
                 /* Create and display the form */
+                pnRegisterCourse3.setVisible(false);
+
                 AppUI appUI = new AppUI();
                 java.awt.EventQueue.invokeLater(() -> {
                         appUI.setVisible(true);
                 });
-
                 return appUI;
         }
 
         // Variables declaration - do not modify
         private javax.swing.JButton chooseCourseIdBtn;
+        private javax.swing.JButton chooseCourseIdBtn3;
         private javax.swing.JLabel closeMenuBarBtn;
-        private javax.swing.JTextField inputCourseId;
+        private javax.swing.JLabel coursesListBtn;
+        private javax.swing.JLabel coursesListLb;
+        private javax.swing.JPanel coursesListPanel;
+        private javax.swing.JTextField inputCourseJFT;
+        private javax.swing.JTextField inputCourseJFT3;
         private javax.swing.JCheckBox jCheckBox1;
         private javax.swing.JCheckBox jCheckBox2;
         private javax.swing.JCheckBox jCheckBox3;
@@ -1251,41 +1685,79 @@ public class AppUI extends javax.swing.JFrame {
         private javax.swing.JLabel jLabel17;
         private javax.swing.JLabel jLabel19;
         private javax.swing.JLabel jLabel2;
-        private javax.swing.JLabel jLabel20;
         private javax.swing.JLabel jLabel22;
         private javax.swing.JLabel jLabel24;
         private javax.swing.JLabel jLabel25;
         private javax.swing.JLabel jLabel26;
         private javax.swing.JLabel jLabel27;
-        private javax.swing.JLabel jLabel3;
-        private javax.swing.JLabel jLabel4;
-        private javax.swing.JLabel jLabel5;
         private javax.swing.JLabel jLabel6;
-        private javax.swing.JLabel jLabel7;
         private javax.swing.JLabel jLabel8;
-        private javax.swing.JList<String> jList2;
+        private javax.swing.JLabel jLabelMenuBar;
+        private javax.swing.JList<String> jListSuggestion;
+        private javax.swing.JList<String> jListSuggestion3;
         private javax.swing.JPanel jPanel1;
         private javax.swing.JPanel jPanel16;
         private javax.swing.JPanel jPanel2;
+        private javax.swing.JPanel jPanel3;
+        private javax.swing.JPanel jPanel5;
+        private javax.swing.JScrollPane jScrollPane1;
         private javax.swing.JScrollPane jScrollPane2;
+        private javax.swing.JScrollPane jScrollPane4;
+        private javax.swing.JScrollPane jScrollPane5;
         private javax.swing.JSeparator jSeparator1;
         private javax.swing.JSeparator jSeparator2;
+        private javax.swing.JTable jTableCoursesList;
         private javax.swing.JTextField jTextField1;
+        private javax.swing.JTextField jTextField11;
+        private javax.swing.JTextField jTextField17;
         private javax.swing.JTextField jTextField2;
+        private javax.swing.JTextField jTextField4;
         private javax.swing.JTextField jTextField5;
         private javax.swing.JTextField jTextField6;
         private javax.swing.JTextField jTextField7;
         private javax.swing.JTextField jTextField8;
+        private javax.swing.JTextField jTextField9;
         private javax.swing.JPanel menuBar;
-        private javax.swing.JLabel myTableTimeBtn;
         private javax.swing.JLabel myTableTimeLb;
+        private javax.swing.JLabel myTimeTableBtn;
         private javax.swing.JPanel navigationBar;
         private javax.swing.JLabel openMenuBarBtn;
+        private javax.swing.JButton organizeCheduleBtn;
         private javax.swing.JPanel pnContainer;
         private javax.swing.JPanel pnMain;
         private javax.swing.JPanel pnMyTimeTable;
+        private javax.swing.JPanel pnRegistedCourses;
         private javax.swing.JPanel pnRegisterCourse;
+        private javax.swing.JPanel pnRegisterCourse3;
+        private javax.swing.JTable previewRegistedCoursesJTable;
+        private javax.swing.JLabel registedCoursesBtn;
+        private javax.swing.JLabel registedCoursesLb;
+        private javax.swing.JLabel registerCourseBtn;
         private javax.swing.JLabel registerCourseLb;
         // End of variables declaration
+
+        public javax.swing.JComboBox<String> getjComboBoxCourses() {
+                return jComboBoxCourses;
+        }
+
+        public javax.swing.JList<String> getjListSuggestion() {
+                return jListSuggestion;
+        }
+
+        public javax.swing.JTextField getInputCourseJFT() {
+                return inputCourseJFT;
+        }
+
+        public javax.swing.JButton getChooseCourseIdBtn() {
+                return chooseCourseIdBtn;
+        }
+
+        public javax.swing.JPanel getjPanel2() {
+                return jPanel2;
+        }
+
+        public javax.swing.JTable getjTableCoursesList() {
+                return jTableCoursesList;
+        }
 
 }
