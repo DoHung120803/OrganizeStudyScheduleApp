@@ -1,5 +1,6 @@
 package app.model.course;
 
+import app.model.read.ReadData;
 import resource.arraylist.MyArrayList;
 import resource.node.CourseNode;
 

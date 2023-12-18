@@ -4,6 +4,7 @@
  */
 package app.view.main;
 
+import javax.swing.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -68,7 +69,7 @@ public class AppUI extends javax.swing.JFrame {
                 pnRegisterCourse = new javax.swing.JPanel();
                 jTextField1 = new javax.swing.JTextField();
                 jPanel1 = new javax.swing.JPanel();
-                inputCourseId = new javax.swing.JTextField();
+                inputCourseJFT = new javax.swing.JTextField();
                 jLabel6 = new javax.swing.JLabel();
                 jComboBoxCourses = new javax.swing.JComboBox<>();
                 chooseCourseIdBtn = new javax.swing.JButton();
@@ -595,9 +596,9 @@ public class AppUI extends javax.swing.JFrame {
 
                 jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-                inputCourseId.addActionListener(new java.awt.event.ActionListener() {
+                inputCourseJFT.addActionListener(new java.awt.event.ActionListener() {
                         public void actionPerformed(java.awt.event.ActionEvent evt) {
-                                inputCourseIdActionPerformed(evt);
+                                inputCourseJFTActionPerformed(evt);
                         }
                 });
 
@@ -612,11 +613,6 @@ public class AppUI extends javax.swing.JFrame {
                 chooseCourseIdBtn.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
                 chooseCourseIdBtn.setForeground(new java.awt.Color(255, 255, 255));
                 chooseCourseIdBtn.setText("CHỌN");
-                chooseCourseIdBtn.addMouseListener(new java.awt.event.MouseAdapter() {
-                        public void mouseClicked(java.awt.event.MouseEvent evt) {
-                                chooseCourseIdBtnMouseClicked(evt);
-                        }
-                });
                 chooseCourseIdBtn.addActionListener(new java.awt.event.ActionListener() {
                         public void actionPerformed(java.awt.event.ActionEvent evt) {
                                 chooseCourseIdBtnActionPerformed(evt);
@@ -799,7 +795,7 @@ public class AppUI extends javax.swing.JFrame {
                                                                                                                                 javax.swing.GroupLayout.Alignment.LEADING,
                                                                                                                                 false)
                                                                                                                 .addComponent(jScrollPane2)
-                                                                                                                .addComponent(inputCourseId,
+                                                                                                                .addComponent(inputCourseJFT,
                                                                                                                                 javax.swing.GroupLayout.DEFAULT_SIZE,
                                                                                                                                 403,
                                                                                                                                 Short.MAX_VALUE))
@@ -869,7 +865,7 @@ public class AppUI extends javax.swing.JFrame {
                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
                                                                                                                                 38,
                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                                                                                .addComponent(inputCourseId,
+                                                                                                                .addComponent(inputCourseJFT,
                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
                                                                                                                                 35,
                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1079,7 +1075,7 @@ public class AppUI extends javax.swing.JFrame {
                 closeMenuBar();
         }
 
-        private void inputCourseIdActionPerformed(java.awt.event.ActionEvent evt) {
+        private void inputCourseJFTActionPerformed(java.awt.event.ActionEvent evt) {
                 // TODO add your handling code here:
         }
 
@@ -1121,17 +1117,6 @@ public class AppUI extends javax.swing.JFrame {
 
         private void jTextField8ActionPerformed(java.awt.event.ActionEvent evt) {
                 // TODO add your handling code here:
-        }
-
-        private void chooseCourseIdBtnMouseClicked(java.awt.event.MouseEvent evt) {
-                // TODO add your handling code here:
-                String courseId = inputCourseId.getText();
-                if (courseId.equals("")) {
-                        System.out.println("Bạn chưa nhập khóa học");
-                } else {
-                        System.out.println(courseId);
-                        inputCourseId.setText("");
-                }
         }
 
         /*
@@ -1233,7 +1218,7 @@ public class AppUI extends javax.swing.JFrame {
         // Variables declaration - do not modify
         private javax.swing.JButton chooseCourseIdBtn;
         private javax.swing.JLabel closeMenuBarBtn;
-        private javax.swing.JTextField inputCourseId;
+        private javax.swing.JTextField inputCourseJFT;
         private javax.swing.JCheckBox jCheckBox1;
         private javax.swing.JCheckBox jCheckBox2;
         private javax.swing.JCheckBox jCheckBox3;
@@ -1288,4 +1273,43 @@ public class AppUI extends javax.swing.JFrame {
         private javax.swing.JLabel registerCourseLb;
         // End of variables declaration
 
+        public JComboBox<String> getjComboBoxCourses() {
+                return jComboBoxCourses;
+        }
+
+        public void setjComboBoxCourses(JComboBox<String> jComboBoxCourses) {
+                this.jComboBoxCourses = jComboBoxCourses;
+        }
+
+        public JTextField getInputCourseJFT() {
+                return inputCourseJFT;
+        }
+
+        public void setInputCourseJFT(JTextField inputCourseJFT) {
+                this.inputCourseJFT = inputCourseJFT;
+        }
+
+        public JButton getChooseCourseIdBtn() {
+                return chooseCourseIdBtn;
+        }
+
+        public void setChooseCourseIdBtn(JButton chooseCourseIdBtn) {
+                this.chooseCourseIdBtn = chooseCourseIdBtn;
+        }
+
+        public JLabel getjLabel2() {
+                return jLabel2;
+        }
+
+        public void setjLabel2(JLabel jLabel2) {
+                this.jLabel2 = jLabel2;
+        }
+
+        public JPanel getjPanel2() {
+                return jPanel2;
+        }
+
+        public void setjPanel2(JPanel jPanel2) {
+                this.jPanel2 = jPanel2;
+        }
 }
