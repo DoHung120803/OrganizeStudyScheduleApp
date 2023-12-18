@@ -86,6 +86,7 @@ public class AppUI extends javax.swing.JFrame {
                 jTextField5 = new javax.swing.JTextField();
                 jScrollPane2 = new javax.swing.JScrollPane();
                 jList2 = new javax.swing.JList<>();
+                jTextArea = new JTextArea();
 
                 setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
                 setTitle("Organize Schedule App");
@@ -100,7 +101,7 @@ public class AppUI extends javax.swing.JFrame {
                 menuBar.setPreferredSize(new java.awt.Dimension(283, 611));
 
                 jLabel1.setIcon(new javax.swing.ImageIcon(
-                                "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\schedule_icon.png")); // NOI18N
+                                "D:\\DataStructureAndAlgorithms\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\schedule_icon.png")); // NOI18N
                 jLabel1.setText("jLabel1");
 
                 jLabel2.setFont(new java.awt.Font("Segoe UI Semibold", 0, 18)); // NOI18N
@@ -108,7 +109,7 @@ public class AppUI extends javax.swing.JFrame {
                 jLabel2.setText("TẠO LỊCH HỌC CỦA BẠN");
 
                 jLabel3.setIcon(new javax.swing.ImageIcon(
-                                "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\list_icon.png")); // NOI18N
+                                "D:\\DataStructureAndAlgorithms\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\list_icon.png")); // NOI18N
                 jLabel3.setText("jLabel3");
                 jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
                 jLabel3.addFocusListener(new java.awt.event.FocusAdapter() {
@@ -124,7 +125,7 @@ public class AppUI extends javax.swing.JFrame {
                 jLabel4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
                 jLabel5.setIcon(new javax.swing.ImageIcon(
-                                "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\add.png")); // NOI18N
+                                "D:\\DataStructureAndAlgorithms\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\add.png")); // NOI18N
                 jLabel5.setText("jLabel5");
                 jLabel5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
@@ -139,7 +140,7 @@ public class AppUI extends javax.swing.JFrame {
                 });
 
                 jLabel7.setIcon(new javax.swing.ImageIcon(
-                                "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\tick_icon.png")); // NOI18N
+                                "D:\\DataStructureAndAlgorithms\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\tick_icon.png")); // NOI18N
                 jLabel7.setText("jLabel7");
                 jLabel7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
@@ -149,7 +150,7 @@ public class AppUI extends javax.swing.JFrame {
                 jLabel8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
                 myTableTimeBtn.setIcon(new javax.swing.ImageIcon(
-                                "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\timetable_icon.png")); // NOI18N
+                                "D:\\DataStructureAndAlgorithms\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\timetable_icon.png")); // NOI18N
                 myTableTimeBtn.setText("jLabel9");
                 myTableTimeBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
                 myTableTimeBtn.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -171,7 +172,7 @@ public class AppUI extends javax.swing.JFrame {
                 jLabel11.setText("jLabel11");
 
                 jLabel12.setIcon(new javax.swing.ImageIcon(
-                                "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\manual.png")); // NOI18N
+                                "D:\\DataStructureAndAlgorithms\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\manual.png")); // NOI18N
                 jLabel12.setText("jLabel12");
 
                 jLabel13.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
@@ -179,7 +180,7 @@ public class AppUI extends javax.swing.JFrame {
                 jLabel13.setText("Hướng dẫn sử dụng");
 
                 jLabel14.setIcon(new javax.swing.ImageIcon(
-                                "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\rules_and_services.png")); // NOI18N
+                                "D:\\DataStructureAndAlgorithms\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\rules_and_services.png")); // NOI18N
                 jLabel14.setText("jLabel14");
 
                 jLabel15.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
@@ -189,7 +190,7 @@ public class AppUI extends javax.swing.JFrame {
                 jLabel17.setText("jLabel17");
 
                 jLabel19.setIcon(new javax.swing.ImageIcon(
-                                "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\supporter_icon.png")); // NOI18N
+                                "D:\\DataStructureAndAlgorithms\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\supporter_icon.png")); // NOI18N
                 jLabel19.setText("jLabel19");
 
                 jLabel16.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
@@ -197,7 +198,7 @@ public class AppUI extends javax.swing.JFrame {
                 jLabel16.setText("Liên hệ với chúng tôi");
 
                 closeMenuBarBtn.setIcon(new javax.swing.ImageIcon(
-                                "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\close_icon.png")); // NOI18N
+                                "D:\\DataStructureAndAlgorithms\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\close_icon.png")); // NOI18N
                 closeMenuBarBtn.setText("jLabel18");
                 closeMenuBarBtn.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -423,7 +424,7 @@ public class AppUI extends javax.swing.JFrame {
                 navigationBar.setForeground(new java.awt.Color(255, 153, 0));
 
                 openMenuBarBtn.setIcon(new javax.swing.ImageIcon(
-                                "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\menu-bar_icon.png")); // NOI18N
+                                "D:\\DataStructureAndAlgorithms\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\menu-bar_icon.png")); // NOI18N
                 openMenuBarBtn.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseClicked(java.awt.event.MouseEvent evt) {
                                 openMenuBarBtnMouseClicked(evt);
@@ -603,7 +604,7 @@ public class AppUI extends javax.swing.JFrame {
                 });
 
                 jLabel6.setIcon(new javax.swing.ImageIcon(
-                                "D:\\HocTap\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\search_icon.png")); // NOI18N
+                                "D:\\DataStructureAndAlgorithms\\OrganizeStudyScheduleApp\\organize_study_schedule_app\\resource\\icons\\search_icon.png")); // NOI18N
 
                 jComboBoxCourses.setBackground(new java.awt.Color(153, 153, 153));
                 jComboBoxCourses.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] {
@@ -687,7 +688,7 @@ public class AppUI extends javax.swing.JFrame {
                         }
                 });
 
-                jPanel2.setBackground(new java.awt.Color(204, 204, 204));
+                jTextArea.setBackground(new java.awt.Color(204, 204, 204));
 
                 jTextField7.setBackground(new java.awt.Color(87, 110, 116));
                 jTextField7.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
@@ -830,7 +831,7 @@ public class AppUI extends javax.swing.JFrame {
                                                                                 javax.swing.GroupLayout.Alignment.LEADING)
                                                                                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING,
                                                                                                 jPanel1Layout.createSequentialGroup()
-                                                                                                                .addComponent(jPanel2,
+                                                                                                                .addComponent(jTextArea,
                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
                                                                                                                                 javax.swing.GroupLayout.DEFAULT_SIZE,
                                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -851,7 +852,7 @@ public class AppUI extends javax.swing.JFrame {
                                                                                 .addGroup(jPanel1Layout
                                                                                                 .createSequentialGroup()
                                                                                                 .addGap(25, 25, 25)
-                                                                                                .addComponent(jPanel2,
+                                                                                                .addComponent(jTextArea,
                                                                                                                 javax.swing.GroupLayout.DEFAULT_SIZE,
                                                                                                                 javax.swing.GroupLayout.DEFAULT_SIZE,
                                                                                                                 Short.MAX_VALUE))
@@ -1213,7 +1214,7 @@ public class AppUI extends javax.swing.JFrame {
                 });
 
                 return appUI;
-        }
+}
 
         // Variables declaration - do not modify
         private javax.swing.JButton chooseCourseIdBtn;
@@ -1271,6 +1272,8 @@ public class AppUI extends javax.swing.JFrame {
         private javax.swing.JPanel pnMyTimeTable;
         private javax.swing.JPanel pnRegisterCourse;
         private javax.swing.JLabel registerCourseLb;
+
+        private JTextArea jTextArea;
         // End of variables declaration
 
         public JComboBox<String> getjComboBoxCourses() {
@@ -1311,5 +1314,13 @@ public class AppUI extends javax.swing.JFrame {
 
         public void setjPanel2(JPanel jPanel2) {
                 this.jPanel2 = jPanel2;
+        }
+
+        public JTextArea getjTextArea() {
+                return jTextArea;
+        }
+
+        public void setjTextArea(JTextArea jTextArea) {
+                this.jTextArea = jTextArea;
         }
 }

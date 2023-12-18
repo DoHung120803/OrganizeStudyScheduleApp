@@ -50,16 +50,14 @@ public class EventHandler {
     }
     public void chooseCourseId() {
         JButton chooseCourseIdBtn = appUI.getChooseCourseIdBtn();
-        JPanel jPanel2 = appUI.getjPanel2();
+        JTextArea jTextArea = appUI.getjTextArea();
         JTextField inputCourseJFT = appUI.getInputCourseJFT();
-        JTextField jTextField = new JTextField();
-        GroupLayout groupLayout = new GroupLayout(jPanel2);
-        chooseCourseIdBtn.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+
+        chooseCourseIdBtn.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent evt) {
                 String text = inputCourseJFT.getText();
-                jTextField.setText(text);
-                jPanel2.setLayout(groupLayout);
-                jPanel2.add(jTextField);
+                jTextArea.append(text + "\n");
+                inputCourseJFT.setText("");
             }
         });
     }
