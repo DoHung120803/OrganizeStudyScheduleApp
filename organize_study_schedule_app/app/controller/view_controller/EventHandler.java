@@ -3,6 +3,7 @@ package app.controller.view_controller;
 import java.awt.BorderLayout;
 import java.awt.Button;
 import java.awt.Color;
+import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
@@ -12,31 +13,41 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.swing.BorderFactory;
+import javax.swing.DefaultCellEditor;
 import javax.swing.DefaultListModel;
 import javax.swing.GroupLayout;
 import javax.swing.JButton;
+import javax.swing.JCheckBox;
 import javax.swing.JList;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.ListSelectionModel;
+import javax.swing.SwingUtilities;
+import javax.swing.UIManager;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
+import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableCellRenderer;
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 
 import app.model.course.CourseManager;
 import app.model.course.MyClass;
+import app.model.organization.ScheduleOrganization;
+import app.model.user.RegisterCourses;
 import app.view.main.AppUI;
 import resource.arraylist.MyArrayList;
 import resource.node.CourseNode;
 
 public class EventHandler {
-    private static CourseManager courseManager = CourseManager.getInstance();
+    private CourseManager courseManager = CourseManager.getInstance();
+    private RegisterCourses userRegister = RegisterCourses.getInstance();
 
     private MyArrayList<CourseNode<String, MyArrayList<MyClass>>> exerciseClassesList = courseManager
             .getExerciseClassesList();
@@ -49,6 +60,8 @@ public class EventHandler {
         fillSelectCourseSuggestion();
         chooseCourseIdBtnHandler();
         jTableCoursesListReadData();
+        deleteCourseHandler();
+        organizeSchedule();
     }
 
     public void suggestionInputCourseIdHandler() {
@@ -117,18 +130,23 @@ public class EventHandler {
     }
 
     public void fillSelectCourseSuggestion() {
-        JList jListSuggestion = appUI.getjListSuggestion();
+        JList<String> jListSuggestion = appUI.getjListSuggestion();
         JTextField inputCourseJFT = appUI.getInputCourseJFT();
+
         jListSuggestion.addListSelectionListener(new ListSelectionListener() {
             @Override
             public void valueChanged(ListSelectionEvent e) {
                 if (!e.getValueIsAdjusting()) {
-                    // Lấy giá trị được chọn và đưa vào JTextField
-                    String selectedValue = (String) jListSuggestion.getSelectedValue();
-                    inputCourseJFT.setText(selectedValue);
-                    ((DefaultListModel) jListSuggestion.getModel()).clear();
-                    jListSuggestion.setBorder(null);
-
+                    SwingUtilities.invokeLater(() -> {
+                        // Lấy giá trị được chọn và đưa vào JTextField
+                        String selectedValue = jListSuggestion.getSelectedValue();
+                        if (selectedValue != null) {
+                            inputCourseJFT.setText(selectedValue);
+                            DefaultListModel<String> model = (DefaultListModel<String>) jListSuggestion.getModel();
+                            model.clear();
+                            jListSuggestion.setBorder(null);
+                        }
+                    });
                 }
             }
         });
@@ -140,28 +158,67 @@ public class EventHandler {
         chooseCourseIdBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 JTextField inputCourseJFT = appUI.getInputCourseJFT();
-                JPanel previewRegistedCourseIdPn = appUI.getjPanel2();
-                GroupLayout previewRegistedCourseIdPnLayout = new GroupLayout(previewRegistedCourseIdPn);
-                previewRegistedCourseIdPn.setLayout(previewRegistedCourseIdPnLayout);
-                String courseId = inputCourseJFT.getText();
-                JTextField registedCourseIdJTF = new JTextField();
-                registedCourseIdJTF.setText(courseId);
+                String text = inputCourseJFT.getText();
 
-                // Chỉnh sửa GroupLayout
-                previewRegistedCourseIdPnLayout.setHorizontalGroup(
-                        previewRegistedCourseIdPnLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(registedCourseIdJTF, javax.swing.GroupLayout.DEFAULT_SIZE,
-                                        javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE));
+                if (text.equals("")) {
+                    JOptionPane.showMessageDialog(null,
+                            "Bạn chưa nhập Mã Học Phần",
+                            "Message Dialog",
+                            JOptionPane.INFORMATION_MESSAGE);
+                    inputCourseJFT.setText("");
+                    return;
+                }
+                String courseId = "";
+                if (text.trim().indexOf(" ") < 0) {
+                    courseId = text;
+                } else {
+                    courseId = text.substring(0, text.trim().indexOf(" "));
+                }
 
-                previewRegistedCourseIdPnLayout.setVerticalGroup(
-                        previewRegistedCourseIdPnLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(registedCourseIdJTF, javax.swing.GroupLayout.DEFAULT_SIZE,
-                                        javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE));
+                int checkCourseId = userRegister.registerCourse(courseId.trim().toUpperCase());
 
-                // Cố định kích thước của JPanel
-                Dimension preferredSize = new Dimension(300, 200); // Thay đổi kích thước tùy ý
-                previewRegistedCourseIdPn.setPreferredSize(preferredSize);
+                // tìm kiếm xem csdl có mã học phần tương ứng hay không nếu không thì báo lỗi
+                if (checkCourseId == -1) {
+                    JOptionPane.showMessageDialog(null,
+                            "Không tìm thấy Mã Học Phần tương ứng! Vui lòng nhập lại!",
+                            "Message Dialog",
+                            JOptionPane.INFORMATION_MESSAGE);
+                    inputCourseJFT.setText("");
 
+                    return;
+                } else if (checkCourseId == 0) {
+                    JOptionPane.showMessageDialog(null,
+                            "Bạn đã đăng ký Mã Học Phần này rồi! Vui lòng nhập lại!",
+                            "Message Dialog",
+                            JOptionPane.INFORMATION_MESSAGE);
+                    inputCourseJFT.setText("");
+
+                    return;
+                } else {
+                    JOptionPane.showMessageDialog(null,
+                            "Đăng ký thành công " + courseId.toUpperCase(),
+                            "Message Dialog",
+                            JOptionPane.INFORMATION_MESSAGE);
+                    inputCourseJFT.setText("");
+
+                }
+
+                JTable previewRegistedCoursesJTable = appUI.getPreviewRegistedCoursesJTable();
+                DefaultTableModel tableModel = (DefaultTableModel) previewRegistedCoursesJTable.getModel();
+
+                MyArrayList<MyArrayList<MyClass>> registeredCoursesList = userRegister.getRegisteredCoursesList();
+                MyClass myClass = registeredCoursesList.get(registeredCoursesList.size() - 1).get(0);
+
+                String courseName = myClass.getCourse().getCourseName();
+                String creditNumber = myClass.getCourse().getCreditNumber();
+                String numberOfClass = registeredCoursesList.get(registeredCoursesList.size() - 1).size() + " ";
+
+                tableModel.addRow(
+                        new String[] { courseId.toUpperCase(), courseName, creditNumber, numberOfClass,
+                                "               Xóa" });
+
+                int lastRow = tableModel.getRowCount();
+                System.out.println(lastRow);
             }
         });
     }
@@ -181,6 +238,68 @@ public class EventHandler {
             tableModel.addRow(new Object[] { courseId, courseName, creditNumber, numberOfClass });
 
         }
+
     }
 
+    public void deleteCourseHandler() {
+        JButton deleteCourseBtn = appUI.getDeleteCourseBtn();
+        JTable previewRegistedCoursesJTable = appUI.getPreviewRegistedCoursesJTable();
+        DefaultTableModel tableModel = (DefaultTableModel) previewRegistedCoursesJTable.getModel();
+
+        deleteCourseBtn.addMouseListener(new java.awt.event.MouseAdapter() {
+            @Override
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                int selectedRow = previewRegistedCoursesJTable.getSelectedRow();
+                System.out.println(selectedRow);
+                if (selectedRow != -1) {
+                    // Remove the selected row
+                    int confirm = JOptionPane.showConfirmDialog(appUI,
+                            "Bạn có chắc chắn muốn xóa môn học này không?", "Xác Nhận Xóa",
+                            JOptionPane.YES_NO_OPTION);
+                    if (confirm == JOptionPane.YES_OPTION) {
+                        // xóa
+                        tableModel.removeRow(selectedRow);
+                        userRegister.removeRegisteredCourse(selectedRow);
+                    } else {
+                        return;
+                    }
+                } else {
+                    JOptionPane.showMessageDialog(null, "Please select a row to delete.", "Error",
+                            JOptionPane.ERROR_MESSAGE);
+                }
+            }
+
+        });
+    }
+
+    public void organizeSchedule() {
+        JButton organizeScheduleBtn = appUI.getOrganizeCheduleBtn();
+        JTable testTimeTable = appUI.getTestTimeTable();
+        DefaultTableModel tableModel = (DefaultTableModel) testTimeTable.getModel();
+
+        organizeScheduleBtn.addMouseListener(new java.awt.event.MouseAdapter() {
+            @Override
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                if (userRegister.getRegisteredCoursesList().size() <= 0) {
+                    JOptionPane.showMessageDialog(null, "Bạn chưa đăng ký học phần nào!", "Error",
+                            JOptionPane.ERROR_MESSAGE);
+                }
+                ScheduleOrganization scheduleOrganization = new ScheduleOrganization();
+                MyArrayList<String[][]> boardList = scheduleOrganization.getTimeTableList();
+
+                String[][] first = boardList.get(0);
+
+                for (int i = 0; i < 10; i++) {
+                    tableModel.setValueAt("Tiết " + (i + 1), i, 0);
+                }
+
+                for (int i = 0; i <= 9; i++) {
+                    for (int j = 1; j <= 5; j++) {
+                        tableModel.setValueAt(first[j - 1][i], i, j);
+                    }
+                }
+            }
+        });
+
+    }
 }
