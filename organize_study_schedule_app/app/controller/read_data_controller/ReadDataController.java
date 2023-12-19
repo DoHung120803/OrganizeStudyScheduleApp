@@ -1,4 +1,4 @@
-package app.controller.readcontroller;
+package app.controller.read_data_controller;
 
 import app.model.read.ReadData;
 

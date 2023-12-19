@@ -33,7 +33,8 @@ public class ReadData {
 
         try {
             String line;
-            dataReader = new BufferedReader(new FileReader("D:\\DataStructureAndAlgorithms\\OrganizeStudyScheduleApp\\TKB-gui-SV.csv"));
+            dataReader = new BufferedReader(
+                    new FileReader("TKB-gui-SV.csv"));
             // Read file line by line?
             while ((line = dataReader.readLine()) != null) {
                 List<String> dataList = parseDataLineToList(line);
