@@ -1,44 +1,24 @@
 package app.controller.view_controller;
 
-import java.awt.BorderLayout;
-import java.awt.Button;
 import java.awt.Color;
 import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.MouseAdapter;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
+import java.util.*;
 
 import javax.swing.BorderFactory;
-import javax.swing.DefaultCellEditor;
 import javax.swing.DefaultListModel;
-import javax.swing.GroupLayout;
 import javax.swing.JButton;
-import javax.swing.JCheckBox;
 import javax.swing.JList;
 import javax.swing.JOptionPane;
-import javax.swing.JPanel;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.ListSelectionModel;
 import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableCellRenderer;
-import javax.swing.table.TableColumn;
-import javax.swing.table.TableColumnModel;
-import javax.swing.table.TableModel;
 
 import app.model.course.CourseManager;
 import app.model.course.MyClass;
@@ -47,6 +27,7 @@ import app.model.user.RegisterCourses;
 import app.view.main.AppUI;
 import resource.arraylist.MyArrayList;
 import resource.node.CourseNode;
+import resource.treemap.TreeMap;
 
 public class EventHandler {
     private CourseManager courseManager = CourseManager.getInstance();
@@ -326,7 +307,7 @@ public class EventHandler {
     }
 
     class CustomTableCellRenderer extends DefaultTableCellRenderer {
-        private Map<String, Color> cellColors = new HashMap<>(); // Sử dụng Map để ánh xạ giữa giá trị ô và màu sắc
+        private TreeMap<String, Color> cellColors = new TreeMap<>(); // Sử dụng Map để ánh xạ giữa giá trị ô và màu sắc
 
         @Override
         public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus,
@@ -364,14 +345,13 @@ public class EventHandler {
         nextTimeTableBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             @Override
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                indexTimeTable++;
-                if (indexTimeTable >= boardList.size()) {
-                    JOptionPane.showMessageDialog(null, "Không có thời khóa biểu tiếp theo", "Error",
-                            JOptionPane.ERROR_MESSAGE);
-                    indexTimeTable--;
+                if (indexTimeTable < boardList.size() - 1) {
+                    indexTimeTable++;
+                    updateOrganizeSchedule(tableModel, boardList.get(indexTimeTable));
                     return;
                 }
-                updateOrganizeSchedule(tableModel, boardList.get(indexTimeTable));
+                JOptionPane.showMessageDialog(null, "Không có thời khóa biểu tiếp theo", "Error",
+                        JOptionPane.ERROR_MESSAGE);
 
             }
         });
@@ -383,14 +363,13 @@ public class EventHandler {
         prevTimeTableBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             @Override
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                indexTimeTable--;
-                if (indexTimeTable < 0) {
-                    JOptionPane.showMessageDialog(null, "Không có thời khóa biểu đằng trước", "Error",
-                            JOptionPane.ERROR_MESSAGE);
-                    indexTimeTable++;
+                if (indexTimeTable > 0) {
+                    indexTimeTable--;
+                    updateOrganizeSchedule(tableModel, boardList.get(indexTimeTable));
                     return;
                 }
-                updateOrganizeSchedule(tableModel, boardList.get(indexTimeTable));
+                JOptionPane.showMessageDialog(null, "Không có thời khóa biểu đằng trước", "Error",
+                        JOptionPane.ERROR_MESSAGE);
             }
         });
 

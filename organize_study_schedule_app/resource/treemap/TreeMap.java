@@ -13,7 +13,6 @@ public class TreeMap<K extends Comparable<K>, V> {
             this.value = value;
             height = 1;
         }
-        
     }
 
     protected Node<K, V> root;
@@ -24,7 +23,6 @@ public class TreeMap<K extends Comparable<K>, V> {
         }
         return T.height;
     }
-    
 
     private int max(int first, int second) {
         return first > second ? first : second;
@@ -173,17 +171,30 @@ public class TreeMap<K extends Comparable<K>, V> {
         return false; // T is empty, so x is not in T
     }
 
-    public boolean containsKey(K x) {
-        Node<K, V> currentNode = root;
-        while (currentNode != null) {
-            if (currentNode.key.compareTo(x) == 0) {
-                return true;
-            } else if (x.compareTo(currentNode.key) < 0) {
-                currentNode = currentNode.left;
-            } else {
-                currentNode = currentNode.right;
-            }
-        }
-        return false;
+    public boolean containsKey(K key) {
+        return search(key, root);
     }
+
+    public V get(K key) {
+        return get(root, key);
+    }
+
+    private V get(Node<K, V> node, K key) {
+        while (node != null) {
+            int cmp = key.compareTo(node.key);
+            if (cmp < 0) node = node.left;
+            else if (cmp > 0) node = node.right;
+            else return node.value;
+        }
+        return null;
+    }
+
+    public void put(K key, V value) {
+        root = insert(key, value, root);
+    }
+
+    public void remove(K key) {
+        root = delete(key, root);
+    }
+
 }
