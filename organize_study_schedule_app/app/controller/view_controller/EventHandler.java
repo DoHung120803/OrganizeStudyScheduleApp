@@ -10,7 +10,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Random;
 
 import javax.swing.BorderFactory;
 import javax.swing.DefaultCellEditor;
@@ -62,6 +65,7 @@ public class EventHandler {
         jTableCoursesListReadData();
         deleteCourseHandler();
         organizeSchedule();
+        registedCoursesHandler();
     }
 
     public void suggestionInputCourseIdHandler() {
@@ -214,8 +218,8 @@ public class EventHandler {
                 String numberOfClass = registeredCoursesList.get(registeredCoursesList.size() - 1).size() + " ";
 
                 tableModel.addRow(
-                        new String[] { courseId.toUpperCase(), courseName, creditNumber, numberOfClass,
-                                "               Xóa" });
+                        new String[] { tableModel.getRowCount() + 1 + "", courseId.toUpperCase(), courseName,
+                                creditNumber, numberOfClass });
 
                 int lastRow = tableModel.getRowCount();
                 System.out.println(lastRow);
@@ -260,6 +264,7 @@ public class EventHandler {
                         // xóa
                         tableModel.removeRow(selectedRow);
                         userRegister.removeRegisteredCourse(selectedRow);
+
                     } else {
                         return;
                     }
@@ -272,10 +277,12 @@ public class EventHandler {
         });
     }
 
+    private int indexTimeTable = 0;
+
     public void organizeSchedule() {
         JButton organizeScheduleBtn = appUI.getOrganizeCheduleBtn();
-        JTable testTimeTable = appUI.getTestTimeTable();
-        DefaultTableModel tableModel = (DefaultTableModel) testTimeTable.getModel();
+        JTable myTimeTable = appUI.getMyTimeTable();
+        DefaultTableModel tableModel = (DefaultTableModel) myTimeTable.getModel();
 
         organizeScheduleBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             @Override
@@ -298,8 +305,110 @@ public class EventHandler {
                         tableModel.setValueAt(first[j - 1][i], i, j);
                     }
                 }
+
+                nextTimeTableBtnHandler(tableModel, boardList);
+                prevTimeTableBtn(tableModel, boardList);
+                registedCoursesHandler();
+
+                // thao tác tạo màu cho ô - start
+                CustomTableCellRenderer cellRenderer = new CustomTableCellRenderer();
+                myTimeTable.setDefaultRenderer(Object.class, cellRenderer); // Sử dụng renderer tùy chỉnh cho tất cả các
+                                                                            // ô
+                // end
+            }
+        });
+    }
+
+    class CustomTableCellRenderer extends DefaultTableCellRenderer {
+        private Map<String, Color> cellColors = new HashMap<>(); // Sử dụng Map để ánh xạ giữa giá trị ô và màu sắc
+
+        @Override
+        public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus,
+                int row, int column) {
+            Component rendererComponent = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row,
+                    column);
+            String cellValue = String.valueOf(value);
+
+            if (cellValue.length() < 10) {
+                rendererComponent.setBackground(Color.WHITE); // Gãn màu với màu trên
+                return rendererComponent;
+            }
+
+            cellValue = cellValue.substring(0, 6);
+
+            // Kiểm tra giá trị ô và xác định màu sắc tương ứng
+            if (!cellValue.equals("null")) {
+                if (!cellColors.containsKey(cellValue)) {
+                    Random random = new Random();
+                    Color color = new Color(random.nextInt(256), random.nextInt(256), random.nextInt(256));
+                    cellColors.put(cellValue, color); // Gán màu cho giá trị ô
+                }
+                rendererComponent.setBackground(cellColors.get(cellValue)); // Áp dụng màu sắc vào ô
+            } else {
+                rendererComponent.setBackground(Color.WHITE); // Gãn màu với màu trên
+            }
+
+            return rendererComponent;
+        }
+    }
+
+    public void nextTimeTableBtnHandler(DefaultTableModel tableModel, MyArrayList<String[][]> boardList) {
+
+        JButton nextTimeTableBtn = appUI.getNextTimeTableBtn();
+        nextTimeTableBtn.addMouseListener(new java.awt.event.MouseAdapter() {
+            @Override
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                indexTimeTable++;
+                if (indexTimeTable >= boardList.size()) {
+                    JOptionPane.showMessageDialog(null, "Không có thời khóa biểu tiếp theo", "Error",
+                            JOptionPane.ERROR_MESSAGE);
+                    indexTimeTable--;
+                    return;
+                }
+                updateOrganizeSchedule(tableModel, boardList.get(indexTimeTable));
+
             }
         });
 
+    }
+
+    public void prevTimeTableBtn(DefaultTableModel tableModel, MyArrayList<String[][]> boardList) {
+        JButton prevTimeTableBtn = appUI.getPrevTimeTableBtn();
+        prevTimeTableBtn.addMouseListener(new java.awt.event.MouseAdapter() {
+            @Override
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                indexTimeTable--;
+                if (indexTimeTable < 0) {
+                    JOptionPane.showMessageDialog(null, "Không có thời khóa biểu đằng trước", "Error",
+                            JOptionPane.ERROR_MESSAGE);
+                    indexTimeTable++;
+                    return;
+                }
+                updateOrganizeSchedule(tableModel, boardList.get(indexTimeTable));
+            }
+        });
+
+    }
+
+    private void updateOrganizeSchedule(DefaultTableModel tableModel, String[][] boardList) {
+        for (int i = 0; i <= 9; i++) {
+            for (int j = 1; j <= 5; j++) {
+                tableModel.setValueAt(boardList[j - 1][i], i, j);
+            }
+        }
+    }
+
+    public void registedCoursesHandler() {
+        JTable registedCoursesTable = appUI.getRegistedCoursesTable();
+        DefaultTableModel tableModel = (DefaultTableModel) registedCoursesTable.getModel();
+        tableModel.setRowCount(0);
+        for (int i = 0; i < userRegister.getRegisteredCoursesList().size(); i++) {
+            MyClass myClass = userRegister.getRegisteredCoursesList().get(i).get(0);
+            String courseId = myClass.getCourse().getCourseId();
+            String courseName = myClass.getCourse().getCourseName();
+            String creditNumber = myClass.getCourse().getCreditNumber();
+            String numberOfClass = userRegister.getRegisteredCoursesList().get(i).size() + "";
+            tableModel.addRow(new String[] { courseId, courseName, creditNumber, numberOfClass });
+        }
     }
 }

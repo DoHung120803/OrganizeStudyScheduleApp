@@ -12,19 +12,19 @@ import app.view.splash.SplashBackgroundImg;
 import app.view.splash.SplashScreen;
 
 public class ViewController {
-    public static void splashScreen() {
+    public void splashScreen() {
         SplashScreen splashScreen = new SplashScreen();
         splashScreen.add(SplashBackgroundImg.getImg());
         splashScreen.setVisible(true);
     }
 
-    public static void main(String[] args) {
+    public void init() {
         ReadData reader = new ReadData();
         reader.readData();
 
         SwingUtilities.invokeLater(() -> {
             splashScreen();
-            Timer timer = new Timer(1000, new ActionListener() {
+            Timer timer = new Timer(2000, new ActionListener() {
 
                 @Override
                 public void actionPerformed(ActionEvent e) {
