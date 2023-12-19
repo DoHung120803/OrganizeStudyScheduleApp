@@ -32,9 +32,9 @@ BIO2203,Di truyền học ,3,BIO2203 5_6_7,3,6_7,104_T5
 BIO2203,Di truyền học,3,BIO2203 6,4,9_10,236T1
 BIO2203,Di truyền học,3,BIO2203 7,5,1_2,236T1
 BIO2203,Di truyền học,3,BIO2203 8,5,4_5,236T1
-BIO2203,Di truyền học ,3,BIO2203 8_9_10,7,4_5,108T5
-BIO2203,Di truyền học,3,BIO2203 9,7,6_7,236T1
-BIO2203,Di truyền học,3,BIO2203 10,7,9_10,236T1
+BIO2203,Di truyền học ,3,BIO2203 8_9_10,5,4_5,108T5
+BIO2203,Di truyền học,3,BIO2203 9,5,6_7,236T1
+BIO2203,Di truyền học,3,BIO2203 10,5,9_10,236T1
 BIO2204,Vi sinh vật học ,3,BIO2204 1,4,4_5,327T1
 BIO2204,Vi sinh vật học ,3,BIO2204 1_2_3,6,6_7,206_T5
 BIO2204,Vi sinh vật học ,3,BIO2204 2,4,6_7,327T1
@@ -50,7 +50,7 @@ BIO2209,Đa dạng sinh học ,3,BIO2209 1_2_3,3,1_2,206_T5
 BIO2209,Đa dạng sinh học ,3,BIO2209 2,2,6_7,232T1
 BIO2209,Đa dạng sinh học ,3,BIO2209 3,2,9_10,232T1
 BIO2210,Lý sinh học,3,BIO2210,6,4_5,109_T5
-BIO2210,Lý sinh học,3,BIO2210,CN,9_10,TH2
+BIO2210,Lý sinh học,3,BIO2210,6,9_10,TH2
 BIO2215,Miễn dịch học phân tử ,3,BIO2215 1,6,6_7,TH1
 BIO2215,Miễn dịch học phân tử ,3,BIO2215 1_2_3,2,4_5,104_T5
 BIO2215,Miễn dịch học phân tử ,3,BIO2215 2,6,1_2,TH1
@@ -107,11 +107,11 @@ BIO2504,Sinh lý học người và động vật ,3,BIO2504 TNSH,4,9_10,304_T5
 BIO2504,Sinh lý học người và động vật ,3,BIO2504 TNSH,4,1_2,432T1
 BIO2804,Cơ sở sinh lý học vi sinh vật,2,BIO2804 1 CLCCNSH,3,4_5,301_T5
 BIO2804,Cơ sở sinh lý học vi sinh vật,2,BIO2804 2 CLCCNSH,4,4_5,303_T5
-BIO2805,Mô học ,2,BIO2805 1 CLCCNSH,7,1_2,432T1
+BIO2805,Mô học ,2,BIO2805 1 CLCCNSH,5,1_2,432T1
 BIO2805,Mô học ,2,BIO2805 1_2_3_4 CLCCNSH,6,9_10,301_T5
-BIO2805,Mô học ,2,BIO2805 2 CLCCNSH,7,4_5,432T1
-BIO2805,Mô học ,2,BIO2805 3 CLCCNSH,7,6_7,432T1
-BIO2805,Mô học ,2,BIO2805 4 CLCCNSH,7,9_10,432T1
+BIO2805,Mô học ,2,BIO2805 2 CLCCNSH,5,4_5,432T1
+BIO2805,Mô học ,2,BIO2805 3 CLCCNSH,5,6_7,432T1
+BIO2805,Mô học ,2,BIO2805 4 CLCCNSH,5,9_10,432T1
 BIO3000,Cơ sở sinh thái học,2,BIO3000 1 CLCCNSH,2,4_5,136T1
 BIO3000,Cơ sở sinh thái học,2,BIO3000 1_2 CLCCNSH,3,6_7,303_T5
 BIO3000,Cơ sở sinh thái học,2,BIO3000 2 CLCCNSH,2,6_7,136T1
@@ -119,12 +119,12 @@ BIO3000,Cơ sở sinh thái học,2,BIO3000 3 CLCCNSH,3,1_2,136T1
 BIO3000,Cơ sở sinh thái học,2,BIO3000 3_4_5 CLCCNSH,4,6_7,306_T5
 BIO3000,Cơ sở sinh thái học,2,BIO3000 4 CLCCNSH,3,4_5,136T1
 BIO3000,Cơ sở sinh thái học,2,BIO3000 5 CLCCNSH,3,6_7,136T1
-BIO3096,Tiến hóa hình thái của thực vật hạt kín ,3,BIO3096,7, 6_8,230T1
-BIO3172,Động vật không xương sống y học  ,3,BIO3172,7,3_5,323T1
+BIO3096,Tiến hóa hình thái của thực vật hạt kín ,3,BIO3096,5, 6_8,230T1
+BIO3172,Động vật không xương sống y học  ,3,BIO3172,5,3_5,323T1
 BIO3177,Năng lượng sinh học,2,BIO3177 1 CLCCNSH,4,1_2,303_T5
 BIO3177,Năng lượng sinh học,2,BIO3177 2 CLCCNSH,2,9_10,301_T5
-BIO3177,Năng lượng sinh học,2,BIO3177 3 CLCCNSH,7,6_7,301_T5
-BIO3177,Năng lượng sinh học,2,BIO3177 4 CLCCNSH,7,4_5,301_T5
+BIO3177,Năng lượng sinh học,2,BIO3177 3 CLCCNSH,5,6_7,301_T5
+BIO3177,Năng lượng sinh học,2,BIO3177 4 CLCCNSH,5,4_5,301_T5
 BIO3192,Thực tập vi sinh thực phẩm,2,BIO3192 1,5,2_5,BM
 BIO3192,Thực tập vi sinh thực phẩm,2,BIO3192 2,5,6_9,BM
 BIO3192,Thực tập vi sinh thực phẩm,2,BIO3192 3,6,2_5,BM
@@ -143,26 +143,26 @@ BIO3202,Động vật học động vật có xương sống  ,3,BIO3202 3,6,6_7
 BIO3202,Động vật học động vật có xương sống  ,3,BIO3202 4,6,9_10,136T1
 BIO3206,Miễn dịch học ,3,BIO3206,3,4_5,408_T5
 BIO3206E,Miễn dịch học,3,BIO3206E QTSH,4,6_8,303_T5
-BIO3208,Cơ sở di truyền học chọn giống  ,3,BIO3208,CN,6_8,237T1
-BIO3209,Di truyền học người ,3,BIO3209,CN, 9_11,237T1
-BIO3210,Hóa sinh học các hợp chất có hoạt tính sinh học  ,3,BIO3210,7,3_5,137T1
-BIO3217,Công nghệ mô và tế bào thực vật ,3,BIO3217,CN,3_5,132T1
-BIO3220,Nội tiết học cơ sở ,3,BIO3220,7, 6_8,333T1
-BIO3222,Sinh học phân tử người ,3,BIO3222,7,3_5,333T1
-BIO3225,Danh pháp thực vật,3,BIO3225,7,3_5,230T1
-BIO3226,Phương pháp nghiên cứu thực vật,3,BIO3226,CN,3_5,230T1
-BIO3228,Côn trùng học đại cương ,3,BIO3228,7, 6_8,323T1
-BIO3230,Địa lý sinh vật ,3,BIO3230,7,3_5,332T1
-BIO3231,Sinh học và sinh thái học động vật có xương sống ,3,BIO3231,7,6_8,332T1
-BIO3233,Quản lý các hệ sinh thái,3,BIO3233,7,3_5,227T1
-BIO3234,Sinh thái học môi trường,3,BIO3234,7, 6_8,227T1
-BIO3239,Sự tiến hóa hình thái thực vật hạt kín ,3,BIO3239,7, 6_8,230T1
-BIO3240,Cơ sở sinh thái học thực vật,3,BIO3240,7, 9_11,229T1
-BIO3241,Thủy sinh vật học đại cương ,3,BIO3241,7,9_11,323T1
-BIO3242,Sinh học quần thể ,3,BIO3242,7,6_8,331T1
-BIO3243,Sinh thái học ứng dụng ,3,BIO3243,7,9_11,227T1
-BIO3249,Cơ sở sinh học thần kinh,3,BIO3249,7,9_11,333T1
-BIO3250,Cơ sở vi sinh vật học phân tử,3,BIO3250,7,9_11,122T1
+BIO3208,Cơ sở di truyền học chọn giống  ,3,BIO3208,6,6_8,237T1
+BIO3209,Di truyền học người ,3,BIO3209,6, 9_11,237T1
+BIO3210,Hóa sinh học các hợp chất có hoạt tính sinh học  ,3,BIO3210,5,3_5,137T1
+BIO3217,Công nghệ mô và tế bào thực vật ,3,BIO3217,6,3_5,132T1
+BIO3220,Nội tiết học cơ sở ,3,BIO3220,5, 6_8,333T1
+BIO3222,Sinh học phân tử người ,3,BIO3222,5,3_5,333T1
+BIO3225,Danh pháp thực vật,3,BIO3225,5,3_5,230T1
+BIO3226,Phương pháp nghiên cứu thực vật,3,BIO3226,6,3_5,230T1
+BIO3228,Côn trùng học đại cương ,3,BIO3228,5, 6_8,323T1
+BIO3230,Địa lý sinh vật ,3,BIO3230,5,3_5,332T1
+BIO3231,Sinh học và sinh thái học động vật có xương sống ,3,BIO3231,5,6_8,332T1
+BIO3233,Quản lý các hệ sinh thái,3,BIO3233,5,3_5,227T1
+BIO3234,Sinh thái học môi trường,3,BIO3234,5, 6_8,227T1
+BIO3239,Sự tiến hóa hình thái thực vật hạt kín ,3,BIO3239,5, 6_8,230T1
+BIO3240,Cơ sở sinh thái học thực vật,3,BIO3240,5, 9_11,229T1
+BIO3241,Thủy sinh vật học đại cương ,3,BIO3241,5,9_11,323T1
+BIO3242,Sinh học quần thể ,3,BIO3242,5,6_8,331T1
+BIO3243,Sinh thái học ứng dụng ,3,BIO3243,5,9_11,227T1
+BIO3249,Cơ sở sinh học thần kinh,3,BIO3249,5,9_11,333T1
+BIO3250,Cơ sở vi sinh vật học phân tử,3,BIO3250,5,9_11,122T1
 BIO3252,Sinh học người,3,BIO3252 1,6,1_2,432T1
 BIO3252,Sinh học người,3,BIO3252 1_2_3,5,4_5,514_T4
 BIO3252,Sinh học người,3,BIO3252 2,6,4_5,432T1
@@ -171,53 +171,53 @@ BIO3255,Sinh lý học thực vật ,3,BIO3255 1,3,6_7,TH2
 BIO3255,Sinh lý học thực vật ,3,BIO3255 1_2_3,6,1_2,103_T5
 BIO3255,Sinh lý học thực vật ,3,BIO3255 2,3,4_5,TH2
 BIO3255,Sinh lý học thực vật ,3,BIO3255 3,3,9_10,TH2
-BIO3256,Hóa sinh học các hợp chất có hoạt tính sinh học ,3,BIO3256,7,3_5,137T1
+BIO3256,Hóa sinh học các hợp chất có hoạt tính sinh học ,3,BIO3256,5,3_5,137T1
 BIO3259,Cơ sở sinh thái học ,3,BIO3259 TNSH,4,9_10,309_T5
 BIO3259,Cơ sở sinh thái học ,3,BIO3259 TNSH,3,9_10,136T1
-BIO3260,Cơ sở di truyền học phân tử ,3,BIO3260,CN,3_5,237T1
-BIO3261,Vi rút học cơ sở,3,BIO3261,7,6_8,123T1
+BIO3260,Cơ sở di truyền học phân tử ,3,BIO3260,6,3_5,237T1
+BIO3261,Vi rút học cơ sở,3,BIO3261,5,6_8,123T1
 BIO3261E,Vi rút học cơ sở,3,BIO3261E QTSH,3,6_8,304_T5
-BIO3267,Sinh học phân tử người,3,BIO3267,7,3_5,333T1
-BIO3270,Enzym học ,3,BIO3270,7, 6_8,138T1
-BIO3272,Vi sinh vật y học,3,BIO3272,7,3_5,122T1
-BIO3273,Vi sinh vật y học,3,BIO3273 TNSH,7,3_5,122T1
-BIO3274,Seminar Tế bào gốc,3,BIO3274,CN,3_5,338T1
-BIO3275,Cơ sở di truyền học phân tử,3,BIO3275 TNSH,CN,3_5,237T1
-BIO3276,Hóa sinh học các hợp chất có hoạt tính Sinh học,3,BIO3276 TNSH,7, 3_5,137T1
-BIO3277,Enzym học,3,BIO3277 TNSH,7, 6_8,138T1
-BIO3279,Cơ sở vi sinh vật học phân tử,3,BIO3279 TNSH,7,9_11,122T1
-BIO3280,Seminar Tế bào gốc,3,BIO3280 TNSH,CN,3_5,338T1
-BIO3281,Sinh học khối u,3,BIO3281 TNSH,CN,9_11,338T1
-BIO3283,Sinh trưởng và phát triển ở thực vật,3,BIO3283 TNSH,7,9_11,230T1
-BIO3284,Sinh lý vi tảo,3,BIO3284 TNSH,7,6_8,131T1
-BIO3285,Nội tiết học cơ sở,3,BIO3285 TNSH,7,6_8,333T1
-BIO3289,Công nghệ mô và tế bào động vật ,3,BIO3289,7,3_5,338T1
-BIO3290,Quản lý các hệ sinh thái,3,BIO3290,7,3_5,227T1
-BIO3291,Sinh lý sinh trưởng và phát triển thực vật ,3,BIO3291,7,9_11,230T1
-BIO3292,Sinh lý vi tảo,3,BIO3292,7,6_8,131T1
-BIO3293,Nội tiết học cơ sở ,3,BIO3293,7, 6_8,333T1
+BIO3267,Sinh học phân tử người,3,BIO3267,5,3_5,333T1
+BIO3270,Enzym học ,3,BIO3270,5, 6_8,138T1
+BIO3272,Vi sinh vật y học,3,BIO3272,5,3_5,122T1
+BIO3273,Vi sinh vật y học,3,BIO3273 TNSH,5,3_5,122T1
+BIO3274,Seminar Tế bào gốc,3,BIO3274,6,3_5,338T1
+BIO3275,Cơ sở di truyền học phân tử,3,BIO3275 TNSH,6,3_5,237T1
+BIO3276,Hóa sinh học các hợp chất có hoạt tính Sinh học,3,BIO3276 TNSH,5, 3_5,137T1
+BIO3277,Enzym học,3,BIO3277 TNSH,5, 6_8,138T1
+BIO3279,Cơ sở vi sinh vật học phân tử,3,BIO3279 TNSH,5,9_11,122T1
+BIO3280,Seminar Tế bào gốc,3,BIO3280 TNSH,6,3_5,338T1
+BIO3281,Sinh học khối u,3,BIO3281 TNSH,6,9_11,338T1
+BIO3283,Sinh trưởng và phát triển ở thực vật,3,BIO3283 TNSH,5,9_11,230T1
+BIO3284,Sinh lý vi tảo,3,BIO3284 TNSH,5,6_8,131T1
+BIO3285,Nội tiết học cơ sở,3,BIO3285 TNSH,5,6_8,333T1
+BIO3289,Công nghệ mô và tế bào động vật ,3,BIO3289,5,3_5,338T1
+BIO3290,Quản lý các hệ sinh thái,3,BIO3290,5,3_5,227T1
+BIO3291,Sinh lý sinh trưởng và phát triển thực vật ,3,BIO3291,5,9_11,230T1
+BIO3292,Sinh lý vi tảo,3,BIO3292,5,6_8,131T1
+BIO3293,Nội tiết học cơ sở ,3,BIO3293,5, 6_8,333T1
 BIO3293E,Nội tiết học cơ sở,3,BIO3293E QTSH,3,1_3,333T1
-BIO3294,Di truyền học người,3,BIO3294 TNSH,CN, 9_11,237T1
-BIO3296,Công nghệ mô và tế bào thực vật ,3,BIO3296 TNSH,CN,3_5,132T1
+BIO3294,Di truyền học người,3,BIO3294 TNSH,6, 9_11,237T1
+BIO3296,Công nghệ mô và tế bào thực vật ,3,BIO3296 TNSH,6,3_5,132T1
 BIO3300,Các kỹ thuật cơ bản trong Công nghệ sinh học ,3,BIO3300 1,3,9_10,TH1
 BIO3300,Các kỹ thuật cơ bản trong Công nghệ sinh học ,3,BIO3300 1_2_3,5,1_2,103_T5
 BIO3300,Các kỹ thuật cơ bản trong Công nghệ sinh học ,3,BIO3300 2,4,4_5,TH1
 BIO3300,Các kỹ thuật cơ bản trong Công nghệ sinh học ,3,BIO3300 3,4,1_2,TH1
-BIO3309,Công nghệ protein_enzym ,3,BIO3309,7, 6_8,137T1
-BIO3311,Di truyền học ung thư,3,BIO3311,7,3_5,237T1
-BIO3313,Vi sinh vật học và xử lý môi trường  ,3,BIO3313,7, 3_5,123T1
-BIO3314,Di truyền học vi sinh vật   ,3,BIO3314,7,6_8,237T1
-BIO3315,Công nghệ sinh học vacxin,3,BIO3315 CLCCNSH,7,6_8,123AT1
-BIO3316,Vi sinh vật học thực phẩm ,3,BIO3316,7,9_11,123T1
-BIO3320,Công nghệ mô và tế bào thực vật ,3,BIO3320,CN,3_5,132T1
-BIO3326,Công nghệ tế bào gốc,3,BIO3326,7,6_8,338T1
-BIO3328,Di truyền học quần thể ,3,BIO3328,7, 9_11,237T1
-BIO3331,Động vật y học ,3,BIO3331,7,6_8,324T1
-BIO3332,Đại cương di truyền ngoại gen ,3,BIO3332,7, 9_11,104T5
+BIO3309,Công nghệ protein_enzym ,3,BIO3309,5, 6_8,137T1
+BIO3311,Di truyền học ung thư,3,BIO3311,5,3_5,237T1
+BIO3313,Vi sinh vật học và xử lý môi trường  ,3,BIO3313,5, 3_5,123T1
+BIO3314,Di truyền học vi sinh vật   ,3,BIO3314,5,6_8,237T1
+BIO3315,Công nghệ sinh học vacxin,3,BIO3315 CLCCNSH,5,6_8,123AT1
+BIO3316,Vi sinh vật học thực phẩm ,3,BIO3316,5,9_11,123T1
+BIO3320,Công nghệ mô và tế bào thực vật ,3,BIO3320,6,3_5,132T1
+BIO3326,Công nghệ tế bào gốc,3,BIO3326,5,6_8,338T1
+BIO3328,Di truyền học quần thể ,3,BIO3328,5, 9_11,237T1
+BIO3331,Động vật y học ,3,BIO3331,5,6_8,324T1
+BIO3332,Đại cương di truyền ngoại gen ,3,BIO3332,5, 9_11,104T5
 BIO3339,Môi trường và phát triển bền vững,3,BIO3339 TNSH,2,6_7,303_T5
-BIO3344,Hóa sinh học chế biến thực phẩm,3,BIO3344,7, 9_11,137T1
-BIO3348,Nấm _ Sinh học và ứng dụng,3,BIO3348 CLCCNSH,7,3_5,229T1
-BIO3349,Công nghệ sinh học trong bảo tồn thực vật,3,BIO3349 CLCCNSH,CN,6_8,229T1
+BIO3344,Hóa sinh học chế biến thực phẩm,3,BIO3344,5, 9_11,137T1
+BIO3348,Nấm _ Sinh học và ứng dụng,3,BIO3348 CLCCNSH,5,3_5,229T1
+BIO3349,Công nghệ sinh học trong bảo tồn thực vật,3,BIO3349 CLCCNSH,6,6_8,229T1
 BIO3355,Sinh học ứng dụng và bảo tồn động vật có xương sống,2,BIO3355 1 CLCCNSH,4,6_7,136T1
 BIO3355,Sinh học ứng dụng và bảo tồn động vật có xương sống,2,BIO3355 1_2_3 CLCCNSH,3,4_5,304_T5
 BIO3355,Sinh học ứng dụng và bảo tồn động vật có xương sống,2,BIO3355 2 CLCCNSH,4,9_10,136T1
@@ -228,10 +228,10 @@ BIO3355,Sinh học ứng dụng và bảo tồn động vật có xương sống
 BIO3355,Sinh học ứng dụng và bảo tồn động vật có xương sống,2,BIO3355 6 CLCCNSH,4,4_5,136T1
 BIO3355,Sinh học ứng dụng và bảo tồn động vật có xương sống,2,BIO3355 6_7 CLCCNSH,5,6_7,303_T5
 BIO3355,Sinh học ứng dụng và bảo tồn động vật có xương sống,2,BIO3355 7 CLCCNSH,4,1_2,136T1
-BIO3361,Địa lý sinh vật,3,BIO3361 TNSH,7,3_5,332T1
-BIO3363,Phương pháp nghiên cứu cá,3,BIO3363 TNSH,7, 9_11,332T1
-BIO3364,Sinh học quần thể,3,BIO3364 TNSH,7,6_8,331T1
-BIO3368,Sinh học thần kinh,3,BIO3368 TNSH,7,9_11,333T1
+BIO3361,Địa lý sinh vật,3,BIO3361 TNSH,5,3_5,332T1
+BIO3363,Phương pháp nghiên cứu cá,3,BIO3363 TNSH,5, 9_11,332T1
+BIO3364,Sinh học quần thể,3,BIO3364 TNSH,5,6_8,331T1
+BIO3368,Sinh học thần kinh,3,BIO3368 TNSH,5,9_11,333T1
 BIO3369,Sinh học phân tử ,4,BIO3369 TNSH,2,3_5,303_T5
 BIO3369,Sinh học phân tử ,4,BIO3369 TNSH,3,1_2,124T1
 BIO3371,Hóa sinh học ,4,BIO3371 TNSH,6,8_10,303_T5
@@ -245,8 +245,8 @@ BIO3375E,Vi sinh vật học,3,BIO3375E 2 QTSH,5,6_7,327T1
 BIO3377,Các nguyên lý của sinh học bảo tồn ,3,BIO3377 TNSH,5,4_5,304_T5
 BIO3379,Kỹ thuật di truyền,3,BIO3379 TNSH,5,9_10,301_T5
 BIO3379,Kỹ thuật di truyền,3,BIO3379 TNSH,4,6_7,TH1
-BIO3381,Vi rút học cơ sở,3,BIO3381 TNSH,7,6_8,123T1BM
-BIO3384,Sinh học thần kinh ,3,BIO3384,7,9_11,333T1BM
+BIO3381,Vi rút học cơ sở,3,BIO3381 TNSH,5,6_8,123T1BM
+BIO3384,Sinh học thần kinh ,3,BIO3384,5,9_11,333T1BM
 BIO3384E,Sinh học thần kinh,3,BIO3384E QTSH,6,9_11,333T1BM
 BIO3402E,Di truyền học đại cương,3,BIO3402E 1 QTSH,2,1_2,236T1
 BIO3402E,Di truyền học đại cương,3,BIO3402E 1_2 QTSH,3,9_10,306_T5
@@ -263,9 +263,9 @@ BIO3418E,Thực hành Sinh học tế bào,3,BIO3418E QTSH,6,9_11,338T1
 BIO3425E,Nghiên cứu khoa học II ,3,BIO3425E QTSH,6, 3_5,323T1
 BIO3428E,Côn trùng học đại cương,3,BIO3428E QTSH,6, 6_8,323T1
 BIO3429E,Thủy sinh vật học đại cương,3,BIO3429E QTSH,6, 9_11,323T1
-BIO3437,Bệnh học miễn dịch và trị liệu,3,BIO3437,CN, 6_8,338T1
-BIO3438,Các nguyên lý cải biến di truyền VSV,3,BIO3438 CLCCNSH,7,3_5,123AT1
-BIO3439,Cơ sở công nghệ lên men,3,BIO3439,7,6_8,122T1
+BIO3437,Bệnh học miễn dịch và trị liệu,3,BIO3437,6, 6_8,338T1
+BIO3438,Các nguyên lý cải biến di truyền VSV,3,BIO3438 CLCCNSH,5,3_5,123AT1
+BIO3439,Cơ sở công nghệ lên men,3,BIO3439,5,6_8,122T1
 BIO3441,Động vật không xương sống  và ứng dụng,2,BIO3441 1 CLCCNSH,4,4_5,232T1
 BIO3441,Động vật không xương sống  và ứng dụng,2,BIO3441 1_2_3 CLCCNSH,2,4_5,304_T5
 BIO3441,Động vật không xương sống  và ứng dụng,2,BIO3441 2 CLCCNSH,4,6_7,232T1
@@ -276,9 +276,9 @@ BIO3441,Động vật không xương sống  và ứng dụng,2,BIO3441 5 CLCCNS
 BIO3441,Động vật không xương sống  và ứng dụng,2,BIO3441 6 CLCCNSH,5,9_10,232T1
 BIO3444,Sinh học tổng hợp,3,BIO3444 1 CLCCNSH,4,8_10,306_T5
 BIO3444,Sinh học tổng hợp,3,BIO3444 2 CLCCNSH,6,3_5,303_T5
-BIO3445,Thực vật có ích,3,BIO3445 CLCCNSH,7,6_8,229T1
-BIO3452,Phương pháp nghiên cứu cá ,3,BIO3452,7, 9_11,332T1
-BIO3453,Sinh lý tuần hoàn cơ sở,3,BIO3453,CN,6_8,333T1
+BIO3445,Thực vật có ích,3,BIO3445 CLCCNSH,5,6_8,229T1
+BIO3452,Phương pháp nghiên cứu cá ,3,BIO3452,5, 9_11,332T1
+BIO3453,Sinh lý tuần hoàn cơ sở,3,BIO3453,6,6_8,333T1
 BIO3454E,Sinh thái bệnh học,3,BIO3454E QTSH,2,1_2,136T1
 BIO3454E,Sinh thái bệnh học,3,BIO3454E QTSH,4,1_2,304_T5
 BIO3456E,Vi sinh vật học sản xuất các sản phẩm tự nhiên,3,BIO3456E QTSH,6,6_8,123T1
@@ -295,25 +295,25 @@ BIO3702,Quá trình và thiết bị công nghệ,3,BIO3702 3 CLCCNSH,2,6_7,TH1
 BIO3702,Quá trình và thiết bị công nghệ,3,BIO3702 4 CLCCNSH,3,6_7,TH1
 BIO3702,Quá trình và thiết bị công nghệ,3,BIO3702 4_5 CLCCNSH,3,9_10,501_T3
 BIO3702,Quá trình và thiết bị công nghệ,3,BIO3702 5 CLCCNSH,3,4_5,TH1
-BIO3703,Sinh học khối u ,3,BIO3703,CN,9_11,338T1
-BIO3705,Môi trường và phát triển bền vững,3,BIO3705,7,9_11,227AT1
+BIO3703,Sinh học khối u ,3,BIO3703,6,9_11,338T1
+BIO3705,Môi trường và phát triển bền vững,3,BIO3705,5,9_11,227AT1
 BIO3801,Lý sinh học,3,BIO3801 1 CLCCNSH,2,11_12,TH2
 BIO3801,Lý sinh học,3,BIO3801 1_2_3 CLCCNSH,5,4_5,303_T5
-BIO3801,Lý sinh học,3,BIO3801 2 CLCCNSH,CN,1_2,TH2
+BIO3801,Lý sinh học,3,BIO3801 2 CLCCNSH,6,1_2,TH2
 BIO3801,Lý sinh học,3,BIO3801 3 CLCCNSH,3,1_2,TH2
-BIO3801,Lý sinh học,3,BIO3801 4 CLCCNSH,CN,4_5,TH2
+BIO3801,Lý sinh học,3,BIO3801 4 CLCCNSH,6,4_5,TH2
 BIO3801,Lý sinh học,3,BIO3801 4_5 CLCCNSH,5,1_2,301_T5
-BIO3801,Lý sinh học,3,BIO3801 5 CLCCNSH,CN,6_7,TH2
+BIO3801,Lý sinh học,3,BIO3801 5 CLCCNSH,6,6_7,TH2
 BIO3801,Lý sinh học,3,BIO3801 6 CLCCNSH,2,4_5,TH2
 BIO3801,Lý sinh học,3,BIO3801 6_7 CLCCNSH,6,1_2,301_T5
 BIO3801,Lý sinh học,3,BIO3801 7 CLCCNSH,2,6_7,TH2
-BIO3805,Sinh vật biến đổi gen và ứng dụng,3,BIO3805 CLCCNSH,7,9_11,233T1
-BIO3806,Công nghệ vi tảo,3,BIO3806 CLCCNSH,CN,6_8,230T1
-BIO3807,Độc học,3,BIO3807 CLCCNSH,7,3_5,132T1
-BIO3808,Công nghệ sinh học động vật,3,BIO3808 CLCCNSH,7,3_5,337T1
-BIO3810,Động vật không xương sống y học  ,3,BIO3810,7,3_5,323T1
-BIO3811,Địa lý sinh vật ,3,BIO3811,7,3_5,332T1
-BIO4076,Tiểu luận khoa học,2,BIO4076 THCHD,7,4_5,428T1
+BIO3805,Sinh vật biến đổi gen và ứng dụng,3,BIO3805 CLCCNSH,5,9_11,233T1
+BIO3806,Công nghệ vi tảo,3,BIO3806 CLCCNSH,6,6_8,230T1
+BIO3807,Độc học,3,BIO3807 CLCCNSH,5,3_5,132T1
+BIO3808,Công nghệ sinh học động vật,3,BIO3808 CLCCNSH,5,3_5,337T1
+BIO3810,Động vật không xương sống y học  ,3,BIO3810,5,3_5,323T1
+BIO3811,Địa lý sinh vật ,3,BIO3811,5,3_5,332T1
+BIO4076,Tiểu luận khoa học,2,BIO4076 THCHD,5,4_5,428T1
 CHE1048,Hóa keo,2,CHE1048 1,5,4_5,501_T3
 CHE1048,Hóa keo,2,CHE1048 2 CLCHD,6,9_10,2_LTT
 CHE1048,Hóa keo,2,CHE1048 3 CLCHD,2,9_10,1_LTT
@@ -458,8 +458,8 @@ CHE2117,Thực tập hóa học phân tích,2,CHE2117 2 TTHH,6,1_4,PTNPT
 CHE2117,Thực tập hóa học phân tích,2,CHE2117 3 TTHH,6,6_9,PTNPT
 CHE2118,Hóa lý 1,3,CHE2118 TNHH,6,6_8,311_T5
 CHE2120,Hoá kĩ thuật,3,CHE2120 TNHH,4,3_5,2_LTT
-CHE2123,Thực tập Hóa lý 2,2,CHE2123 1 TNHH,7,1_4,PTNHL
-CHE2123,Thực tập hoá lí 2,2,CHE2123 2 TTHH,7,6_9,PTNHL
+CHE2123,Thực tập Hóa lý 2,2,CHE2123 1 TNHH,5,1_4,PTNHL
+CHE2123,Thực tập hoá lí 2,2,CHE2123 2 TTHH,5,6_9,PTNHL
 CHE2129,Hoá học phân tích nâng cao,3,CHE2129 TNHH,2,3_5,3_LTT
 CHE2132,Phân tích công cụ,3,CHE2132 TNHH,3,6_8,5_LTT
 CHE2132E,Phân tích công cụ,3,CHE2132E TTHH,5,1_3,2_LTT
@@ -527,8 +527,8 @@ CHE3251E,Kĩ thuật phản ứng hóa học,3,CHE3251E 2 CLCCNKTHH,3,6_8,6_LTT
 CHE3255,Thực tập công nghệ Kĩ thuật hóa học,2,CHE3255 1,5,1_4,PTNCN
 CHE3255,Thực tập công nghệ Kĩ thuật hóa học,2,CHE3255 2,5,6_9,PTNCN
 CHE3255,Thực tập công nghệ Kĩ thuật hóa học,2,CHE3255 3,6,1_4,PTNCN
-CHE3255,Thực tập công nghệ kĩ thuật hóa học,2,CHE3255 4 CLCCNKTHH,7,6_9,PTNCN
-CHE3255,Thực tập công nghệ kĩ thuật hóa học,2,CHE3255 5 CLCCNKTHH,7,1_4,PTNCN
+CHE3255,Thực tập công nghệ kĩ thuật hóa học,2,CHE3255 4 CLCCNKTHH,5,6_9,PTNCN
+CHE3255,Thực tập công nghệ kĩ thuật hóa học,2,CHE3255 5 CLCCNKTHH,5,1_4,PTNCN
 CHE3255,Thực tập công nghệ Kĩ thuật hóa học,2,CHE3255 6,6,6_9,PTNCN
 CHE3263,Các phương pháp xử lí nước và nước thải,2,CHE3263,4,4_5,5_LTT
 CHE3263E,Các phương pháp xử lý nước và nước thải,2,CHE3263E CLCCNKTHH,5,9_10,5_LTT
@@ -586,7 +586,7 @@ EVS2000E,Khoa học sự sống,3,EVS2000E 1 KTKTKHMT,5,1_3,208_T5
 EVS2009,Vật lý môi trường,2,EVS2009 1,4,4_5,208_T5
 EVS2009,Vật lý môi trường*,2,EVS2009 2 CLCKHMT,4,6_7,313_T5
 EVS2016,Độc học và sức khỏe môi trường,2,EVS2016,5,6_7,208_T5
-EVS2044,Thực tập công nghiệp,2,EVS2044,CN,12,BM
+EVS2044,Thực tập công nghiệp,2,EVS2044,6,12,BM
 EVS2303,Cơ sở môi trường đất_ nước_ không khí (**),4,EVS2303 CLCKHMT,6,3_5,210_T5
 EVS2303,Cơ sở môi trường đất_ nước_ không khí (**),4,EVS2303 CLCKHMT,3,9_10,213_T5
 EVS2304,Cơ sở môi trường đất_ nước_ không khí ,3,EVS2304 1,3,6_8,208_T5
@@ -654,9 +654,9 @@ EVS3308,Biện pháp sinh học xử lý đất ô nhiễm và thoái hóa,3,EVS
 EVS3309,Vật liệu mới trong xử lý đất ô nhiễm,3,EVS3309,4,4_5,128T1
 EVS3309,Vật liệu mới trong xử lý đất ô nhiễm,3,EVS3309,4,6_7,129T1
 EVS3310,Cải tạo và xử lý đất thoái hóa,3,EVS3310,5,6_8,210_T5
-EVS3332,Thực tập thực tế 1,2,EVS3332 1,CN,12,BM
-EVS3333,Thực tập thực tế 2,2,EVS3333 1,7,12,BM
-EVS3333,Thực tập thực tế 2,2,EVS3333 2 CLCKHMT,7,12,BM
+EVS3332,Thực tập thực tế 1,2,EVS3332 1,6,12,BM
+EVS3333,Thực tập thực tế 2,2,EVS3333 1,5,12,BM
+EVS3333,Thực tập thực tế 2,2,EVS3333 2 CLCKHMT,5,12,BM
 EVS3403,Phương pháp nghiên cứu khoa học,2,EVS3403 CLCCNKTMT,2,6_7,105_T5
 EVS3413,Kiểm toán môi trường ,2,EVS3413,3,4_5,301T2
 EVS3414,Hệ thống quản lý môi trường,2,EVS3414,5,4_5,301T2
@@ -781,7 +781,7 @@ GEO3114,Địa lý xã hội,3,GEO3114,3,1_3,BM
 GEO3120,Hệ thống vệ tinh dẫn đường toàn cầu,3,GEO3120,3,3_5,413_T5
 GEO3128,Viễn thám ứng dụng,3,GEO3128,4,1_3,BM
 GEO3135,Địa không gian trong nghiên cứu tai biến thiên nhiên,3,GEO3135,6,6_8,BM
-GEO3144,Thực tập xây dựng thư viện phổ từ máy đo phổ cầm tay,3,GEO3144,7,12,BM
+GEO3144,Thực tập xây dựng thư viện phổ từ máy đo phổ cầm tay,3,GEO3144,5,12,BM
 GEO3212,Khoa học cảnh quan và ứng dụng,4,GEO3212,3,6_7,BM
 GEO3212,Khoa học cảnh quan và ứng dụng,4,GEO3212,5,6_7,BM
 GEO3213,Kinh tế Môi trường và Kinh tế sinh thái,2,GEO3213,2,9_10,BM
@@ -793,7 +793,7 @@ GEO3217,Quản lý thị trường bất động sản,2,GEO3217,4,6_7,207_T5
 GEO3221,Địa mạo học,3,GEO3221,6,6_8,210_T5
 GEO3225,Địa sinh vật và sinh thái cảnh quan,4,GEO3225,2,4_5,508_T3
 GEO3225,Địa sinh vật và sinh thái cảnh quan,4,GEO3225,6,1_2,109_T5
-GEO3226,Thực tập cơ sở địa lý,2,GEO3226 2,7,12,BM
+GEO3226,Thực tập cơ sở địa lý,2,GEO3226 2,5,12,BM
 GEO3229,Dân số học và địa lý dân cư,3,GEO3229,6,3_5,109_T5
 GEO3237,Phân loại thực vật và các hệ sinh thái rừng Việt Nam,3,GEO3237,3,8_10,BM
 GEO3242,Địa mạo và địa chất biển,3,GEO3242,2,6_8,BM
@@ -931,8 +931,8 @@ HMO2202,Cơ học chất lỏng,3,HMO2202,6,3_5,513_T5
 HMO2203,GIS và Viễn thám,3,HMO2203 1 CLCKT_KHH,3,1_3,311_T5
 HMO2203,GIS và Viễn thám,3,HMO2203 2,3,8_10,410_T5
 HMO2204,Phương trình toán lý (***),3,HMO2204 CLCKT_KHH,6,6_8,505_T3
-HMO3057,Thực hành Đánh giá tác động môi trường,2,HMO3057,7,11,BM
-HMO3058,Thực hành GIS và Viễn thám trong Quản lý tài nguyên và Môi trường nước,2,HMO3058,7,12,BM
+HMO3057,Thực hành Đánh giá tác động môi trường,2,HMO3057,5,11,BM
+HMO3058,Thực hành GIS và Viễn thám trong Quản lý tài nguyên và Môi trường nước,2,HMO3058,5,12,BM
 HMO3083,Quản lý rủi ro thiên tai,3,HMO3083,6,1_3,209_T5
 HMO3101,Quản lý lưu vực sông,3,HMO3101,6,3_5,101_T5
 HMO3182,Tin học chuyên ngành trong hải dương học,4,HMO3182,4,6_9,407_T5
@@ -958,8 +958,8 @@ HMO3315,Khí hậu vật lý,3,HMO3315,6,3_5,309_T5
 HMO3319,Ứng dụng máy tính trong khí tượng,3,HMO3319,5,6_8,112_T5
 HMO3323,Mô hình hóa hệ thống khí hậu,3,HMO3323,4,3_5,210_T5
 HMO3325,Thực tập quan trắc khí tượng,3,HMO3325,6,8_10,309_T5
-HMO3328,Thực hành khởi nghiệp,4,HMO3328,7,11,BM
-HMO3334,Niên luận 2 (***),2,HMO3334 CLCKT_KHH,7,12,BM
+HMO3328,Thực hành khởi nghiệp,4,HMO3328,5,11,BM
+HMO3334,Niên luận 2 (***),2,HMO3334 CLCKT_KHH,5,12,BM
 HMO3401,Điều tiết dòng chảy,2,HMO3401,4,4_5,313_T5
 HMO3518,Thủy văn đô thị,3,HMO3518,2,6_8,513_T5
 HMO3604,Sinh học và sinh thái biển ,3,HMO3604,4,6_8,310_T5
@@ -968,7 +968,7 @@ HMO3606,Dòng chảy biển ,3,HMO3606,6,1_3,413_T5
 HMO3618,Sóng dài trong đới ven bờ ,3,HMO3618,3,6_8,407_T5
 HMO3620,Phương pháp mô hình hóa trong hải dương học ,3,HMO3620,6,1_3,311_T5
 HMO3624,Kinh tế biển ,3,HMO3624,6,6_8,506_T3
-HMO3732,Niên luận 2*,3,HMO3732 CLCHDH,7,12,BM
+HMO3732,Niên luận 2*,3,HMO3732 CLCHDH,5,12,BM
 HUS1021,Khoa học trái đất và sự sống,3,HUS1021 1,2,3_5,202_T4
 HUS1021,Khoa học trái đất và sự sống,3,HUS1021 2,2,3_5,201_T4
 HUS1021,Khoa học trái đất và sự sống,3,HUS1021 3,3,1_3,201_T5
@@ -1285,10 +1285,10 @@ MAT3557,Môi trường lập trình Linux,2,MAT3557 4,2,1_5,PM
 MAT3557,Môi trường lập trình Linux,2,MAT3557 4_5_6,4,4_5,206_T5
 MAT3557,Môi trường lập trình Linux,2,MAT3557 5,2,1_5,PM
 MAT3557,Môi trường lập trình Linux,2,MAT3557 6,2,1_5,PM
-MAT3559,Xây dựng hệ thống nhúng (*),2,MAT3559 1 CLCMT_KHTT,7,1_3,102_T5
+MAT3559,Xây dựng hệ thống nhúng (*),2,MAT3559 1 CLCMT_KHTT,5,1_3,102_T5
 MAT3559,Xây dựng hệ thống nhúng (*),2,MAT3559 1_2_3 CLCMT_KHTT,6,9_10,402_T4
-MAT3559,Xây dựng hệ thống nhúng (*),2,MAT3559 2 CLCMT_KHTT,7,3_5,102_T5
-MAT3559,Xây dựng hệ thống nhúng (*),2,MAT3559 3 CLCMT_KHTT,7,6_8,102_T5
+MAT3559,Xây dựng hệ thống nhúng (*),2,MAT3559 2 CLCMT_KHTT,5,3_5,102_T5
+MAT3559,Xây dựng hệ thống nhúng (*),2,MAT3559 3 CLCMT_KHTT,5,6_8,102_T5
 MAT3561E,Xử lý ngôn ngữ tự nhiên và ứng dụng (**),3,MAT3561E 1 CLCMT_KHTT,6,6_7,PM
 MAT3561E,Xử lý ngôn ngữ tự nhiên và ứng dụng (**),3,MAT3561E 1_2 CLCMT_KHTT,5,1_2,514_T4
 MAT3561E,Xử lý ngôn ngữ tự nhiên và ứng dụng (**),3,MAT3561E 2 CLCMT_KHTT,6,6_7,PM
@@ -1493,8 +1493,8 @@ PHY1159,Vật lý đại cương 1,3,PHY1159 6,5,1_3,101_T5
 PHY2000,Phương pháp nghiên cứu Khoa  học ,3,PHY2000 1,6,3_5,Bộmôn
 PHY2000,Phương pháp nghiên cứu Khoa học ,3,PHY2000 2,6,6_8,Bộmôn
 PHY2000,Phương pháp nghiên cứu Khoa  học ,3,PHY2000 3,3,6_8,208T1
-PHY2000,Phương pháp nghiên cứu Khoa  học ,3,PHY2000 4 TNVLH,7,1_5,BM
-PHY2000E,Phương pháp nghiên cứu Khoa  học ,3,PHY2000E QTVLH,7,1_5,BM
+PHY2000,Phương pháp nghiên cứu Khoa  học ,3,PHY2000 4 TNVLH,5,1_5,BM
+PHY2000E,Phương pháp nghiên cứu Khoa  học ,3,PHY2000E QTVLH,5,1_5,BM
 PHY2004,Vật lý hạt nhân,2,PHY2004 TNVLH,2,6_8,309_T5
 PHY2064,Vật lý nguyên tử,2,PHY2064,4,4_5,204_T4
 PHY2166,Thực tập Vật lý hiện đại,3,PHY2166 TNVLH,3,9_10,511_T4
@@ -1524,7 +1524,7 @@ PHY2306,Cơ học lượng tử,3,PHY2306,5,8_10,101_T5
 PHY2306,Cơ học lượng tử,1,PHY2306,4,6_7,204_T5
 PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 1,6,1_4,106T3
 PHY2308,Thực hành Vật lý Đại cương 2,2,PHY2308 10,4,1_4,106T3
-PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 11 TNVLH,7,6_9,106T3
+PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 11 TNVLH,5,6_9,106T3
 PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 2,6,6_9,106T3
 PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 3,5,1_4,106T3
 PHY2308,Thực hành vật lý đại cương 2,2,PHY2308 4,5,6_9,106T3
@@ -1539,7 +1539,7 @@ PHY2504,Phương pháp số,2,PHY2504 1_2_3,6,1_2,201_T4
 PHY2504,Phương pháp số,1,PHY2504 2,6,6_7,308GT1
 PHY2504,Phương pháp số,1,PHY2504 3,6,9_10,308GT1
 PHY2505,Tiếng Anh chuyên ngành,2,PHY2505,5,1_2,107_T5
-PHY3000,Thực tập thực tế ,3,PHY3000,7,6_10,BM
+PHY3000,Thực tập thực tế ,3,PHY3000,5,6_10,BM
 PHY3135,Vật lý màng mỏng,3,PHY3135,2,6_8,120T1
 PHY3160,Vật lý Nơtron và Lò phản ứng,2,PHY3160,3,4_5,208T1
 PHY3160,Vật lý Nơtron và Lò phản ứng,2,PHY3160,4,4_5,201_T4
@@ -1686,7 +1686,7 @@ PHY3644,Tin học Vật liệu,2,PHY3644,3,1_2,403_T4
 PHY3644,Tin học Vật liệu,1,PHY3644,2,1_2,308CT1
 PHY3645,Thực tập Tin học ứng dụng,1.5,PHY3645,6,8_10,308CT1
 PHY3645,Thực tập Tin học ứng dụng,1.5,PHY3645,6,1_3,308CT1
-PHY3646,Tiểu luận,2,PHY3646,7,12,BM
+PHY3646,Tiểu luận,2,PHY3646,5,12,BM
 PHY3648,Thiết kế mạch điện tử,1,PHY3648 1,3,1_2,217T1
 PHY3648,Thiết kế mạch điện tử,2,PHY3648 1_2,4,1_2,302_T5
 PHY3648,Thiết kế mạch điện tử,1,PHY3648 2,3,1_2,216T1
