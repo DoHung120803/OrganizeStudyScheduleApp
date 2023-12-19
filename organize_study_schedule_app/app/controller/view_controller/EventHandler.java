@@ -294,6 +294,12 @@ public class EventHandler {
                 ScheduleOrganization scheduleOrganization = new ScheduleOrganization();
                 MyArrayList<String[][]> boardList = scheduleOrganization.getTimeTableList();
 
+                if (boardList.size() == 0) {
+                    JOptionPane.showMessageDialog(null, "Không đăng kí được thời khóa biểu do trùng lịch!", "Error",
+                            JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
+
                 String[][] first = boardList.get(0);
 
                 for (int i = 0; i < 10; i++) {
