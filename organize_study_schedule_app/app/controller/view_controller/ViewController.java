@@ -20,7 +20,7 @@ public class ViewController {
     }
 
     public void init() {
-        ReadDataController.init();
+        ReadDataController.init(); //
         SwingUtilities.invokeLater(() -> {
             splashScreen();
             Timer timer = new Timer(2000, new ActionListener() {
