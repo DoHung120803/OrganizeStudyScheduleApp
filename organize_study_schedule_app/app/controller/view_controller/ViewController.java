@@ -6,6 +6,7 @@ import java.awt.event.ActionListener;
 import javax.swing.SwingUtilities;
 import javax.swing.Timer;
 
+import app.controller.read_data_controller.ReadDataController;
 import app.model.read.ReadData;
 import app.view.main.AppUI;
 import app.view.splash.SplashBackgroundImg;
@@ -19,9 +20,7 @@ public class ViewController {
     }
 
     public void init() {
-        ReadData reader = new ReadData();
-        reader.readData();
-
+        ReadDataController.init();
         SwingUtilities.invokeLater(() -> {
             splashScreen();
             Timer timer = new Timer(2000, new ActionListener() {

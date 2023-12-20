@@ -4,18 +4,13 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Queue;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Queue;
-
 import app.model.course.Course;
 import app.model.course.CourseManager;
 import app.model.course.MyClass;
 import app.model.course.Time;
 import resource.arraylist.MyArrayList;
 import resource.node.CourseNode;
-import resource.queue.ArrayQueue;
 
 public class ReadData {
 

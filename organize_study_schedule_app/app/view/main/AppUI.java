@@ -4,6 +4,8 @@
  */
 package app.view.main;
 
+import javax.swing.table.TableColumn;
+import java.awt.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -630,6 +632,19 @@ public class AppUI extends javax.swing.JFrame {
                                                 "SỐ THỨ TỰ", "MÃ HỌC PHẦN", "TÊN HỌC PHẦN", "SỐ TÍN CHỈ", "SỐ LỚP MỞ"
                                 }));
                 previewRegistedCoursesJTable.setRowHeight(40);
+                TableColumn firstColumn = previewRegistedCoursesJTable.getColumnModel().getColumn(0);
+                firstColumn.setPreferredWidth(1);
+                TableColumn secondColumn = previewRegistedCoursesJTable.getColumnModel().getColumn(1);
+                secondColumn.setPreferredWidth(50);
+                TableColumn thirdColumn = previewRegistedCoursesJTable.getColumnModel().getColumn(2);
+                thirdColumn.setPreferredWidth(200);
+                TableColumn fourthColumn = previewRegistedCoursesJTable.getColumnModel().getColumn(3);
+                fourthColumn.setPreferredWidth(1);
+                TableColumn fiveColumn = previewRegistedCoursesJTable.getColumnModel().getColumn(4);
+                fiveColumn.setPreferredWidth(1);
+
+                previewRegistedCoursesJTable.setShowGrid(true);
+                previewRegistedCoursesJTable.setGridColor(Color.BLACK);
                 previewRegistedCoursesJTable.addFocusListener(new java.awt.event.FocusAdapter() {
                         public void focusGained(java.awt.event.FocusEvent evt) {
                                 previewRegistedCoursesJTableFocusGained(evt);

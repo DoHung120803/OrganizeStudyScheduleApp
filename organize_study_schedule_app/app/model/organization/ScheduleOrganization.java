@@ -196,7 +196,7 @@ public class ScheduleOrganization {
         // Thêm myClass vào board nếu insertToBoard = true
         if (classCanBeInserted(myClass, board, dayOfWeek, timeStart, timeEnd, myClass.getTheoryTime())) {
             for (int i = timeStart - 1; i < timeEnd; i++) {
-                board[dayOfWeek - 2][i] = myClass.getCourse().getCourseId() + "-" + myClass.getCourse().getCourseName()
+                board[dayOfWeek - 2][i] = myClass.getClassId() + "-" + myClass.getCourse().getCourseName()
                         + "-"
                         + myClass.getClassTime().getRoom();
             }
@@ -208,7 +208,7 @@ public class ScheduleOrganization {
                     int timeStartTheory = Integer.valueOf(myClass.getTheoryTime().get(i).getTime().substring(0, 1));
                     int timeEndTheory = Integer.valueOf(myClass.getTheoryTime().get(i).getTime().substring(2));
                     for (int k = timeStartTheory - 1; k < timeEndTheory; k++) {
-                        board[dayOfWeekTheory - 2][k] = myClass.getCourse().getCourseId() + "-"
+                        board[dayOfWeekTheory - 2][k] = myClass.getTheoryId() + "-"
                                 + myClass.getCourse().getCourseName() + "-"
                                 + myClass.getTheoryTime().get(i).getRoom();
                     }
