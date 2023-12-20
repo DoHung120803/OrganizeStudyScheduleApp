@@ -153,7 +153,7 @@ public class AppUI extends javax.swing.JFrame {
 
                 registerCourseLb.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
                 registerCourseLb.setForeground(new java.awt.Color(0, 204, 204));
-                registerCourseLb.setText("ĐĂNG KÝ HỌC PHẦN");
+                registerCourseLb.setText("SẮP XẾP LỊCH HỌC");
                 registerCourseLb.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
                 registerCourseLb.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -173,7 +173,7 @@ public class AppUI extends javax.swing.JFrame {
 
                 registedCoursesLb.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
                 registedCoursesLb.setForeground(new java.awt.Color(0, 204, 204));
-                registedCoursesLb.setText("HỌC PHẦN ĐÃ ĐĂNG KÝ");
+                registedCoursesLb.setText("HỌC PHẦN CỦA BẠN");
                 registedCoursesLb.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
                 registedCoursesLb.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -588,7 +588,7 @@ public class AppUI extends javax.swing.JFrame {
                 jTextField11.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
                 jTextField11.setForeground(new java.awt.Color(204, 255, 255));
                 jTextField11.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-                jTextField11.setText("ĐĂNG KÝ HỌC PHẦN");
+                jTextField11.setText("SẮP XẾP LỊCH HỌC");
                 jTextField11.setFocusable(false);
                 jTextField11.addActionListener(new java.awt.event.ActionListener() {
                         public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1021,7 +1021,7 @@ public class AppUI extends javax.swing.JFrame {
                 jTextField9.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
                 jTextField9.setForeground(new java.awt.Color(153, 255, 255));
                 jTextField9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-                jTextField9.setText("HỌC PHẦN ĐÃ ĐĂNG KÝ");
+                jTextField9.setText("HỌC PHẦN CỦA BẠN");
                 jTextField9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
                 jTextField9.setFocusable(false);
                 jTextField9.addActionListener(new java.awt.event.ActionListener() {

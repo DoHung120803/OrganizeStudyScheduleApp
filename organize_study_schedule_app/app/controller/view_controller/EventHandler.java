@@ -47,6 +47,8 @@ public class EventHandler {
         deleteCourseHandler();
         organizeSchedule();
         registedCoursesHandler();
+        nextTimeTableBtnHandler();
+        prevTimeTableBtn();
     }
 
     public void suggestionInputCourseIdHandler() {
@@ -257,16 +259,20 @@ public class EventHandler {
     }
 
     private int indexTimeTable = 0;
+    MyArrayList<String[][]> boardList = null;
+
 
     public void organizeSchedule() {
         JButton organizeScheduleBtn = appUI.getOrganizeCheduleBtn();
-        JTable myTimeTable = appUI.getMyTimeTable();
-        DefaultTableModel tableModel = (DefaultTableModel) myTimeTable.getModel();
+
 
         organizeScheduleBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             @Override
             public void mouseClicked(java.awt.event.MouseEvent evt) {
+                JTable myTimeTable = appUI.getMyTimeTable();
+                DefaultTableModel tableModel = (DefaultTableModel) myTimeTable.getModel();
                 registedCoursesHandler();
+                indexTimeTable = 0;
 
                 if (userRegister.getRegisteredCoursesList().size() <= 0) {
                     updateOrganizeSchedule(tableModel, new String[5][10]);
@@ -275,7 +281,8 @@ public class EventHandler {
                     return;
                 }
                 ScheduleOrganization scheduleOrganization = new ScheduleOrganization();
-                MyArrayList<String[][]> boardList = scheduleOrganization.getTimeTableList();
+                boardList = scheduleOrganization.getTimeTableList();
+                System.out.println(boardList.size());
 
                 if (boardList.size() == 0 && userRegister.getRegisteredCoursesList().size() > 0) {
                     updateOrganizeSchedule(tableModel, new String[5][10]);
@@ -291,8 +298,8 @@ public class EventHandler {
                 }
 
                 updateOrganizeSchedule(tableModel, firstTimeTable);
-                nextTimeTableBtnHandler(tableModel, boardList);
-                prevTimeTableBtn(tableModel, boardList);
+//                nextTimeTableBtnHandler(tableModel, boardList);
+//                prevTimeTableBtn(tableModel, boardList);
 
                 // thao tác tạo màu cho ô - start
                 CustomTableCellRenderer cellRenderer = new CustomTableCellRenderer();
@@ -332,13 +339,14 @@ public class EventHandler {
         }
     }
 
-    public void nextTimeTableBtnHandler(DefaultTableModel tableModel, MyArrayList<String[][]> boardList) {
-
+    public void nextTimeTableBtnHandler() {
+        JTable myTimeTable = appUI.getMyTimeTable();
+        DefaultTableModel tableModel = (DefaultTableModel) myTimeTable.getModel();
         JButton nextTimeTableBtn = appUI.getNextTimeTableBtn();
         nextTimeTableBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             @Override
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                // size - 2 để ko bị lỗi next đến tkb cuối cùng
+                System.out.println(indexTimeTable);
                 if (indexTimeTable < boardList.size() - 1) {
                     indexTimeTable++;
                     updateOrganizeSchedule(tableModel, boardList.get(indexTimeTable));
@@ -352,7 +360,9 @@ public class EventHandler {
 
     }
 
-    public void prevTimeTableBtn(DefaultTableModel tableModel, MyArrayList<String[][]> boardList) {
+    public void prevTimeTableBtn() {
+        JTable myTimeTable = appUI.getMyTimeTable();
+        DefaultTableModel tableModel = (DefaultTableModel) myTimeTable.getModel();
         JButton prevTimeTableBtn = appUI.getPrevTimeTableBtn();
         prevTimeTableBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             @Override
